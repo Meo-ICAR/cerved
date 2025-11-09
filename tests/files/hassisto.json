@@ -1,0 +1,48 @@
+{
+  "peopleTotalNumber": 0,
+  "companiesTotalNumber": 1,
+  "companies": [
+    {
+      "dati_anagrafici": {
+        "id_soggetto": 385648303,
+        "denominazione": "HASSISTO S.R.L. *** START-UP COSTITUITA A NORMA DELL'ART. 4 COMMA 10 BIS DEL DECRETO LEGGE 24 GENNAIO N. 3 ***",
+        "codice_fiscale": "09006331210",
+        "partita_iva": "09006331210",
+        "indirizzo": {
+          "descrizione": "VIA MERCATO, 16",
+          "cap": "80018",
+          "codice_comune": "NA048",
+          "descrizione_comune": "MUGNANO DI NAPOLI",
+          "codice_comune_istat": "063048",
+          "provincia": "NA",
+          "descrizione_provincia": "NAPOLI"
+        }
+      },
+      "dati_attivita": {
+        "codice_ateco": "6201",
+        "ateco": "Produzione di software non connesso all'edizione",
+        "codice_ateco_infocamere": "6201",
+        "ateco_infocamere": "Produzione di software non connesso all'edizione",
+        "codice_stato_attivita": "A",
+        "flag_operativa": true,
+        "codice_rea": "NA 1001542",
+        "data_iscrizione_rea": "21-09-2018",
+        "company_form": {
+          "code": "SR",
+          "description": "SOCIETA' A RESPONSABILITA' LIMITATA",
+          "company_form_class": "SC"
+        },
+        "codice_ateco_2025": "621000",
+        "ateco_2025": "Attivita' di programmazione informatica",
+        "codice_ateco_infocamere_2025": "621000",
+        "ateco_infocamere_2025": "Attivita' di programmazione informatica"
+      },
+      "dati_pa": {
+        "ente": false,
+        "fornitore": false,
+        "partecipata": false
+      }
+    }
+  ],
+  "people": []
+}

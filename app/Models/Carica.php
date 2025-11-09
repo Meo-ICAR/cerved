@@ -24,6 +24,11 @@ class Carica extends Model
     public string $descrizione_carica; // Descrizione estesa da Cerved
     public ?Carbon $data_inizio_carica;
     public ?Carbon $data_fine_carica; // Null se attiva
+    public ?int $numero_quote;
+    public ?float $valore_totale_quote;
+    public ?float $quota_massima_societa;
+    public ?float $percentuale_quota_partecipazione;
+    public ?string $tipo_diritto;
     public ?array $dati_carica_completi; // JSON
     public ?Carbon $created_at;
     public ?Carbon $updated_at;
@@ -39,6 +44,11 @@ class Carica extends Model
         'descrizione_carica',
         'data_inizio_carica',
         'data_fine_carica',
+        'numero_quote',
+        'valore_totale_quote',
+        'quota_massima_societa',
+        'percentuale_quota_partecipazione',
+        'tipo_diritto',
         'dati_carica_completi',
     ];
 
@@ -48,6 +58,9 @@ class Carica extends Model
     protected $casts = [
         'data_inizio_carica' => 'date',
         'data_fine_carica' => 'date',
+        'valore_totale_quote' => 'decimal:2',
+        'quota_massima_societa' => 'decimal:2',
+        'percentuale_quota_partecipazione' => 'decimal:2',
         'dati_carica_completi' => 'array',
     ];
 

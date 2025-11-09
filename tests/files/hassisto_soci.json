@@ -1,0 +1,99 @@
+{
+  "soci": [
+    {
+      "id_soggetto": 317150503,
+      "nome": "PIER GIUSEPPE",
+      "cognome": "MEO",
+      "codice_fiscale": "MEOPGS64D04F839I",
+      "tipo_soggetto": "P",
+      "partecipazioni": [
+        {
+          "ruolo": "S",
+          "legame": "PROPRIETA'",
+          "data_inizio_legame": "03-08-2018",
+          "numero_quote": 1,
+          "valore_totale_quote": 3500,
+          "quota_massima_societa": 35,
+          "percentuale_quota_partecipazione": 35,
+          "tipo_diritto": "P"
+        }
+      ]
+    },
+    {
+      "id_soggetto": 337238733,
+      "nome": "MARIO",
+      "cognome": "MAGLIULO",
+      "codice_fiscale": "MGLMRA64E10F839W",
+      "tipo_soggetto": "P",
+      "partecipazioni": [
+        {
+          "ruolo": "S",
+          "legame": "PROPRIETA'",
+          "data_inizio_legame": "03-08-2018",
+          "numero_quote": 1,
+          "valore_totale_quote": 2000,
+          "quota_massima_societa": 35,
+          "percentuale_quota_partecipazione": 20,
+          "tipo_diritto": "P"
+        }
+      ]
+    },
+    {
+      "id_soggetto": 317262349,
+      "nome": "ERNESTO",
+      "cognome": "SOSCIA",
+      "codice_fiscale": "SSCRST73C26F839R",
+      "tipo_soggetto": "P",
+      "partecipazioni": [
+        {
+          "ruolo": "S",
+          "legame": "PROPRIETA'",
+          "data_inizio_legame": "03-08-2018",
+          "numero_quote": 1,
+          "valore_totale_quote": 1500,
+          "quota_massima_societa": 35,
+          "percentuale_quota_partecipazione": 15,
+          "tipo_diritto": "P"
+        }
+      ]
+    },
+    {
+      "id_soggetto": 320942042,
+      "nome": "ALBINA",
+      "cognome": "ORLANDO",
+      "codice_fiscale": "RLNLBN71H61F839W",
+      "tipo_soggetto": "P",
+      "partecipazioni": [
+        {
+          "ruolo": "S",
+          "legame": "PROPRIETA'",
+          "data_inizio_legame": "03-08-2018",
+          "numero_quote": 1,
+          "valore_totale_quote": 1500,
+          "quota_massima_societa": 35,
+          "percentuale_quota_partecipazione": 15,
+          "tipo_diritto": "P"
+        }
+      ]
+    },
+    {
+      "id_soggetto": 332130742,
+      "nome": "GIUSEPPE",
+      "cognome": "PALMA",
+      "codice_fiscale": "PLMGPP82S13D862A",
+      "tipo_soggetto": "P",
+      "partecipazioni": [
+        {
+          "ruolo": "S",
+          "legame": "PROPRIETA'",
+          "data_inizio_legame": "03-08-2018",
+          "numero_quote": 1,
+          "valore_totale_quote": 1500,
+          "quota_massima_societa": 35,
+          "percentuale_quota_partecipazione": 15,
+          "tipo_diritto": "P"
+        }
+      ]
+    }
+  ]
+}
