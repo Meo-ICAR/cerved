@@ -44,7 +44,7 @@ return new class extends Migration
             
             // Foreign key to province
             $table->foreign('provincia')
-                  ->references('sigla')
+                  ->references('province_code')
                   ->on('provincie')
                   ->onUpdate('cascade')
                   ->onDelete('restrict');

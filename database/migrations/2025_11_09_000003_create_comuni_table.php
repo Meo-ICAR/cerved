@@ -9,38 +9,29 @@ return new class extends Migration
     public function up()
     {
         Schema::create('comuni', function (Blueprint $table) {
+            // Primary key
             $table->id();
-            $table->string('codice_istat', 6)->unique();
-            $table->string('nome');
-            $table->string('nome_straniero')->nullable();
-            $table->string('codice_provincia', 3);
-            $table->string('sigla_provincia', 2);
-            $table->string('regione');
-            $table->string('codice_regione', 2);
-            $table->string('codice_belfiore', 4)->nullable();
-            $table->string('codice_catastale', 4)->nullable();
-            $table->string('cap', 5);
-            $table->boolean('capoluogo')->default(false);
-            $table->string('zona_geografica', 1);
-            $table->string('zona_sismica', 1)->nullable();
-            $table->string('zona_climatica', 1)->nullable();
-            $table->string('grado_giuridico', 1)->nullable();
-            $table->string('targa', 2)->nullable();
-            $table->string('stato', 3)->default('ITA');
-            $table->boolean('attivo')->default(true);
+            
+            // Comune data
+            $table->string('belfiore_code', 4)->unique();
+            $table->string('istat_code_municipality', 10)->unique();
+            $table->string('istat_code_province', 10);
+            $table->string('municipality_code', 10);
+            $table->string('municipality_description', 255);
+            $table->string('province_code', 2);
+            $table->string('zip_code', 5);
+            
+            // Timestamps
             $table->timestamps();
             
             // Indexes
-            $table->index('nome');
-            $table->index('codice_provincia');
-            $table->index('sigla_provincia');
-            $table->index('codice_istat');
-            $table->index('codice_catastale');
-            $table->index('cap');
+            $table->index('province_code');
+            $table->index('municipality_description');
+            $table->index('zip_code');
             
-            // Foreign key
-            $table->foreign('sigla_provincia')
-                  ->references('sigla')
+            // Foreign key to provincie table
+            $table->foreign('province_code')
+                  ->references('province_code')
                   ->on('provincie')
                   ->onUpdate('cascade')
                   ->onDelete('restrict');

@@ -38,13 +38,13 @@ return new class extends Migration
 
             // Foreign keys
             $table->foreign('provincia_nascita')
-                  ->references('sigla')
+                  ->references('province_code')
                   ->on('provincie')
                   ->onUpdate('cascade')
                   ->onDelete('restrict');
 
             $table->foreign('provincia_residenza')
-                  ->references('sigla')
+                  ->references('province_code')
                   ->on('provincie')
                   ->onUpdate('cascade')
                   ->onDelete('restrict');

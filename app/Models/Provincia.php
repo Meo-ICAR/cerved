@@ -5,20 +5,28 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Provincia extends Model
 {
     use HasFactory;
 
     /**
-     * Nome della tabella.
+     * The table associated with the model.
      *
      * @var string
      */
     protected $table = 'provincie';
 
     /**
-     * I campi che possono essere assegnati in massa.
+     * The primary key for the model.
+     *
+     * @var string
+     */
+    protected $primaryKey = 'id';
+
+    /**
+     * The attributes that are mass assignable.
      *
      * @var array<int, string>
      */
@@ -32,7 +40,7 @@ class Provincia extends Model
     ];
 
     /**
-     * I tipi di dato per gli attributi.
+     * The attributes that should be cast.
      *
      * @var array<string, string>
      */
@@ -43,7 +51,23 @@ class Provincia extends Model
     ];
 
     /**
-     * Scope per filtrare le province attive.
+     * Get the region that owns the province.
+     */
+    public function regione()
+    {
+        return $this->belongsTo(Regione::class, 'region_code', 'code');
+    }
+
+    /**
+     * Get the comuni for the province.
+     */
+    public function comuni(): HasMany
+    {
+        return $this->hasMany(Comune::class, 'province_code', 'province_code');
+    }
+
+    /**
+     * Scope a query to only include active provinces.
      */
     public function scopeAttive(Builder $query): Builder
     {
@@ -52,7 +76,7 @@ class Provincia extends Model
     }
 
     /**
-     * Scope per filtrare per codice regione.
+     * Scope a query to filter by region code.
      */
     public function scopePerRegione(Builder $query, string $codiceRegione): Builder
     {
@@ -60,7 +84,7 @@ class Provincia extends Model
     }
 
     /**
-     * Scope per trovare una provincia per codice ISTAT.
+     * Scope a query to find a province by ISTAT code.
      */
     public function scopePerCodiceIstat(Builder $query, string $codiceIstat): Builder
     {
@@ -68,7 +92,7 @@ class Provincia extends Model
     }
 
     /**
-     * Scope per trovare una provincia per sigla (es. "RM" per Roma).
+     * Scope a query to find a province by its code (e.g., "RM" for Rome).
      */
     public function scopePerSigla(Builder $query, string $sigla): Builder
     {
@@ -76,7 +100,7 @@ class Provincia extends Model
     }
 
     /**
-     * Verifica se la provincia è attiva.
+     * Check if the province is active.
      */
     public function isAttiva(): bool
     {
@@ -84,7 +108,7 @@ class Provincia extends Model
     }
 
     /**
-     * Accessor per la sigla della provincia.
+     * Get the province code (alias for province_code).
      */
     public function getSiglaAttribute(): string
     {
@@ -92,11 +116,35 @@ class Provincia extends Model
     }
 
     /**
-     * Accessor per il nome della provincia.
+     * Get the province name (alias for province_description).
      */
     public function getNomeAttribute(): string
     {
         return $this->province_description;
+    }
+
+    /**
+     * Get the ISTAT code (alias for istat_code_province).
+     */
+    public function getCodiceIstatAttribute(): string
+    {
+        return $this->istat_code_province;
+    }
+
+    /**
+     * Find a province by its code.
+     */
+    public static function findByCode(string $code): ?self
+    {
+        return static::where('province_code', strtoupper($code))->first();
+    }
+
+    /**
+     * Find a province by its ISTAT code.
+     */
+    public static function findByIstatCode(string $istatCode): ?self
+    {
+        return static::where('istat_code_province', $istatCode)->first();
     }
 
     /**
