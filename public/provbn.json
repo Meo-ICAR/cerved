@@ -1,0 +1,704 @@
+[
+    {
+        "belfiore_code": "A110",
+        "istat_code_municipality": "062001",
+        "istat_code_province": "062",
+        "municipality_code": "BN001",
+        "municipality_description": "AIROLA",
+        "province_code": "BN",
+        "zip_code": "82011"
+    },
+    {
+        "belfiore_code": "A265",
+        "istat_code_municipality": "062002",
+        "istat_code_province": "062",
+        "municipality_code": "BN002",
+        "municipality_description": "AMOROSI",
+        "province_code": "BN",
+        "zip_code": "82031"
+    },
+    {
+        "belfiore_code": "A328",
+        "istat_code_municipality": "062003",
+        "istat_code_province": "062",
+        "municipality_code": "BN003",
+        "municipality_description": "APICE",
+        "province_code": "BN",
+        "zip_code": "82021"
+    },
+    {
+        "belfiore_code": "A330",
+        "istat_code_municipality": "062004",
+        "istat_code_province": "062",
+        "municipality_code": "BN004",
+        "municipality_description": "APOLLOSA",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "A431",
+        "istat_code_municipality": "062005",
+        "istat_code_province": "062",
+        "municipality_code": "BN005",
+        "municipality_description": "ARPAIA",
+        "province_code": "BN",
+        "zip_code": "82011"
+    },
+    {
+        "belfiore_code": "A432",
+        "istat_code_municipality": "062006",
+        "istat_code_province": "062",
+        "municipality_code": "BN006",
+        "municipality_description": "ARPAISE",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "A696",
+        "istat_code_municipality": "062007",
+        "istat_code_province": "062",
+        "municipality_code": "BN007",
+        "municipality_description": "BASELICE",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "A783",
+        "istat_code_municipality": "062008",
+        "istat_code_province": "062",
+        "municipality_code": "BN008",
+        "municipality_description": "BENEVENTO",
+        "province_code": "BN",
+        "zip_code": "82100"
+    },
+    {
+        "belfiore_code": "A970",
+        "istat_code_municipality": "062009",
+        "istat_code_province": "062",
+        "municipality_code": "BN009",
+        "municipality_description": "BONEA",
+        "province_code": "BN",
+        "zip_code": "82013"
+    },
+    {
+        "belfiore_code": "B239",
+        "istat_code_municipality": "062010",
+        "istat_code_province": "062",
+        "municipality_code": "BN010",
+        "municipality_description": "BUCCIANO",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "B267",
+        "istat_code_municipality": "062011",
+        "istat_code_province": "062",
+        "municipality_code": "BN011",
+        "municipality_description": "BUONALBERGO",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "B444",
+        "istat_code_municipality": "062012",
+        "istat_code_province": "062",
+        "municipality_code": "BN012",
+        "municipality_description": "CALVI",
+        "province_code": "BN",
+        "zip_code": "82018"
+    },
+    {
+        "belfiore_code": "B541",
+        "istat_code_municipality": "062013",
+        "istat_code_province": "062",
+        "municipality_code": "BN013",
+        "municipality_description": "CAMPOLATTARO",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "B542",
+        "istat_code_municipality": "062014",
+        "istat_code_province": "062",
+        "municipality_code": "BN014",
+        "municipality_description": "CAMPOLI DEL MONTE TABURNO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "B873",
+        "istat_code_municipality": "062015",
+        "istat_code_province": "062",
+        "municipality_code": "BN015",
+        "municipality_description": "CASALDUNI",
+        "province_code": "BN",
+        "zip_code": "82027"
+    },
+    {
+        "belfiore_code": "C106",
+        "istat_code_municipality": "062016",
+        "istat_code_province": "062",
+        "municipality_code": "BN016",
+        "municipality_description": "CASTELFRANCO IN MISCANO",
+        "province_code": "BN",
+        "zip_code": "82022"
+    },
+    {
+        "belfiore_code": "C245",
+        "istat_code_municipality": "062017",
+        "istat_code_province": "062",
+        "municipality_code": "BN017",
+        "municipality_description": "CASTELPAGANO",
+        "province_code": "BN",
+        "zip_code": "82024"
+    },
+    {
+        "belfiore_code": "C250",
+        "istat_code_municipality": "062018",
+        "istat_code_province": "062",
+        "municipality_code": "BN018",
+        "municipality_description": "CASTELPOTO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "C280",
+        "istat_code_municipality": "062019",
+        "istat_code_province": "062",
+        "municipality_code": "BN019",
+        "municipality_description": "CASTELVENERE",
+        "province_code": "BN",
+        "zip_code": "82037"
+    },
+    {
+        "belfiore_code": "C284",
+        "istat_code_municipality": "062020",
+        "istat_code_province": "062",
+        "municipality_code": "BN020",
+        "municipality_description": "CASTELVETERE IN VAL FORTORE",
+        "province_code": "BN",
+        "zip_code": "82023"
+    },
+    {
+        "belfiore_code": "C359",
+        "istat_code_municipality": "062021",
+        "istat_code_province": "062",
+        "municipality_code": "BN021",
+        "municipality_description": "CAUTANO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "C476",
+        "istat_code_municipality": "062022",
+        "istat_code_province": "062",
+        "municipality_code": "BN022",
+        "municipality_description": "CEPPALONI",
+        "province_code": "BN",
+        "zip_code": "82014"
+    },
+    {
+        "belfiore_code": "C525",
+        "istat_code_municipality": "062023",
+        "istat_code_province": "062",
+        "municipality_code": "BN023",
+        "municipality_description": "CERRETO SANNITA",
+        "province_code": "BN",
+        "zip_code": "82032"
+    },
+    {
+        "belfiore_code": "C719",
+        "istat_code_municipality": "062024",
+        "istat_code_province": "062",
+        "municipality_code": "BN024",
+        "municipality_description": "CIRCELLO",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "C846",
+        "istat_code_municipality": "062025",
+        "istat_code_province": "062",
+        "municipality_code": "BN025",
+        "municipality_description": "COLLE SANNITA",
+        "province_code": "BN",
+        "zip_code": "82024"
+    },
+    {
+        "belfiore_code": "D230",
+        "istat_code_municipality": "062026",
+        "istat_code_province": "062",
+        "municipality_code": "BN026",
+        "municipality_description": "CUSANO MUTRI",
+        "province_code": "BN",
+        "zip_code": "82033"
+    },
+    {
+        "belfiore_code": "D380",
+        "istat_code_municipality": "062027",
+        "istat_code_province": "062",
+        "municipality_code": "BN027",
+        "municipality_description": "DUGENTA",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "D386",
+        "istat_code_municipality": "062028",
+        "istat_code_province": "062",
+        "municipality_code": "BN028",
+        "municipality_description": "DURAZZANO",
+        "province_code": "BN",
+        "zip_code": "82015"
+    },
+    {
+        "belfiore_code": "D469",
+        "istat_code_municipality": "062029",
+        "istat_code_province": "062",
+        "municipality_code": "BN029",
+        "municipality_description": "FAICCHIO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "D644",
+        "istat_code_municipality": "062030",
+        "istat_code_province": "062",
+        "municipality_code": "BN030",
+        "municipality_description": "FOGLIANISE",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "D650",
+        "istat_code_municipality": "062031",
+        "istat_code_province": "062",
+        "municipality_code": "BN031",
+        "municipality_description": "FOIANO DI VAL FORTORE",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "D693",
+        "istat_code_municipality": "062032",
+        "istat_code_province": "062",
+        "municipality_code": "BN032",
+        "municipality_description": "FORCHIA",
+        "province_code": "BN",
+        "zip_code": "82011"
+    },
+    {
+        "belfiore_code": "D756",
+        "istat_code_municipality": "062034",
+        "istat_code_province": "062",
+        "municipality_code": "BN034",
+        "municipality_description": "FRAGNETO MONFORTE",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "D755",
+        "istat_code_municipality": "062033",
+        "istat_code_province": "062",
+        "municipality_code": "BN033",
+        "municipality_description": "FRAGNETO L'ABATE",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "D784",
+        "istat_code_municipality": "062035",
+        "istat_code_province": "062",
+        "municipality_code": "BN035",
+        "municipality_description": "FRASSO TELESINO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "E034",
+        "istat_code_municipality": "062036",
+        "istat_code_province": "062",
+        "municipality_code": "BN036",
+        "municipality_description": "GINESTRA DEGLI SCHIAVONI",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "E249",
+        "istat_code_municipality": "062037",
+        "istat_code_province": "062",
+        "municipality_code": "BN037",
+        "municipality_description": "GUARDIA SANFRAMONDI",
+        "province_code": "BN",
+        "zip_code": "82034"
+    },
+    {
+        "belfiore_code": "E589",
+        "istat_code_municipality": "062038",
+        "istat_code_province": "062",
+        "municipality_code": "BN038",
+        "municipality_description": "LIMATOLA",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "F113",
+        "istat_code_municipality": "062039",
+        "istat_code_province": "062",
+        "municipality_code": "BN039",
+        "municipality_description": "MELIZZANO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "F274",
+        "istat_code_municipality": "062040",
+        "istat_code_province": "062",
+        "municipality_code": "BN040",
+        "municipality_description": "MOIANO",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "F287",
+        "istat_code_municipality": "062041",
+        "istat_code_province": "062",
+        "municipality_code": "BN041",
+        "municipality_description": "MOLINARA",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "F494",
+        "istat_code_municipality": "062042",
+        "istat_code_province": "062",
+        "municipality_code": "BN042",
+        "municipality_description": "MONTEFALCONE DI VAL FORTORE",
+        "province_code": "BN",
+        "zip_code": "82025"
+    },
+    {
+        "belfiore_code": "F636",
+        "istat_code_municipality": "062043",
+        "istat_code_province": "062",
+        "municipality_code": "BN043",
+        "municipality_description": "MONTESARCHIO",
+        "province_code": "BN",
+        "zip_code": "82016"
+    },
+    {
+        "belfiore_code": "F717",
+        "istat_code_municipality": "062044",
+        "istat_code_province": "062",
+        "municipality_code": "BN044",
+        "municipality_description": "MORCONE",
+        "province_code": "BN",
+        "zip_code": "82026"
+    },
+    {
+        "belfiore_code": "G227",
+        "istat_code_municipality": "062045",
+        "istat_code_province": "062",
+        "municipality_code": "BN045",
+        "municipality_description": "PADULI",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "G243",
+        "istat_code_municipality": "062046",
+        "istat_code_province": "062",
+        "municipality_code": "BN046",
+        "municipality_description": "PAGO VEIANO",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "G311",
+        "istat_code_municipality": "062047",
+        "istat_code_province": "062",
+        "municipality_code": "BN047",
+        "municipality_description": "PANNARANO",
+        "province_code": "BN",
+        "zip_code": "82017"
+    },
+    {
+        "belfiore_code": "G318",
+        "istat_code_municipality": "062048",
+        "istat_code_province": "062",
+        "municipality_code": "BN048",
+        "municipality_description": "PAOLISI",
+        "province_code": "BN",
+        "zip_code": "82011"
+    },
+    {
+        "belfiore_code": "G386",
+        "istat_code_municipality": "062049",
+        "istat_code_province": "062",
+        "municipality_code": "BN049",
+        "municipality_description": "PAUPISI",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "G494",
+        "istat_code_municipality": "062050",
+        "istat_code_province": "062",
+        "municipality_code": "BN050",
+        "municipality_description": "PESCO SANNITA",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "G626",
+        "istat_code_municipality": "062051",
+        "istat_code_province": "062",
+        "municipality_code": "BN051",
+        "municipality_description": "PIETRAROJA",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "G631",
+        "istat_code_municipality": "062052",
+        "istat_code_province": "062",
+        "municipality_code": "BN052",
+        "municipality_description": "PIETRELCINA",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "G827",
+        "istat_code_municipality": "062053",
+        "istat_code_province": "062",
+        "municipality_code": "BN053",
+        "municipality_description": "PONTE",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "G848",
+        "istat_code_municipality": "062054",
+        "istat_code_province": "062",
+        "municipality_code": "BN054",
+        "municipality_description": "PONTELANDOLFO",
+        "province_code": "BN",
+        "zip_code": "82027"
+    },
+    {
+        "belfiore_code": "H087",
+        "istat_code_municipality": "062055",
+        "istat_code_province": "062",
+        "municipality_code": "BN055",
+        "municipality_description": "PUGLIANELLO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "H227",
+        "istat_code_municipality": "062056",
+        "istat_code_province": "062",
+        "municipality_code": "BN056",
+        "municipality_description": "REINO",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "H764",
+        "istat_code_municipality": "062057",
+        "istat_code_province": "062",
+        "municipality_code": "BN057",
+        "municipality_description": "SAN BARTOLOMEO IN GALDO",
+        "province_code": "BN",
+        "zip_code": "82028"
+    },
+    {
+        "belfiore_code": "H898",
+        "istat_code_municipality": "062059",
+        "istat_code_province": "062",
+        "municipality_code": "BN059",
+        "municipality_description": "SAN GIORGIO LA MOLARA",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "H894",
+        "istat_code_municipality": "062058",
+        "istat_code_province": "062",
+        "municipality_code": "BN058",
+        "municipality_description": "SAN GIORGIO DEL SANNIO",
+        "province_code": "BN",
+        "zip_code": "82018"
+    },
+    {
+        "belfiore_code": "H953",
+        "istat_code_municipality": "062060",
+        "istat_code_province": "062",
+        "municipality_code": "BN060",
+        "municipality_description": "SAN LEUCIO DEL SANNIO",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "H955",
+        "istat_code_municipality": "062061",
+        "istat_code_province": "062",
+        "municipality_code": "BN061",
+        "municipality_description": "SAN LORENZELLO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "H967",
+        "istat_code_municipality": "062062",
+        "istat_code_province": "062",
+        "municipality_code": "BN062",
+        "municipality_description": "SAN LORENZO MAGGIORE",
+        "province_code": "BN",
+        "zip_code": "82034"
+    },
+    {
+        "belfiore_code": "H973",
+        "istat_code_municipality": "062063",
+        "istat_code_province": "062",
+        "municipality_code": "BN063",
+        "municipality_description": "SAN LUPO",
+        "province_code": "BN",
+        "zip_code": "82034"
+    },
+    {
+        "belfiore_code": "H984",
+        "istat_code_municipality": "062064",
+        "istat_code_province": "062",
+        "municipality_code": "BN064",
+        "municipality_description": "SAN MARCO DEI CAVOTI",
+        "province_code": "BN",
+        "zip_code": "82029"
+    },
+    {
+        "belfiore_code": "I002",
+        "istat_code_municipality": "062065",
+        "istat_code_province": "062",
+        "municipality_code": "BN065",
+        "municipality_description": "SAN MARTINO SANNITA",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "I049",
+        "istat_code_municipality": "062066",
+        "istat_code_province": "062",
+        "municipality_code": "BN066",
+        "municipality_description": "SAN NAZZARO",
+        "province_code": "BN",
+        "zip_code": "82018"
+    },
+    {
+        "belfiore_code": "I062",
+        "istat_code_municipality": "062067",
+        "istat_code_province": "062",
+        "municipality_code": "BN067",
+        "municipality_description": "SAN NICOLA MANFREDI",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "I145",
+        "istat_code_municipality": "062068",
+        "istat_code_province": "062",
+        "municipality_code": "BN068",
+        "municipality_description": "SAN SALVATORE TELESINO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "I197",
+        "istat_code_municipality": "062070",
+        "istat_code_province": "062",
+        "municipality_code": "BN070",
+        "municipality_description": "SANT'AGATA DE' GOTI",
+        "province_code": "BN",
+        "zip_code": "82019"
+    },
+    {
+        "belfiore_code": "I277",
+        "istat_code_municipality": "062071",
+        "istat_code_province": "062",
+        "municipality_code": "BN071",
+        "municipality_description": "SANT'ANGELO A CUPOLO",
+        "province_code": "BN",
+        "zip_code": "82010"
+    },
+    {
+        "belfiore_code": "F557",
+        "istat_code_municipality": "062078",
+        "istat_code_province": "062",
+        "municipality_code": "BN078",
+        "municipality_description": "SANT'ARCANGELO TRIMONTE",
+        "province_code": "BN",
+        "zip_code": "82021"
+    },
+    {
+        "belfiore_code": "I179",
+        "istat_code_municipality": "062069",
+        "istat_code_province": "062",
+        "municipality_code": "BN069",
+        "municipality_description": "SANTA CROCE DEL SANNIO",
+        "province_code": "BN",
+        "zip_code": "82020"
+    },
+    {
+        "belfiore_code": "I455",
+        "istat_code_municipality": "062072",
+        "istat_code_province": "062",
+        "municipality_code": "BN072",
+        "municipality_description": "SASSINORO",
+        "province_code": "BN",
+        "zip_code": "82026"
+    },
+    {
+        "belfiore_code": "I809",
+        "istat_code_municipality": "062073",
+        "istat_code_province": "062",
+        "municipality_code": "BN073",
+        "municipality_description": "SOLOPACA",
+        "province_code": "BN",
+        "zip_code": "82036"
+    },
+    {
+        "belfiore_code": "L086",
+        "istat_code_municipality": "062074",
+        "istat_code_province": "062",
+        "municipality_code": "BN074",
+        "municipality_description": "TELESE TERME",
+        "province_code": "BN",
+        "zip_code": "82037"
+    },
+    {
+        "belfiore_code": "L185",
+        "istat_code_municipality": "062075",
+        "istat_code_province": "062",
+        "municipality_code": "BN075",
+        "municipality_description": "TOCCO CAUDIO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "L254",
+        "istat_code_municipality": "062076",
+        "istat_code_province": "062",
+        "municipality_code": "BN076",
+        "municipality_description": "TORRECUSO",
+        "province_code": "BN",
+        "zip_code": "82030"
+    },
+    {
+        "belfiore_code": "M093",
+        "istat_code_municipality": "062077",
+        "istat_code_province": "062",
+        "municipality_code": "BN077",
+        "municipality_description": "VITULANO",
+        "province_code": "BN",
+        "zip_code": "82038"
+    }
+]

@@ -1,0 +1,930 @@
+[
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "001",
+    "province_code": "TO",
+    "province_description": "Torino",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "002",
+    "province_code": "VC",
+    "province_description": "Vercelli",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "003",
+    "province_code": "NO",
+    "province_description": "Novara",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "004",
+    "province_code": "CN",
+    "province_description": "Cuneo",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "005",
+    "province_code": "AT",
+    "province_description": "Asti",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "006",
+    "province_code": "AL",
+    "province_description": "Alessandria",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "096",
+    "province_code": "BI",
+    "province_description": "Biella",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "103",
+    "province_code": "VB",
+    "province_description": "Verbano-Cusio-Ossola",
+    "region_code": "01"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "007",
+    "province_code": "AO",
+    "province_description": "Aosta",
+    "region_code": "02"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "012",
+    "province_code": "VA",
+    "province_description": "Varese",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "013",
+    "province_code": "CO",
+    "province_description": "Como",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "014",
+    "province_code": "SO",
+    "province_description": "Sondrio",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "015",
+    "province_code": "MI",
+    "province_description": "Milano",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "016",
+    "province_code": "BG",
+    "province_description": "Bergamo",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "017",
+    "province_code": "BS",
+    "province_description": "Brescia",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "018",
+    "province_code": "PV",
+    "province_description": "Pavia",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "019",
+    "province_code": "CR",
+    "province_description": "Cremona",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "020",
+    "province_code": "MN",
+    "province_description": "Mantova",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "097",
+    "province_code": "LC",
+    "province_description": "Lecco",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "098",
+    "province_code": "LO",
+    "province_description": "Lodi",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "108",
+    "province_code": "MB",
+    "province_description": "Monza e della Brianza",
+    "region_code": "03"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "021",
+    "province_code": "BZ",
+    "province_description": "Bolzano",
+    "region_code": "04"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "022",
+    "province_code": "TN",
+    "province_description": "Trento",
+    "region_code": "04"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "023",
+    "province_code": "VR",
+    "province_description": "Verona",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "024",
+    "province_code": "VI",
+    "province_description": "Vicenza",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "025",
+    "province_code": "BL",
+    "province_description": "Belluno",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "026",
+    "province_code": "TV",
+    "province_description": "Treviso",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "027",
+    "province_code": "VE",
+    "province_description": "Venezia",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "028",
+    "province_code": "PD",
+    "province_description": "Padova",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "029",
+    "province_code": "RO",
+    "province_description": "Rovigo",
+    "region_code": "05"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "030",
+    "province_code": "UD",
+    "province_description": "Udine",
+    "region_code": "06"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "031",
+    "province_code": "GO",
+    "province_description": "Gorizia",
+    "region_code": "06"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "032",
+    "province_code": "TS",
+    "province_description": "Trieste",
+    "region_code": "06"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "093",
+    "province_code": "PN",
+    "province_description": "Pordenone",
+    "region_code": "06"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "008",
+    "province_code": "IM",
+    "province_description": "Imperia",
+    "region_code": "07"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "009",
+    "province_code": "SV",
+    "province_description": "Savona",
+    "region_code": "07"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "010",
+    "province_code": "GE",
+    "province_description": "Genova",
+    "region_code": "07"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "011",
+    "province_code": "SP",
+    "province_description": "La Spezia",
+    "region_code": "07"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "033",
+    "province_code": "PC",
+    "province_description": "Piacenza",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "034",
+    "province_code": "PR",
+    "province_description": "Parma",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "035",
+    "province_code": "RE",
+    "province_description": "Reggio nell'Emilia",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "036",
+    "province_code": "MO",
+    "province_description": "Modena",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "037",
+    "province_code": "BO",
+    "province_description": "Bologna",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "038",
+    "province_code": "FE",
+    "province_description": "Ferrara",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "039",
+    "province_code": "RA",
+    "province_description": "Ravenna",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "040",
+    "province_code": "FC",
+    "province_description": "Forlì-Cesena",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "099",
+    "province_code": "RN",
+    "province_description": "Rimini",
+    "region_code": "08"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "045",
+    "province_code": "MS",
+    "province_description": "Massa-Carrara",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "046",
+    "province_code": "LU",
+    "province_description": "Lucca",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "047",
+    "province_code": "PT",
+    "province_description": "Pistoia",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "048",
+    "province_code": "FI",
+    "province_description": "Firenze",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "049",
+    "province_code": "LI",
+    "province_description": "Livorno",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "050",
+    "province_code": "PI",
+    "province_description": "Pisa",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "051",
+    "province_code": "AR",
+    "province_description": "Arezzo",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "052",
+    "province_code": "SI",
+    "province_description": "Siena",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "053",
+    "province_code": "GR",
+    "province_description": "Grosseto",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "100",
+    "province_code": "PO",
+    "province_description": "Prato",
+    "region_code": "09"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "054",
+    "province_code": "PG",
+    "province_description": "Perugia",
+    "region_code": "10"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "055",
+    "province_code": "TR",
+    "province_description": "Terni",
+    "region_code": "10"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "041",
+    "province_code": "PU",
+    "province_description": "Pesaro e Urbino",
+    "region_code": "11"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "042",
+    "province_code": "AN",
+    "province_description": "Ancona",
+    "region_code": "11"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "043",
+    "province_code": "MC",
+    "province_description": "Macerata",
+    "region_code": "11"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "044",
+    "province_code": "AP",
+    "province_description": "Ascoli Piceno",
+    "region_code": "11"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "109",
+    "province_code": "FM",
+    "province_description": "Fermo",
+    "region_code": "11"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "056",
+    "province_code": "VT",
+    "province_description": "Viterbo",
+    "region_code": "12"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "057",
+    "province_code": "RI",
+    "province_description": "Rieti",
+    "region_code": "12"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "058",
+    "province_code": "RM",
+    "province_description": "Roma",
+    "region_code": "12"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "059",
+    "province_code": "LT",
+    "province_description": "Latina",
+    "region_code": "12"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "060",
+    "province_code": "FR",
+    "province_description": "Frosinone",
+    "region_code": "12"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "066",
+    "province_code": "AQ",
+    "province_description": "L'Aquila",
+    "region_code": "13"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "067",
+    "province_code": "TE",
+    "province_description": "Teramo",
+    "region_code": "13"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "068",
+    "province_code": "PE",
+    "province_description": "Pescara",
+    "region_code": "13"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "069",
+    "province_code": "CH",
+    "province_description": "Chieti",
+    "region_code": "13"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "070",
+    "province_code": "CB",
+    "province_description": "Campobasso",
+    "region_code": "14"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "094",
+    "province_code": "IS",
+    "province_description": "Isernia",
+    "region_code": "14"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "061",
+    "province_code": "CE",
+    "province_description": "Caserta",
+    "region_code": "15"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "062",
+    "province_code": "BN",
+    "province_description": "Benevento",
+    "region_code": "15"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "063",
+    "province_code": "NA",
+    "province_description": "Napoli",
+    "region_code": "15"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "064",
+    "province_code": "AV",
+    "province_description": "Avellino",
+    "region_code": "15"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "065",
+    "province_code": "SA",
+    "province_description": "Salerno",
+    "region_code": "15"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "071",
+    "province_code": "FG",
+    "province_description": "Foggia",
+    "region_code": "16"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "072",
+    "province_code": "BA",
+    "province_description": "Bari",
+    "region_code": "16"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "073",
+    "province_code": "TA",
+    "province_description": "Taranto",
+    "region_code": "16"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "074",
+    "province_code": "BR",
+    "province_description": "Brindisi",
+    "region_code": "16"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "075",
+    "province_code": "LE",
+    "province_description": "Lecce",
+    "region_code": "16"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "110",
+    "province_code": "BT",
+    "province_description": "Barletta-Andria-Trani",
+    "region_code": "16"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "076",
+    "province_code": "PZ",
+    "province_description": "Potenza",
+    "region_code": "17"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "077",
+    "province_code": "MT",
+    "province_description": "Matera",
+    "region_code": "17"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "078",
+    "province_code": "CS",
+    "province_description": "Cosenza",
+    "region_code": "18"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "079",
+    "province_code": "CZ",
+    "province_description": "Catanzaro",
+    "region_code": "18"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "080",
+    "province_code": "RC",
+    "province_description": "Reggio di Calabria",
+    "region_code": "18"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "101",
+    "province_code": "KR",
+    "province_description": "Crotone",
+    "region_code": "18"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "102",
+    "province_code": "VV",
+    "province_description": "Vibo Valentia",
+    "region_code": "18"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "081",
+    "province_code": "TP",
+    "province_description": "Trapani",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "082",
+    "province_code": "PA",
+    "province_description": "Palermo",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "083",
+    "province_code": "ME",
+    "province_description": "Messina",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "084",
+    "province_code": "AG",
+    "province_description": "Agrigento",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "085",
+    "province_code": "CL",
+    "province_description": "Caltanissetta",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "086",
+    "province_code": "EN",
+    "province_description": "Enna",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "087",
+    "province_code": "CT",
+    "province_description": "Catania",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "088",
+    "province_code": "RG",
+    "province_description": "Ragusa",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "089",
+    "province_code": "SR",
+    "province_description": "Siracusa",
+    "region_code": "19"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "090",
+    "province_code": "SS",
+    "province_description": "Sassari",
+    "region_code": "20"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "091",
+    "province_code": "NU",
+    "province_description": "Nuoro",
+    "region_code": "20"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "092",
+    "province_code": "CA",
+    "province_description": "Cagliari",
+    "region_code": "20"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "095",
+    "province_code": "OR",
+    "province_description": "Oristano",
+    "region_code": "20"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "104",
+    "province_code": "OT",
+    "province_description": "Olbia-Tempio",
+    "region_code": "20"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "105",
+    "province_code": "OG",
+    "province_description": "Ogliastra",
+    "region_code": "20"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "106",
+    "province_code": "VS",
+    "province_description": "Medio Campidano",
+    "region_code": "20"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "107",
+    "province_code": "CI",
+    "province_description": "Carbonia-Iglesias",
+    "region_code": "20"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "041",
+    "province_code": "PS",
+    "province_description": "Pesaro",
+    "region_code": "11"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "040",
+    "province_code": "FO",
+    "province_description": "Forlì",
+    "region_code": "08"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "701",
+    "province_code": "FIUME",
+    "province_description": "Fiume",
+    "region_code": "06"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "702",
+    "province_code": "POLA",
+    "province_description": "Pola",
+    "region_code": "06"
+  },
+  {
+    "activity": false,
+    "flag_active": "N",
+    "istat_code_province": "703",
+    "province_code": "ZARA",
+    "province_description": "Zara",
+    "region_code": "06"
+  },
+  {
+    "activity": true,
+    "flag_active": "S",
+    "istat_code_province": "111",
+    "province_code": "SU",
+    "province_description": "Sud Sardegna",
+    "region_code": "20"
+  }
+]
