@@ -246,4 +246,12 @@ class Person extends Model
         // Modify according to your specific business logic
         return $this->protesti()->whereNull('data_chiusura');
     }
+
+    /**
+     * Get all properties (fabbricati) owned by the person.
+     */
+    public function fabbricati()
+    {
+        return $this->hasMany(Fabbricato::class, 'persona_id');
+    }
 }

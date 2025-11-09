@@ -1,0 +1,681 @@
+{
+  "idSoggetto": 337238733,
+  "codiceFiscale": "MGLMRA64E10F839W",
+  "dataRapporto": "2025-06-12T00:00:00.000+0200",
+  "numeroImmobili": 20,
+  "numeroFabbricati": 15,
+  "numeroTerreni": 5,
+  "fabbricati": [
+    {
+      "idImmobile": 15898508,
+      "classe": "6",
+      "codiceComune": "AQ070",
+      "codiceBelfiore": "G493",
+      "descrizioneComune": "Pescocostanzo",
+      "codiceProvincia": "AQ",
+      "foglio": "34",
+      "particella": "651",
+      "subalterno": 1,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/2",
+          "quotaOrig": "1/2",
+          "percentualeQuota": 50
+        }
+      ],
+      "indirizzo": "VIA BENEDETTO RAINALDI n. 15-9  Scala B Interno 1",
+      "piano": "T",
+      "codiceCategoria": "A/2",
+      "descrizioneCategoria": "Abitazioni di tipo civile",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 3.5,
+      "rendita": 451.9,
+      "stimaFabbricato": {
+        "valoreMinNormale": 149690,
+        "valoreMaxNormale": 202521,
+        "valoreMinOttimo": 173639,
+        "valoreMaxOttimo": 234924,
+        "valoreMinScadente": 125739,
+        "valoreMaxScadente": 170118,
+        "valorePuntuale": 176106,
+        "livelloConfidenza": 79
+      }
+    },
+    {
+      "idImmobile": 15898512,
+      "classe": "8",
+      "codiceComune": "AQ070",
+      "codiceBelfiore": "G493",
+      "descrizioneComune": "Pescocostanzo",
+      "codiceProvincia": "AQ",
+      "foglio": "34",
+      "particella": "651",
+      "subalterno": 33,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/2",
+          "quotaOrig": "1/2",
+          "percentualeQuota": 50
+        }
+      ],
+      "indirizzo": "VIA BENEDETTO RAINALDI n. 15-9  Interno 15",
+      "piano": "S1",
+      "codiceCategoria": "C/6",
+      "descrizioneCategoria": "Stalle, scuderie, rimesse, autorimesse (senza fine di lucro)",
+      "unitaMisuraConsistenza": "mq",
+      "valoreConsistenza": 15,
+      "rendita": 46.48,
+      "stimaFabbricato": {
+        "valoreMinNormale": 19125,
+        "valoreMaxNormale": 25874,
+        "valoreMinOttimo": 22185,
+        "valoreMaxOttimo": 30014,
+        "valoreMinScadente": 16065,
+        "valoreMaxScadente": 21735,
+        "valorePuntuale": 22500,
+        "livelloConfidenza": 79
+      }
+    },
+    {
+      "idImmobile": 11499938,
+      "classe": "8",
+      "codiceComune": "CE005",
+      "codiceBelfiore": "A512",
+      "descrizioneComune": "Aversa",
+      "codiceProvincia": "CE",
+      "foglio": "4",
+      "particella": "5186",
+      "subalterno": 93,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/3",
+          "quotaOrig": "1/3",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "indirizzo": "VIA ARMANDO DIAZ n. 6",
+      "piano": "S1",
+      "codiceCategoria": "C/2",
+      "descrizioneCategoria": "Magazzini e locali di deposito",
+      "unitaMisuraConsistenza": "mq",
+      "valoreConsistenza": 48,
+      "rendita": 185.92,
+      "stimaFabbricato": {
+        "valoreMinNormale": 16378,
+        "valoreMaxNormale": 23087,
+        "valoreMinOttimo": 18998,
+        "valoreMaxOttimo": 26781,
+        "valoreMinScadente": 13757,
+        "valoreMaxScadente": 19392,
+        "valorePuntuale": 19733,
+        "livelloConfidenza": 71
+      }
+    },
+    {
+      "idImmobile": 14660246,
+      "codiceComune": "CE037",
+      "codiceBelfiore": "D799",
+      "descrizioneComune": "Frignano",
+      "codiceProvincia": "CE",
+      "foglio": "8",
+      "particella": "31",
+      "subalterno": 4,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 84/1000",
+          "quotaOrig": "84/1000",
+          "percentualeQuota": 8.4
+        }
+      ],
+      "indirizzo": "VIA GENEROSO MANNA n. 25",
+      "piano": "T",
+      "codiceCategoria": "F/1",
+      "descrizioneCategoria": "Aree urbane",
+      "rendita": 0
+    },
+    {
+      "idImmobile": 6833889,
+      "classe": "1",
+      "codiceComune": "CE037",
+      "codiceBelfiore": "D799",
+      "descrizioneComune": "Frignano",
+      "codiceProvincia": "CE",
+      "foglio": "8",
+      "particella": "726",
+      "subalterno": 3,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        }
+      ],
+      "indirizzo": "VIA GENEROSO MANNA   Interno 4",
+      "piano": "T",
+      "codiceCategoria": "C/6",
+      "descrizioneCategoria": "Stalle, scuderie, rimesse, autorimesse (senza fine di lucro)",
+      "unitaMisuraConsistenza": "mq",
+      "valoreConsistenza": 26,
+      "rendita": 55.05,
+      "stimaFabbricato": {
+        "valoreMinNormale": 10228,
+        "valoreMaxNormale": 14719,
+        "valoreMinOttimo": 11864,
+        "valoreMaxOttimo": 17073,
+        "valoreMinScadente": 8591,
+        "valoreMaxScadente": 12364,
+        "valorePuntuale": 12474,
+        "livelloConfidenza": 70
+      }
+    },
+    {
+      "idImmobile": 16788721,
+      "classe": "2",
+      "codiceComune": "CE037",
+      "codiceBelfiore": "D799",
+      "descrizioneComune": "Frignano",
+      "codiceProvincia": "CE",
+      "foglio": "8",
+      "particella": "726",
+      "subalterno": 12,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        }
+      ],
+      "indirizzo": "VIA GENEROSO MANNA   Scala U Interno 5",
+      "piano": "3",
+      "codiceCategoria": "A/2",
+      "descrizioneCategoria": "Abitazioni di tipo civile",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 6.5,
+      "rendita": 486.76,
+      "stimaFabbricato": {
+        "valoreMinNormale": 102582,
+        "valoreMaxNormale": 147618,
+        "valoreMinOttimo": 118995,
+        "valoreMaxOttimo": 171236,
+        "valoreMinScadente": 86168,
+        "valoreMaxScadente": 123999,
+        "valorePuntuale": 125100,
+        "livelloConfidenza": 70
+      }
+    },
+    {
+      "idImmobile": 19704776,
+      "classe": "2",
+      "codiceComune": "CE077",
+      "codiceBelfiore": "H978",
+      "descrizioneComune": "San Marcellino",
+      "codiceProvincia": "CE",
+      "foglio": "1",
+      "particella": "5309",
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/3",
+          "quotaOrig": "1/3",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "indirizzo": "VIA CAMPO MAURO",
+      "piano": "T-1",
+      "codiceCategoria": "A/4",
+      "descrizioneCategoria": "Abitazioni di tipo popolare",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 6,
+      "rendita": 247.9,
+      "stimaFabbricato": {
+        "valoreMinNormale": 78937,
+        "valoreMaxNormale": 111272,
+        "valoreMinOttimo": 91566,
+        "valoreMaxOttimo": 129075,
+        "valoreMinScadente": 66307,
+        "valoreMaxScadente": 93468,
+        "valorePuntuale": 95105,
+        "livelloConfidenza": 71
+      }
+    },
+    {
+      "idImmobile": 18846845,
+      "codiceComune": "CE085",
+      "codiceBelfiore": "I261",
+      "descrizioneComune": "San Tammaro",
+      "codiceProvincia": "CE",
+      "foglio": "11",
+      "particella": "5361",
+      "subalterno": 2,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/3",
+          "quotaOrig": "1/3",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "indirizzo": "STRADA PROVINCIALE CASALUCE CARDITELLO n. SNC",
+      "piano": "T-1",
+      "codiceCategoria": "F/4",
+      "descrizioneCategoria": "Unità in corso di definizione",
+      "rendita": 0
+    },
+    {
+      "idImmobile": 16619734,
+      "classe": "4",
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "1",
+      "subalterno": 48,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 300/1000",
+          "quotaOrig": "300/1000",
+          "percentualeQuota": 30
+        }
+      ],
+      "sezioneUrbana": "CHI",
+      "indirizzo": "VICOLO SANTA MARIA APPARENTE n. 26",
+      "piano": "3",
+      "codiceCategoria": "A/2",
+      "descrizioneCategoria": "Abitazioni di tipo civile",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 6.5,
+      "rendita": 1326,
+      "stimaFabbricato": {
+        "valoreMinNormale": 323153,
+        "valoreMaxNormale": 419728,
+        "valoreMinOttimo": 374857,
+        "valoreMaxOttimo": 486884,
+        "valoreMinScadente": 271448,
+        "valoreMaxScadente": 352571,
+        "valorePuntuale": 371441,
+        "livelloConfidenza": 87
+      }
+    },
+    {
+      "idImmobile": 12363769,
+      "classe": "4",
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "1",
+      "subalterno": 49,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 300/1000",
+          "quotaOrig": "300/1000",
+          "percentualeQuota": 30
+        }
+      ],
+      "sezioneUrbana": "CHI",
+      "indirizzo": "VICO SANTA MARIA APPARENTE n. 26",
+      "piano": "3",
+      "codiceCategoria": "A/2",
+      "descrizioneCategoria": "Abitazioni di tipo civile",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 3,
+      "rendita": 612,
+      "stimaFabbricato": {
+        "valoreMinNormale": 147711,
+        "valoreMaxNormale": 191854,
+        "valoreMinOttimo": 171344,
+        "valoreMaxOttimo": 222551,
+        "valoreMinScadente": 124076,
+        "valoreMaxScadente": 161157,
+        "valorePuntuale": 169783,
+        "livelloConfidenza": 87
+      }
+    },
+    {
+      "idImmobile": 133725983,
+      "classe": "6",
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "878",
+      "subalterno": 118,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 6/18",
+          "quotaOrig": "6/18",
+          "percentualeQuota": 33.33
+        },
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        }
+      ],
+      "sezioneUrbana": "AVV",
+      "indirizzo": "VIA SETTIMIO SEVERO CARUSO n. 32  Interno 10",
+      "piano": "5",
+      "codiceCategoria": "A/2",
+      "descrizioneCategoria": "Abitazioni di tipo civile",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 5,
+      "rendita": 800.51,
+      "stimaFabbricato": {
+        "valoreMinNormale": 356505,
+        "valoreMaxNormale": 463048,
+        "valoreMinOttimo": 413546,
+        "valoreMaxOttimo": 537135,
+        "valoreMinScadente": 299464,
+        "valoreMaxScadente": 388959,
+        "valorePuntuale": 409777,
+        "livelloConfidenza": 87
+      }
+    },
+    {
+      "idImmobile": 133725984,
+      "classe": "6",
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "878",
+      "subalterno": 119,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 6/18",
+          "quotaOrig": "6/18",
+          "percentualeQuota": 33.33
+        },
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        }
+      ],
+      "sezioneUrbana": "AVV",
+      "indirizzo": "VIA SETTIMIO SEVERO CARUSO n. 32  Interno 11",
+      "piano": "5",
+      "codiceCategoria": "A/2",
+      "descrizioneCategoria": "Abitazioni di tipo civile",
+      "unitaMisuraConsistenza": "vn",
+      "valoreConsistenza": 6.5,
+      "rendita": 1040.66,
+      "stimaFabbricato": {
+        "valoreMinNormale": 460760,
+        "valoreMaxNormale": 598459,
+        "valoreMinOttimo": 534481,
+        "valoreMaxOttimo": 694212,
+        "valoreMinScadente": 387038,
+        "valoreMaxScadente": 502705,
+        "valorePuntuale": 529610,
+        "livelloConfidenza": 87
+      }
+    },
+    {
+      "idImmobile": 133725985,
+      "classe": "1",
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "878",
+      "subalterno": 120,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        },
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 6/18",
+          "quotaOrig": "6/18",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "sezioneUrbana": "AVV",
+      "indirizzo": "VIA SETTIMIO SEVERO CARUSO n. 32",
+      "piano": "S1",
+      "codiceCategoria": "C/2",
+      "descrizioneCategoria": "Magazzini e locali di deposito",
+      "unitaMisuraConsistenza": "mq",
+      "valoreConsistenza": 31,
+      "rendita": 148.89,
+      "stimaFabbricato": {
+        "valoreMinNormale": 29262,
+        "valoreMaxNormale": 38007,
+        "valoreMinOttimo": 33943,
+        "valoreMaxOttimo": 44088,
+        "valoreMinScadente": 24580,
+        "valoreMaxScadente": 31925,
+        "valorePuntuale": 33635,
+        "livelloConfidenza": 87
+      }
+    },
+    {
+      "idImmobile": 133725986,
+      "classe": "1",
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "878",
+      "subalterno": 121,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        },
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 6/18",
+          "quotaOrig": "6/18",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "sezioneUrbana": "AVV",
+      "indirizzo": "VIA SETTIMIO SEVERO CARUSO n. 32",
+      "piano": "S1",
+      "codiceCategoria": "C/6",
+      "descrizioneCategoria": "Stalle, scuderie, rimesse, autorimesse (senza fine di lucro)",
+      "unitaMisuraConsistenza": "mq",
+      "valoreConsistenza": 15,
+      "rendita": 61.2,
+      "stimaFabbricato": {
+        "valoreMinNormale": 39150,
+        "valoreMaxNormale": 50849,
+        "valoreMinOttimo": 45414,
+        "valoreMaxOttimo": 58985,
+        "valoreMinScadente": 32886,
+        "valoreMaxScadente": 42713,
+        "valorePuntuale": 45000,
+        "livelloConfidenza": 87
+      }
+    },
+    {
+      "idImmobile": 133725987,
+      "codiceComune": "NA049",
+      "codiceBelfiore": "F839",
+      "descrizioneComune": "Napoli",
+      "codiceProvincia": "NA",
+      "foglio": "15",
+      "particella": "878",
+      "subalterno": 122,
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 6/18",
+          "quotaOrig": "6/18",
+          "percentualeQuota": 33.33
+        },
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 3001/4500",
+          "quotaOrig": "3001/4500",
+          "percentualeQuota": 66.69
+        }
+      ],
+      "sezioneUrbana": "AVV",
+      "indirizzo": "VIA SETTIMIO SEVERO CARUSO n. 32",
+      "piano": "8",
+      "codiceCategoria": "F/5",
+      "descrizioneCategoria": "Lastrici solari",
+      "unitaMisuraConsistenza": "mq",
+      "valoreConsistenza": 61,
+      "rendita": 0
+    }
+  ],
+  "terreni": [
+    {
+      "idImmobile": 24570771,
+      "classe": "1",
+      "codiceComune": "CE077",
+      "codiceBelfiore": "H978",
+      "descrizioneComune": "San Marcellino",
+      "codiceProvincia": "CE",
+      "foglio": "1",
+      "particella": "5015",
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/3",
+          "quotaOrig": "1/3",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "sezioneCensuaria": "A",
+      "codicePorzione": "1",
+      "descrizioneQualita": "SEMIN ARBOR",
+      "superficieEttari": 0,
+      "superficieAre": 3,
+      "superficieCentiare": 12,
+      "renditaDominicale": 8.54,
+      "renditaAgraria": 3.38
+    },
+    {
+      "idImmobile": 24578968,
+      "classe": "3",
+      "codiceComune": "CE085",
+      "codiceBelfiore": "I261",
+      "descrizioneComune": "San Tammaro",
+      "codiceProvincia": "CE",
+      "foglio": "11",
+      "particella": "229",
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/3",
+          "quotaOrig": "1/3",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "sezioneCensuaria": "A",
+      "codicePorzione": "1",
+      "descrizioneQualita": "SEMINATIVO",
+      "superficieEttari": 2,
+      "superficieAre": 4,
+      "superficieCentiare": 28,
+      "renditaDominicale": 369.26,
+      "renditaAgraria": 216.28
+    },
+    {
+      "idImmobile": 24579119,
+      "classe": "3",
+      "codiceComune": "CE085",
+      "codiceBelfiore": "I261",
+      "descrizioneComune": "San Tammaro",
+      "codiceProvincia": "CE",
+      "foglio": "11",
+      "particella": "5385",
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/3",
+          "quotaOrig": "1/3",
+          "percentualeQuota": 33.33
+        }
+      ],
+      "sezioneCensuaria": "A",
+      "codicePorzione": "1",
+      "descrizioneQualita": "SEMINATIVO",
+      "superficieEttari": 0,
+      "superficieAre": 58,
+      "superficieCentiare": 73,
+      "renditaDominicale": 106.16,
+      "renditaAgraria": 62.18
+    },
+    {
+      "idImmobile": 24580454,
+      "classe": "3",
+      "codiceComune": "CE085",
+      "codiceBelfiore": "I261",
+      "descrizioneComune": "San Tammaro",
+      "codiceProvincia": "CE",
+      "foglio": "6",
+      "particella": "5192",
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/12",
+          "quotaOrig": "1/12",
+          "percentualeQuota": 8.33
+        }
+      ],
+      "sezioneCensuaria": "A",
+      "codicePorzione": "1",
+      "descrizioneQualita": "SEMINATIVO",
+      "superficieEttari": 2,
+      "superficieAre": 3,
+      "superficieCentiare": 18,
+      "renditaDominicale": 367.27,
+      "renditaAgraria": 215.11
+    },
+    {
+      "idImmobile": 24580579,
+      "classe": "3",
+      "codiceComune": "CE085",
+      "codiceBelfiore": "I261",
+      "descrizioneComune": "San Tammaro",
+      "codiceProvincia": "CE",
+      "foglio": "6",
+      "particella": "85",
+      "possessi": [
+        {
+          "descrizioneTitolo": "Proprieta'",
+          "titolaritaOrig": "Proprieta' per 1/12",
+          "quotaOrig": "1/12",
+          "percentualeQuota": 8.33
+        }
+      ],
+      "sezioneCensuaria": "A",
+      "codicePorzione": "1",
+      "descrizioneQualita": "SEMINATIVO",
+      "superficieEttari": 2,
+      "superficieAre": 0,
+      "superficieCentiare": 89,
+      "renditaDominicale": 363.13,
+      "renditaAgraria": 212.69
+    }
+  ]
+}
