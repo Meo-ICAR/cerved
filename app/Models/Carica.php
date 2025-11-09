@@ -56,7 +56,7 @@ class Carica extends Model
      */
     public function persona(): BelongsTo
     {
-        return $this->belongsTo(Persona::class);
+        return $this->belongsTo(Person::class);
     }
 
     /**

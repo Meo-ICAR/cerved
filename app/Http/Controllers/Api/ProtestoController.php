@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Models\Protesto;
-use App\Models\Persona;
+use App\Models\Person;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
@@ -77,7 +77,7 @@ class ProtestoController extends BaseApiController
         }
 
         // Verifica che la persona esista
-        $persona = Persona::find($request->persona_id);
+        $persona = Person::find($request->persona_id);
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);
         }
@@ -160,7 +160,7 @@ class ProtestoController extends BaseApiController
      */
     public function protestiPersona($personaId, Request $request)
     {
-        $persona = Persona::find($personaId);
+        $persona = Person::find($personaId);
             
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);

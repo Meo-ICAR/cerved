@@ -6,7 +6,10 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    public function up()
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
     {
         Schema::create('addresses', function (Blueprint $table) {
             $table->id();
@@ -20,17 +23,19 @@ return new class extends Migration
             $table->string('codice_comune_istat');
             $table->string('sigla_provincia', 2);
             $table->string('provincia');
-            
-            // Indexes
-            $table->index(['addressable_type', 'addressable_id']);
-            $table->index('codice_comune_istat');
-            $table->index('sigla_provincia');
-            
             $table->timestamps();
+
+            // Indexes
+            $table->index(['addressable_type', 'addressable_id'], 'addresses_addressable_type_addressable_id_index');
+            $table->index('codice_comune_istat', 'addresses_codice_comune_istat_index');
+            $table->index('sigla_provincia', 'addresses_sigla_provincia_index');
         });
     }
 
-    public function down()
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
     {
         Schema::dropIfExists('addresses');
     }

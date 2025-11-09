@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Models\Persona;
+use App\Models\Person;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
@@ -14,7 +14,7 @@ class PersonaController extends BaseApiController
      */
     public function index(Request $request)
     {
-        $query = Persona::query();
+        $query = Person::query();
 
         // Filtri di ricerca
         if ($request->has('codice_fiscale')) {
@@ -65,7 +65,7 @@ class PersonaController extends BaseApiController
         }
 
         try {
-            $persona = Persona::create($request->all());
+            $persona = Person::create($request->all());
             return $this->successResponse($persona, 'Persona creata con successo', 201);
         } catch (\Exception $e) {
             return $this->errorResponse('Errore durante la creazione della persona: ' . $e->getMessage());
@@ -77,7 +77,7 @@ class PersonaController extends BaseApiController
      */
     public function show($id)
     {
-        $persona = Persona::with(['cariche', 'aziende', 'protesti'])->find($id);
+        $persona = Person::with(['cariche', 'aziende', 'protesti'])->find($id);
             
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);
@@ -91,14 +91,14 @@ class PersonaController extends BaseApiController
      */
     public function update(Request $request, $id)
     {
-        $persona = Persona::find($id);
+        $persona = Person::find($id);
             
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);
         }
 
         $validator = Validator::make($request->all(), [
-            'codice_fiscale' => 'string|size:16|unique:persone,codice_fiscale,' . $id,
+            'codice_fiscale' => 'string|size:16|unique:people,codice_fiscale,' . $id,
             'nome' => 'nullable|string|max:100',
             'cognome' => 'nullable|string|max:100',
             'data_nascita' => 'nullable|date',
@@ -124,7 +124,7 @@ class PersonaController extends BaseApiController
      */
     public function destroy($id)
     {
-        $persona = Persona::find($id);
+        $persona = Person::find($id);
             
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);
@@ -155,7 +155,7 @@ class PersonaController extends BaseApiController
      */
     public function cercaPerCodiceFiscale($codiceFiscale)
     {
-        $persona = Persona::where('codice_fiscale', $codiceFiscale)
+        $persona = Person::where('codice_fiscale', $codiceFiscale)
             ->with(['cariche', 'aziende', 'protesti'])
             ->first();
             
@@ -171,7 +171,7 @@ class PersonaController extends BaseApiController
      */
     public function aggiornaDaCerved($id)
     {
-        $persona = Persona::find($id);
+        $persona = Person::find($id);
             
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);

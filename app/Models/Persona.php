@@ -88,7 +88,7 @@ class Persona extends Model
     {
         return $this->hasMany(Protesto::class);
     }
-    
+
     /**
      * Filtra per codice fiscale.
      */
@@ -96,7 +96,7 @@ class Persona extends Model
     {
         return $query->where('codice_fiscale', $codiceFiscale);
     }
-    
+
     /**
      * Filtra per cognome (ricerca case-insensitive).
      */
@@ -104,7 +104,7 @@ class Persona extends Model
     {
         return $query->where('cognome', 'ilike', "%{$cognome}%");
     }
-    
+
     /**
      * Filtra per nome (ricerca case-insensitive).
      */
@@ -112,7 +112,7 @@ class Persona extends Model
     {
         return $query->where('nome', 'ilike', "%{$nome}%");
     }
-    
+
     /**
      * Filtra per data di nascita.
      */
@@ -120,21 +120,21 @@ class Persona extends Model
     {
         return $query->whereDate('data_nascita', $dataNascita);
     }
-    
+
     /**
      * Filtra per luogo di nascita.
      */
     public function scopeWhereLuogoNascita($query, $comune, $provincia = null)
     {
         $query->where('comune_nascita', 'ilike', "%{$comune}%");
-        
+
         if ($provincia) {
             $query->where('provincia_nascita', $provincia);
         }
-        
+
         return $query;
     }
-    
+
     /**
      * Restituisce il nome completo della persona.
      */
@@ -142,7 +142,7 @@ class Persona extends Model
     {
         return trim($this->nome . ' ' . $this->cognome);
     }
-    
+
     /**
      * Verifica se la persona ha cariche attive.
      */
@@ -150,7 +150,7 @@ class Persona extends Model
     {
         return $this->cariche()->whereNull('data_fine_carica')->exists();
     }
-    
+
     /**
      * Ottiene le cariche attive della persona.
      */
@@ -158,7 +158,7 @@ class Persona extends Model
     {
         return $this->cariche()->whereNull('data_fine_carica')->with('azienda');
     }
-    
+
     /**
      * Ottiene i protesti non risolti della persona.
      */

@@ -15,7 +15,7 @@ class ComuniSeeder extends Seeder
     public function run(): void
     {
         // Get all JSON files from the public directory
-        $files = glob(public_path('*.json'));
+        $files = glob(public_path('prov*.json'));
 
         $processed = 0;
         $skipped = 0;

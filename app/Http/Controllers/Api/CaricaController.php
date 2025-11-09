@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Models\Carica;
-use App\Models\Persona;
+use App\Models\Person;
 use App\Models\Azienda;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -67,7 +67,7 @@ class CaricaController extends BaseApiController
         }
 
         // Verifica che la persona esista
-        $persona = Persona::find($request->persona_id);
+        $persona = Person::find($request->persona_id);
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);
         }
@@ -183,7 +183,7 @@ class CaricaController extends BaseApiController
      */
     public function caricheAttivePersona($personaId)
     {
-        $persona = Persona::find($personaId);
+        $persona = Person::find($personaId);
             
         if (!$persona) {
             return $this->errorResponse('Persona non trovata', 404);

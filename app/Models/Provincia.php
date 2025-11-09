@@ -112,6 +112,6 @@ class Provincia extends Model
      */
     public function personeNate()
     {
-        return $this->hasMany(Persona::class, 'provincia_nascita', 'province_code');
+        return $this->hasMany(Person::class, 'provincia_nascita', 'province_code');
     }
 }

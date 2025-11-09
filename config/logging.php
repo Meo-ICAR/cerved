@@ -19,6 +19,7 @@ return [
     */
 
     'default' => env('LOG_CHANNEL', 'stack'),
+    'timezone' => config('app.timezone', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------

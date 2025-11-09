@@ -35,10 +35,22 @@ class LogApiCerved extends Model
     protected $fillable = [
         'user_id',
         'endpoint_chiamato',
-        'partita_iva_input',
+        'endpoint',
+        'method',
+        'request_headers',
+        'request_body',
+        'search_type',
+        'status_code',
         'status_code_risposta',
-        'request_payload',
+        'response_headers',
+        'response_body',
         'response_payload',
+        'ip_address',
+        'user_agent',
+        'execution_time_ms',
+        'error_message',
+        'is_success',
+        'partita_iva_input',
         'costo_chiamata',
     ];
 
@@ -46,8 +58,14 @@ class LogApiCerved extends Model
      * Cast per tipi di dato.
      */
     protected $casts = [
+        'status_code' => 'integer',
         'status_code_risposta' => 'integer',
         'costo_chiamata' => 'decimal:4',
+        'is_success' => 'boolean',
+        'execution_time_ms' => 'integer',
+        'request_headers' => 'array',
+        'request_body' => 'array',
+        'response_headers' => 'array',
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
         // I payload sono spesso JSON, ma è più sicuro

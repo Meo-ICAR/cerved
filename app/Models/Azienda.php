@@ -96,7 +96,7 @@ class Azienda extends Model
     public function persone(): BelongsToMany
     {
         return $this->belongsToMany(
-            Persona::class,
+            Person::class,
             'cariche',
             'azienda_id',
             'persona_id'

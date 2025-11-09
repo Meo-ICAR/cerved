@@ -14,7 +14,7 @@ class ProvinceSeeder extends Seeder
     public function run(): void
     {
         // Path to the JSON file
-        $json = File::get(public_path('response1762511864585.json'));
+        $json = File::get(public_path('0province.json'));
         $provinces = json_decode($json, true);
 
         // Prepare the data for batch insert
@@ -38,7 +38,7 @@ class ProvinceSeeder extends Seeder
             $updated = DB::table('provincie')
                 ->where('istat_code_province', $province['istat_code_province'])
                 ->update($province);
-            
+
             // If no rows were updated, try to insert
             if ($updated === 0) {
                 try {
