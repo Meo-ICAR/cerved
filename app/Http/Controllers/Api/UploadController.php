@@ -31,7 +31,7 @@ class UploadController extends BaseApiController
             
             // Sanitize the PIVA to create a safe filename
             $filename = preg_replace('/[^a-zA-Z0-9]/', '_', $piva) . '.pdf';
-            $storagePath = 'public/files';
+            $storagePath = 'files';  // Changed to store directly in public/files
             
             // Log the upload attempt
             Log::info('Attempting to upload file', [
@@ -42,7 +42,7 @@ class UploadController extends BaseApiController
             ]);
             
             // Ensure the directory exists with proper permissions
-            $fullStoragePath = storage_path('app/' . $storagePath);
+            $fullStoragePath = public_path($storagePath);
             if (!file_exists($fullStoragePath)) {
                 if (!mkdir($fullStoragePath, 0775, true)) {
                     Log::error('Failed to create directory', ['path' => $fullStoragePath]);
@@ -51,8 +51,8 @@ class UploadController extends BaseApiController
                 chmod($fullStoragePath, 0775);
             }
             
-            // Store the file
-            $storedPath = $file->storeAs($storagePath, $filename);
+            // Store the file directly in public/files
+            $storedPath = $file->move($fullStoragePath, $filename);
             
             if (!$storedPath) {
                 Log::error('File storage failed', [
@@ -64,7 +64,7 @@ class UploadController extends BaseApiController
             }
             
             // Verify the file was stored
-            $fullPath = storage_path('app/' . $storedPath);
+            $fullPath = $storedPath->getPathname();
             if (!file_exists($fullPath)) {
                 Log::error('File not found after storage', [
                     'expected_path' => $fullPath,
@@ -81,7 +81,7 @@ class UploadController extends BaseApiController
             chmod($fullPath, 0664);
             
             // Generate the public URL
-            $publicPath = str_replace('public/', 'storage/', $storedPath);
+            $publicPath = 'files/' . $filename;
             $publicUrl = url($publicPath);
             
             Log::info('File uploaded successfully', [
