@@ -78,8 +78,15 @@
                     
                     // If upload was successful and we have a URL, create a link to the file
                     if (data.data && data.data.url) {
+                        // Ensure the URL is absolute
+                        let fileUrl = data.data.url;
+                        if (!fileUrl.startsWith('http')) {
+                            // If it's a relative URL, make it absolute using the current origin
+                            fileUrl = window.location.origin + (fileUrl.startsWith('/') ? '' : '/') + fileUrl;
+                        }
+                        
                         const link = document.createElement('a');
-                        link.href = data.data.url;
+                        link.href = fileUrl;
                         link.textContent = 'View Uploaded File';
                         link.className = 'mt-2 inline-block text-indigo-600 hover:text-indigo-800';
                         link.target = '_blank';
@@ -93,6 +100,13 @@
                         link.id = 'fileLink';
                         responseDiv.appendChild(document.createElement('br'));
                         responseDiv.appendChild(link);
+                        
+                        // Also show the direct URL for debugging
+                        const urlInfo = document.createElement('p');
+                        urlInfo.textContent = 'File URL: ' + fileUrl;
+                        urlInfo.className = 'mt-2 text-sm text-gray-600';
+                        responseDiv.appendChild(document.createElement('br'));
+                        responseDiv.appendChild(urlInfo);
                     }
                 } else {
                     responseDiv.className = 'mt-6 p-4 bg-red-50 rounded-md';
