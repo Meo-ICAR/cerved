@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\BaseApiController;
+use App\Models\LogApiCerved;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 
 class UploadController extends BaseApiController
@@ -18,6 +20,8 @@ class UploadController extends BaseApiController
      */
     public function uploadPdf(Request $request)
     {
+        $startTime = microtime(true);
+        
         // Validate the request
         $validated = $request->validate([
             'piva' => 'required|string|max:20',
@@ -84,26 +88,47 @@ class UploadController extends BaseApiController
             $publicPath = 'files/' . $filename;
             $publicUrl = url($publicPath);
             
-            Log::info('File uploaded successfully', [
-                'original_name' => $file->getClientOriginalName(),
-                'stored_path' => $storedPath,
-                'public_url' => $publicUrl
-            ]);
-
-            return $this->sendResponse([
-                'filename' => $filename,
-                'path' => $publicPath,
+            $responseData = [
                 'url' => $publicUrl,
-                'storage_path' => $storedPath,
-                'message' => 'File uploaded successfully.'
-            ]);
+                'filename' => $filename,
+                'original_name' => $file->getClientOriginalName(),
+                'size' => $file->getSize(),
+                'mime_type' => $file->getMimeType(),
+            ];
+            
+            // Log the successful API request
+            $this->logApiRequest($request, 200, $responseData, $startTime);
+            
+            return $this->sendResponse($responseData, 'File uploaded successfully');
 
         } catch (\Exception $e) {
             Log::error('File upload error', [
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString()
             ]);
-            return $this->sendError('File upload failed: ' . $e->getMessage(), [], 500);
+            // Log the failed API request
+            $this->logApiRequest(
+                $request, 
+                500, 
+                ['error' => $e->getMessage()], 
+                $startTime
+            );
+            
+            return $this->sendError('File upload failed', ['error' => $e->getMessage()], 500);
         }
+    }
+    
+    private function logApiRequest(Request $request, int $statusCode, array $responseData, float $startTime)
+    {
+        $log = new LogApiCerved();
+        $log->method = $request->getMethod();
+        $log->url = $request->fullUrl();
+        $log->status_code = $statusCode;
+        $log->response_data = json_encode($responseData);
+        $log->request_data = json_encode($request->all());
+        $log->ip_address = $request->ip();
+        $log->user_agent = $request->userAgent();
+        $log->response_time = microtime(true) - $startTime;
+        $log->save();
     }
 }

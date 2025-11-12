@@ -29,7 +29,9 @@ use App\Http\Controllers\Api\UploadController;
 // });
 
 // Rotte per il caricamento file
-Route::post('/upload', [UploadController::class, 'uploadPdf']);
+Route::middleware('api.key')->group(function () {
+    Route::post('/upload', [UploadController::class, 'uploadPdf']);
+});
 
 // Rotte per i protesti
 Route::prefix('protesti')->group(function () {

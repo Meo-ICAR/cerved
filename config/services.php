@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'mediafacile' => [
+        'header_key' => env('MEDIAFACILE_HEADER_KEY'),
+    ],
+
 ];

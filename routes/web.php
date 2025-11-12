@@ -8,6 +8,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// API Logs
+Route::prefix('logs/api-cerved')->name('logs.api-cerved.')->group(function () {
+    Route::get('/', [\App\Http\Controllers\LogApiCervedController::class, 'index'])->name('index');
+    Route::get('/{id}', [\App\Http\Controllers\LogApiCervedController::class, 'show'])->name('show');
+});
+
 // Route to test file upload
 Route::get('/upload-test', function () {
     return view('upload');
