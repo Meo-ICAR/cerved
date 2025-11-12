@@ -28,28 +28,29 @@ class UploadController extends BaseApiController
             $file = $request->file('file');
             $piva = $validated['piva'];
             
-            // Ensure the files directory exists with proper permissions
-            $directory = 'public/files';
-            if (!file_exists(storage_path('app/' . $directory))) {
-                mkdir(storage_path('app/' . $directory), 0775, true);
-            }
-
             // Generate filename with piva
             $filename = $piva . '.pdf';
-            $fullPath = $directory . '/' . $filename;
             
-            // Store the file with public visibility
-            $file->storeAs('public/files', $filename);
+            // Store the file in the public disk
+            $path = $file->storeAs('public/files', $filename);
             
-            // Ensure the file has the correct permissions
-            chmod(storage_path('app/' . $fullPath), 0664);
+            // Get the full path to the stored file
+            $fullPath = storage_path('app/' . $path);
             
-            // Path for the response
-            $path = 'files/' . $filename;
+            // Ensure the file has the correct permissions (only if the file exists)
+            if (file_exists($fullPath)) {
+                chmod($fullPath, 0664);
+            } else {
+                return $this->sendError('File was not stored correctly', [], 500);
+            }
+            
+            // Path for the response (remove 'public/' from the path)
+            $publicPath = str_replace('public/', '', $path);
 
             return $this->sendResponse([
-                'path' => $path,
-                'url' => Storage::url($path),
+                'path' => $publicPath,
+                'url' => Storage::url($publicPath),
+                'full_path' => $fullPath,
                 'message' => 'File uploaded successfully.'
             ]);
 
