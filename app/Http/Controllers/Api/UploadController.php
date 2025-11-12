@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\BaseApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 
 class UploadController extends BaseApiController
@@ -28,33 +29,80 @@ class UploadController extends BaseApiController
             $file = $request->file('file');
             $piva = $validated['piva'];
             
-            // Generate filename with piva
-            $filename = $piva . '.pdf';
+            // Sanitize the PIVA to create a safe filename
+            $filename = preg_replace('/[^a-zA-Z0-9]/', '_', $piva) . '.pdf';
+            $storagePath = 'public/files';
             
-            // Store the file in the public disk
-            $path = $file->storeAs('public/files', $filename);
+            // Log the upload attempt
+            Log::info('Attempting to upload file', [
+                'filename' => $filename,
+                'original_name' => $file->getClientOriginalName(),
+                'size' => $file->getSize(),
+                'storage_path' => $storagePath
+            ]);
             
-            // Get the full path to the stored file
-            $fullPath = storage_path('app/' . $path);
-            
-            // Ensure the file has the correct permissions (only if the file exists)
-            if (file_exists($fullPath)) {
-                chmod($fullPath, 0664);
-            } else {
-                return $this->sendError('File was not stored correctly', [], 500);
+            // Ensure the directory exists with proper permissions
+            $fullStoragePath = storage_path('app/' . $storagePath);
+            if (!file_exists($fullStoragePath)) {
+                if (!mkdir($fullStoragePath, 0775, true)) {
+                    Log::error('Failed to create directory', ['path' => $fullStoragePath]);
+                    return $this->sendError('Failed to create storage directory', [], 500);
+                }
+                chmod($fullStoragePath, 0775);
             }
             
-            // Path for the response (remove 'public/' from the path)
-            $publicPath = str_replace('public/', '', $path);
+            // Store the file
+            $storedPath = $file->storeAs($storagePath, $filename);
+            
+            if (!$storedPath) {
+                Log::error('File storage failed', [
+                    'filename' => $filename,
+                    'storage_path' => $storagePath,
+                    'error' => 'Storage::storeAs returned false'
+                ]);
+                return $this->sendError('Failed to store the file', [], 500);
+            }
+            
+            // Verify the file was stored
+            $fullPath = storage_path('app/' . $storedPath);
+            if (!file_exists($fullPath)) {
+                Log::error('File not found after storage', [
+                    'expected_path' => $fullPath,
+                    'stored_path' => $storedPath
+                ]);
+                return $this->sendError('File was not stored correctly', [
+                    'stored_path' => $storedPath,
+                    'full_path' => $fullPath,
+                    'storage_disk' => config('filesystems.default')
+                ], 500);
+            }
+            
+            // Set file permissions
+            chmod($fullPath, 0664);
+            
+            // Generate the public URL
+            $publicPath = str_replace('public/', 'storage/', $storedPath);
+            $publicUrl = url($publicPath);
+            
+            Log::info('File uploaded successfully', [
+                'original_name' => $file->getClientOriginalName(),
+                'stored_path' => $storedPath,
+                'public_url' => $publicUrl
+            ]);
 
             return $this->sendResponse([
+                'filename' => $filename,
                 'path' => $publicPath,
-                'url' => Storage::url($publicPath),
-                'full_path' => $fullPath,
+                'url' => $publicUrl,
+                'storage_path' => $storedPath,
                 'message' => 'File uploaded successfully.'
             ]);
 
         } catch (\Exception $e) {
+            Log::error('File upload error', [
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString()
+            ]);
             return $this->sendError('File upload failed: ' . $e->getMessage(), [], 500);
         }
     }
