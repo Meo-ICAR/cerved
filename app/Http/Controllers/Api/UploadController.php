@@ -24,18 +24,19 @@ class UploadController extends BaseApiController
         
         // Validate the request
         $validated = $request->validate([
-            'piva' => 'required|string|max:20',
+            'piva' => 'nullable|string|max:20',
             'file' => 'required|file|mimes:pdf|max:10240', // Max 10MB file size
         ]);
 
         try {
             // Get the file from the request
             $file = $request->file('file');
-            $piva = $validated['piva'];
+            $piva = $validated['piva'] ?? null;
             
-            // Sanitize the PIVA to create a safe filename
-            $filename = preg_replace('/[^a-zA-Z0-9]/', '_', $piva) . '.pdf';
-            $storagePath = 'files';  // Changed to store directly in public/files
+            // Generate a safe filename with or without PIVA
+            $baseFilename = $piva ? preg_replace('/[^a-zA-Z0-9]/', '_', $piva) : 'file_' . uniqid();
+            $filename = $baseFilename . '.pdf';
+            $storagePath = 'files';  // Store directly in public/files
             
             // Log the upload attempt
             Log::info('Attempting to upload file', [
