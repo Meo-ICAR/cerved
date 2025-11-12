@@ -10,6 +10,7 @@ use App\Http\Controllers\Api\LogApiCervedController;
 use App\Http\Controllers\Api\PersonaController;
 use App\Http\Controllers\Api\CaricaController;
 use App\Http\Controllers\Api\ProtestoController;
+use App\Http\Controllers\Api\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,9 @@ use App\Http\Controllers\Api\ProtestoController;
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
+
+// Rotte per il caricamento file
+Route::post('/upload', [UploadController::class, 'uploadPdf']);
 
 // Rotte per i protesti
 Route::prefix('protesti')->group(function () {

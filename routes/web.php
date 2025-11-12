@@ -1,10 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\CervedEntityController;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+// Route to test file upload
+Route::get('/upload-test', function () {
+    return view('upload');
 });
 
 // Cerved Entity Search Routes
