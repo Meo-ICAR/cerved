@@ -65,6 +65,15 @@
                             </div>
                         </div>
                     </form>
+
+                    <div class="row mt-4">
+                        <div class="col-md-8 offset-md-4">
+                            <div class="text-muted text-center mb-3">Or login with</div>
+                            <a href="{{ route('auth.microsoft.redirect') }}" class="btn btn-outline-dark">
+                                <i class="fab fa-microsoft me-2"></i> {{ __('Login with Microsoft') }}
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -39,4 +39,12 @@ return [
         'header_key' => env('MEDIAFACILE_HEADER_KEY'),
     ],
 
+    'microsoft' => [
+        'client_id' => env('MICROSOFT_CLIENT_ID'),
+        'client_secret' => env('MICROSOFT_CLIENT_SECRET'),
+        'redirect' => env('APP_URL') . '/auth/microsoft/callback',
+        'tenant' => env('MICROSOFT_TENANT_ID', 'common'),
+        'allow_gui_select' => true,
+    ],
+
 ];

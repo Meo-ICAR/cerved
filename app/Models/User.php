@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'microsoft_id',
+        'email_verified_at',
     ];
 
     /**

@@ -28,6 +28,15 @@ Route::prefix('cerved/entities')->name('cerved.entity.')->group(function () {
 // Reports Resource Routes
 Route::resource('reports', \App\Http\Controllers\ReportController::class)->middleware('auth');
 
+// Authentication Routes
 Auth::routes();
 
+// Home Route
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Microsoft OAuth Routes
+Route::get('/auth/microsoft/redirect', [\App\Http\Controllers\Auth\MicrosoftAuthController::class, 'redirectToMicrosoft'])
+    ->name('auth.microsoft.redirect');
+
+Route::get('/auth/microsoft/callback', [\App\Http\Controllers\Auth\MicrosoftAuthController::class, 'handleMicrosoftCallback'])
+    ->name('auth.microsoft.callback');
