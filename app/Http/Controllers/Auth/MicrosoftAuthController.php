@@ -17,7 +17,9 @@ class MicrosoftAuthController extends Controller
      */
     public function redirectToMicrosoft()
     {
-        return Socialite::driver('microsoft')->redirect();
+        return Socialite::driver('microsoft')
+            ->with(['prompt' => 'select_account'])
+            ->redirect();
     }
 
     /**
@@ -29,7 +31,7 @@ class MicrosoftAuthController extends Controller
     {
         try {
             $microsoftUser = Socialite::driver('microsoft')->user();
-            
+
             // Find or create user
             $user = User::updateOrCreate(
                 ['email' => $microsoftUser->getEmail()],
