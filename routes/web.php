@@ -24,3 +24,10 @@ Route::prefix('cerved/entities')->name('cerved.entity.')->group(function () {
     Route::get('/search', [CervedEntityController::class, 'showSearchForm'])->name('search.form');
     Route::get('/results', [CervedEntityController::class, 'search'])->name('search');
 });
+
+// Reports Resource Routes
+Route::resource('reports', \App\Http\Controllers\ReportController::class)->middleware('auth');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

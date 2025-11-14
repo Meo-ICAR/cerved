@@ -14,6 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         \App\Console\Commands\ImportFabbricati::class,
+        \App\Console\Commands\ReplaceTextInPdf::class,
+        \App\Console\Commands\ReplacePdfTextAdvanced::class,
     ];
 
     /**
