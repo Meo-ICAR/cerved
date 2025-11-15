@@ -31,8 +31,15 @@ Route::resource('reports', \App\Http\Controllers\ReportController::class)->middl
 // Authentication Routes
 Auth::routes();
 
-// Home Route
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Home Route - Redirect to reports index
+Route::get('/home', function () {
+    return redirect()->route('reports.index');
+})->name('home');
+
+// Set root URL to redirect to home
+Route::get('/', function () {
+    return redirect()->route('home');
+});
 
 // Microsoft OAuth Routes
 Route::get('/auth/microsoft/redirect', [\App\Http\Controllers\Auth\MicrosoftAuthController::class, 'redirectToMicrosoft'])

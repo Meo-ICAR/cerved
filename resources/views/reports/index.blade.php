@@ -24,6 +24,7 @@
                     <thead class="table-light">
                         <tr>
                             <th>ID</th>
+                            <th>Name</th>
                             <th>PIVA</th>
                             <th>Is Races</th>
                             <th>Created At</th>
@@ -34,6 +35,7 @@
                         @forelse ($reports as $report)
                             <tr>
                                 <td>{{ $report->id }}</td>
+                                <td>{{ $report->name ?? 'N/A' }}</td>
                                 <td>{{ $report->piva }}</td>
                                 <td>{{ $report->israces ? 'Yes' : 'No' }}</td>
                                 <td>{{ $report->created_at->format('Y-m-d H:i') }}</td>
@@ -57,7 +59,7 @@
                             </tr>
                         @empty
                             <tr>
-                                <td colspan="5" class="text-center">No reports found.</td>
+                                <td colspan="6" class="text-center">No reports found.</td>
                             </tr>
                         @endforelse
                     </tbody>

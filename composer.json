@@ -75,9 +75,10 @@
         ]
     },
     "extra": {
-        "laravel": {
-            "dont-discover": []
-        }
+      "laravel": {
+         "dont-discover": []
+
+    }
     },
     "config": {
         "optimize-autoloader": true,

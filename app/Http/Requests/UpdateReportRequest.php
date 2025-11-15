@@ -11,7 +11,7 @@ class UpdateReportRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true; // Update this with your authorization logic if needed
     }
 
     /**
@@ -22,7 +22,14 @@ class UpdateReportRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'required|string|max:255',
+            'piva' => 'required|string|max:20',
+            'israces' => 'boolean',
+            'annotation' => 'nullable|string',
+            'apicervedcode' => 'nullable|integer',
+            'apicervedresponse' => 'nullable|array',
+            'apiactivation' => 'nullable|date',
+            'mediaresponse' => 'nullable|array',
         ];
     }
 }

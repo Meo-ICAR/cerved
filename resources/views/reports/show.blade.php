@@ -14,7 +14,7 @@
                         <form action="{{ route('reports.destroy', $report->id) }}" method="POST" class="ms-2">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger btn-sm" 
+                            <button type="submit" class="btn btn-danger btn-sm"
                                     onclick="return confirm('Are you sure you want to delete this report?')">
                                 <i class="fas fa-trash"></i> Delete
                             </button>
@@ -29,6 +29,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <p><strong>ID:</strong> {{ $report->id }}</p>
+                                <p><strong>Name:</strong> {{ $report->name ?? 'N/A' }}</p>
                                 <p><strong>PIVA:</strong> {{ $report->piva }}</p>
                                 <p><strong>Is Races:</strong> {{ $report->israces ? 'Yes' : 'No' }}</p>
                             </div>

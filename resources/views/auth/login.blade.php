@@ -8,6 +8,20 @@
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
+                    @if (session('error'))
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ session('error') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
+
+                    @if (session('status'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            {{ session('status') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -68,10 +82,15 @@
 
                     <div class="row mt-4">
                         <div class="col-md-8 offset-md-4">
-                            <div class="text-muted text-center mb-3">Or login with</div>
-                            <a href="{{ route('auth.microsoft.redirect') }}" class="btn btn-outline-dark">
-                                <i class="fab fa-microsoft me-2"></i> {{ __('Login with Microsoft') }}
-                            </a>
+                            <div class="text-muted text-center mb-3">
+                                <hr class="my-3">
+                                <span>Or login with</span>
+                            </div>
+                            <div class="d-grid">
+                                <a href="{{ route('auth.microsoft.redirect') }}" class="btn btn-outline-primary">
+                                    <i class="fab fa-microsoft me-2"></i> {{ __('Login with Microsoft') }}
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
