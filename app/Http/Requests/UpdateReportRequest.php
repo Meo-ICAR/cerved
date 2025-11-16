@@ -22,14 +22,18 @@ class UpdateReportRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required|string|max:255',
-            'piva' => 'required|string|max:20',
-            'israces' => 'boolean',
+            'israces' => 'sometimes|boolean',
             'annotation' => 'nullable|string',
-            'apicervedcode' => 'nullable|integer',
-            'apicervedresponse' => 'nullable|array',
-            'apiactivation' => 'nullable|date',
-            'mediaresponse' => 'nullable|array',
         ];
+    }
+
+    /**
+     * Prepare the data for validation.
+     */
+    protected function prepareForValidation()
+    {
+        $this->merge([
+            'israces' => $this->has('israces'),
+        ]);
     }
 }

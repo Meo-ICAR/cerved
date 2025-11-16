@@ -1,90 +1,56 @@
-@if (isset($report))
-    @php
-        $action = route('reports.update', $report->id);
-        $method = 'PUT';
-    @endphp
-    @section('title', 'Edit Report')
-@else
-    @php
-        $action = route('reports.store');
-        $method = 'POST';
-        $report = new \App\Models\Report();
-    @endphp
-    @section('title', 'Create New Report')
-@endif
+@php
+    $action = route('reports.store');
+    $method = 'POST';
+    $report = $report ?? new \App\Models\Report();
+@endphp
 
 @extends('layouts.app')
+
+@section('title', 'Crea Nuovo Report')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">@yield('title')</div>
+                <div class="card-header">Inserisci P.IVA per il nuovo report</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ $action }}">
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+
+                    <form method="POST" action="{{ $action }}" id="reportForm">
                         @csrf
                         @method($method)
 
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control @error('name') is-invalid @enderror"
-                                   id="name" name="name" value="{{ old('name', $report->name) }}" required>
-                            @error('name')
-                                <div class="invalid-feedback">{{ $message }}</div>
-                            @enderror
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="piva" class="form-label">PIVA</label>
-                            <input type="text" class="form-control @error('piva') is-invalid @enderror"
-                                   id="piva" name="piva" value="{{ old('piva', $report->piva) }}" required>
+                        <div class="mb-4">
+                            <label for="piva" class="form-label">Partita IVA <span class="text-danger">*</span></label>
+                            <input type="text"
+                                   class="form-control form-control-lg text-center @error('piva') is-invalid @enderror"
+                                   id="piva"
+                                   name="piva"
+                                   value="{{ old('piva', $report->piva) }}"
+                                   placeholder="Inserisci la partita IVA (11 cifre)"
+                                   required
+                                   maxlength="11"
+                                   pattern="\d{11}"
+                                   title="Inserisci esattamente 11 cifre"
+                                   oninput="this.value = this.value.replace(/[^0-9]/g, '');">
                             @error('piva')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
+                            <div class="form-text">Inserisci la partita IVA dell'azienda (11 cifre numeriche)</div>
                         </div>
 
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="israces"
-                                   name="israces" value="1" {{ old('israces', $report->israces) ? 'checked' : '' }}>
-                            <label class="form-check-label" for="israces">Is Races</label>
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="annotation" class="form-label">Annotation</label>
-                            <textarea class="form-control @error('annotation') is-invalid @enderror"
-                                     id="annotation" name="annotation" rows="3">{{ old('annotation', $report->annotation) }}</textarea>
-                            @error('annotation')
-                                <div class="invalid-feedback">{{ $message }}</div>
-                            @enderror
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="apicervedcode" class="form-label">API Cerved Code</label>
-                            <input type="number" class="form-control @error('apicervedcode') is-invalid @enderror"
-                                   id="apicervedcode" name="apicervedcode" value="{{ old('apicervedcode', $report->apicervedcode) }}">
-                            @error('apicervedcode')
-                                <div class="invalid-feedback">{{ $message }}</div>
-                            @enderror
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="apiactivation" class="form-label">API Activation</label>
-                            <input type="datetime-local" class="form-control @error('apiactivation') is-invalid @enderror"
-                                   id="apiactivation" name="apiactivation"
-                                   value="{{ old('apiactivation', $report->apiactivation ? $report->apiactivation->format('Y-m-d\TH:i') : '') }}">
-                            @error('apiactivation')
-                                <div class="invalid-feedback">{{ $message }}</div>
-                            @enderror
-                        </div>
-
-                        <div class="d-flex justify-content-between">
-                            <a href="{{ route('reports.index') }}" class="btn btn-secondary">
-                                <i class="fas fa-arrow-left"></i> Back to List
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a href="{{ route('reports.index') }}" class="btn btn-outline-secondary me-md-2">
+                                <i class="fas fa-arrow-left me-1"></i> Torna all'elenco
                             </a>
-                            <button type="submit" class="btn btn-primary">
-                                <i class="fas fa-save"></i> {{ isset($report->id) ? 'Update' : 'Create' }} Report
+                            <button type="submit" class="btn btn-primary" id="submitBtn">
+                                <i class="fas fa-search me-1"></i> Cerca Dati
                             </button>
                         </div>
                     </form>
@@ -93,4 +59,14 @@
         </div>
     </div>
 </div>
+
+@push('scripts')
+<script>
+    document.getElementById('reportForm').addEventListener('submit', function(e) {
+        const submitBtn = document.getElementById('submitBtn');
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Ricerca in corso...';
+    });
+</script>
+@endpush
 @endsection

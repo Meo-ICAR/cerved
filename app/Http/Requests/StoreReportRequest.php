@@ -22,14 +22,16 @@ class StoreReportRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required|string|max:255',
-            'piva' => 'required|string|max:20',
-            'israces' => 'boolean',
-            'annotation' => 'nullable|string',
-            'apicervedcode' => 'nullable|integer',
-            'apicervedresponse' => 'nullable|array',
-            'apiactivation' => 'nullable|date',
-            'mediaresponse' => 'nullable|array',
+            'piva' => 'required|string|size:11|regex:/^[0-9]+$/',
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'piva.required' => 'Il campo P.IVA è obbligatorio',
+            'piva.size' => 'Il campo P.IVA deve essere di 11 cifre',
+            'piva.regex' => 'Il campo P.IVA può contenere solo numeri',
         ];
     }
 }

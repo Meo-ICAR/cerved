@@ -16,7 +16,13 @@ class Report extends Model
         'apicervedresponse',
         'apiactivation',
         'mediaresponse',
-        'user_id'
+        'user_id',
+        'id_soggetto',
+        'codice_score',
+        'descrizione_score',
+        'valore',
+        'categoria_codice',
+        'categoria_descrizione'
     ];
 
     protected $casts = [
