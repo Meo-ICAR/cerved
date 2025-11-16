@@ -116,7 +116,7 @@ public function update(UpdateReportRequest $request, Report $report)
     $report->update($validated);
 
     // Determine logo path based on israces value
-    $logoName = $report->israces ? 'logoraces.png' : 'logoabsg.png';
+    $logoName = $report->israces ? 'logoraces.jpg' : 'logoabsg.png';
     $pdfPath = "app/reports/{$report->piva}.pdf";
     $outputPath = "app/reports/{$report->piva}_FINAL.pdf";
 
@@ -126,11 +126,17 @@ public function update(UpdateReportRequest $request, Report $report)
         mkdir(public_path('app/reports'), 0755, true);
     }
 
+    // Remove existing output file if it exists
+    $outputFullPath = public_path($outputPath);
+    if (file_exists($outputFullPath)) {
+        unlink($outputFullPath);
+    }
+
     try {
         // Execute the PDF overlay command with P.IVA parameter
         \Artisan::call('pdf:overlay-logo', [
             'pdf' => $pdfPath,
-            'logo' => "public/{$logoName}",
+            'logo' => $logoName,
             'piva' => $report->piva,  // Add P.IVA parameter
             '--output' => $outputPath
         ]);

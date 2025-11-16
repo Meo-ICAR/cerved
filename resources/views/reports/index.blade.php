@@ -114,11 +114,13 @@
                                         <i class="fas fa-edit"></i>
                                     </a>
                                        @if(!empty($report->annotation))
-                                        <button type="button" class="btn btn-sm btn-info print-pdf"
-                                                data-piva="{{ $report->piva }}"
-                                                title="Stampa Report">
-                                            <i class="fas fa-print"></i>
-                                        </button>
+                                        <a href="{{ asset('app/reports/' . $report->piva . '_FINAL.pdf') }}"
+               class="btn btn-sm btn-outline-primary print-btn"
+               target="_blank"
+               data-pdf-path="{{ asset('app/reports/' . $report->piva . '_FINAL.pdf') }}"
+               title="Stampa PDF">
+                <i class="fas fa-print"></i> Stampa
+            </a>
                                     @else
                                         <button type="button" class="btn btn-sm btn-gray  print-pdf"
                                                 title="Stampa Report" disabled>
@@ -163,29 +165,25 @@
 
 @push('scripts')
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Handle print button click
-        document.querySelectorAll('.print-pdf').forEach(button => {
-            button.addEventListener('click', function() {
-                const piva = this.getAttribute('data-piva');
-                const pdfUrl = `/storage/${piva}_REPORT.pdf`;
+document.querySelectorAll('.print-btn').forEach(button => {
+    button.addEventListener('click', async function(e) {
+        e.preventDefault();
+        const pdfUrl = this.getAttribute('data-pdf-path');
 
-                // Check if PDF exists
-                fetch(pdfUrl, { method: 'HEAD' })
-                    .then(response => {
-                        if (response.ok) {
-                            // Open PDF in new tab if it exists
-                            window.open(pdfUrl, '_blank');
-                        } else {
-                            alert('Il file PDF non è disponibile.');
-                        }
-                    })
-                    .catch(() => {
-                        alert('Errore durante il recupero del file PDF.');
-                    });
-            });
-        });
+        try {
+            // Check if PDF exists
+            const response = await fetch(pdfUrl, { method: 'HEAD' });
+            if (response.ok) {
+                window.open(pdfUrl, '_blank');
+            } else {
+                alert('Il PDF non è ancora stato generato.');
+            }
+        } catch (error) {
+            console.error('Error checking PDF:', error);
+            alert('Errore durante il caricamento del PDF.');
+        }
     });
+});
 </script>
 @endpush
 

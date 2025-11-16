@@ -60,13 +60,45 @@
     </div>
 </div>
 
+// In resources/views/reports/index.blade.php
+
+// Find the print button section
+@foreach($reports as $report)
+    <tr>
+        <!-- Other columns... -->
+         <td>
+            <a href="{{ asset('app/reports/' . $report->piva . '_FINAL.pdf') }}"
+               class="btn btn-sm btn-outline-primary print-btn"
+               target="_blank"
+               data-pdf-path="{{ asset('app/reports/' . $report->piva . '_FINAL.pdf') }}"
+               title="Stampa PDF">
+                <i class="fas fa-print"></i> Stampa
+            </a>
+        </td>
+    </tr>
+@endforeach
+
 @push('scripts')
 <script>
-    document.getElementById('reportForm').addEventListener('submit', function(e) {
-        const submitBtn = document.getElementById('submitBtn');
-        submitBtn.disabled = true;
-        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Ricerca in corso...';
+document.querySelectorAll('.print-btn').forEach(button => {
+    button.addEventListener('click', async function(e) {
+        e.preventDefault();
+        const pdfUrl = this.getAttribute('data-pdf-path');
+
+        try {
+            // Check if PDF exists
+            const response = await fetch(pdfUrl, { method: 'HEAD' });
+            if (response.ok) {
+                window.open(pdfUrl, '_blank');
+            } else {
+                alert('Il PDF non è ancora stato generato.');
+            }
+        } catch (error) {
+            console.error('Error checking PDF:', error);
+            alert('Errore durante il caricamento del PDF.');
+        }
     });
+});
 </script>
 @endpush
 @endsection
