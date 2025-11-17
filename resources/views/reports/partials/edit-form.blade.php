@@ -29,6 +29,7 @@
                                             {{ $report->piva }}
                                             <i class="fas fa-external-link-alt ms-2"></i>
                                         </a>
+                                        <small class="d-block text-muted">click per visualizzare report</small>
                                         <span class="spinner-border spinner-border-sm d-none" role="status" style="width: 1rem; height: 1rem;"></span>
                                         <div class="invalid-feedback d-none">PDF non trovato</div>
                                     </div>
