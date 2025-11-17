@@ -59,25 +59,6 @@
         </div>
     </div>
 </div>
-
-// In resources/views/reports/index.blade.php
-
-// Find the print button section
-@foreach($reports as $report)
-    <tr>
-        <!-- Other columns... -->
-         <td>
-            <a href="{{ asset('app/reports/' . $report->piva . '_FINAL.pdf') }}"
-               class="btn btn-sm btn-outline-primary print-btn"
-               target="_blank"
-               data-pdf-path="{{ asset('app/reports/' . $report->piva . '_FINAL.pdf') }}"
-               title="Stampa PDF">
-                <i class="fas fa-print"></i> Stampa
-            </a>
-        </td>
-    </tr>
-@endforeach
-
 @push('scripts')
 <script>
 document.querySelectorAll('.print-btn').forEach(button => {

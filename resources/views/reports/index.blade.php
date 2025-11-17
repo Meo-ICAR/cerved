@@ -109,7 +109,14 @@
                             <td>{{ $report->updated_at->format('d/m/Y H:i') }}</td>
                             <td class="text-nowrap">
                                 <div class="btn-group" role="group">
-
+  <!-- Upload PDF Form -->
+                                    <form action="{{ route('reports.upload-pdf', $report->id) }}" method="POST" enctype="multipart/form-data" class="d-inline" id="uploadForm{{ $report->id }}">
+                                        @csrf
+                                        <input type="file" name="pdf_file" id="pdfUpload{{ $report->id }}" class="d-none" accept=".pdf">
+                                        <button type="button" class="btn btn-sm btn-info" onclick="document.getElementById('pdfUpload{{ $report->id }}').click()" title="Carica PDF">
+                                            <i class="fas fa-upload"></i>
+                                        </button>
+                                    </form>
                                     <a href="{{ route('reports.edit', $report->id) }}" class="btn btn-sm btn-warning" title="Modifica">
                                         <i class="fas fa-edit"></i>
                                     </a>
@@ -127,6 +134,8 @@
                                             <i class="fas fa-print"></i>
                                         </button>
                                     @endif
+                                  
+
                                     <form action="{{ route('reports.destroy', $report->id) }}" method="POST" class="d-inline">
                                         @csrf
                                         @method('DELETE')
@@ -165,6 +174,7 @@
 
 @push('scripts')
 <script>
+// Handle print button click
 document.querySelectorAll('.print-btn').forEach(button => {
     button.addEventListener('click', async function(e) {
         e.preventDefault();
@@ -181,6 +191,62 @@ document.querySelectorAll('.print-btn').forEach(button => {
         } catch (error) {
             console.error('Error checking PDF:', error);
             alert('Errore durante il caricamento del PDF.');
+        }
+    });
+});
+
+// Handle PDF file upload
+document.querySelectorAll('input[type="file"][name="pdf_file"]').forEach(input => {
+    input.addEventListener('change', function() {
+        const form = this.closest('form');
+        const file = this.files[0];
+        
+        if (file) {
+            if (file.size > 5 * 1024 * 1024) { // 5MB limit
+                alert('Il file non può essere più grande di 5MB');
+                return;
+            }
+            
+            if (file.type !== 'application/pdf') {
+                alert('Per favore carica un file PDF valido');
+                return;
+            }
+            
+            // Show loading state
+            const button = form.querySelector('button[type="button"]');
+            const originalHTML = button.innerHTML;
+            button.disabled = true;
+            button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Caricamento...';
+            
+            // Submit the form
+            const formData = new FormData(form);
+            
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.reload();
+                } else {
+                    throw new Error(data.message || 'Errore durante il caricamento del file');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert(error.message || 'Si è verificato un errore durante il caricamento del file');
+            })
+            .finally(() => {
+                button.disabled = false;
+                button.innerHTML = originalHTML;
+                // Reset the input to allow re-uploading the same file
+                input.value = '';
+            });
         }
     });
 });

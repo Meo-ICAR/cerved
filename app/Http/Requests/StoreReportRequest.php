@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Models\Report;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StoreReportRequest extends FormRequest
@@ -22,7 +23,17 @@ class StoreReportRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'piva' => 'required|string|size:11|regex:/^[0-9]+$/',
+            'piva' => [
+                'required',
+                'string',
+                'size:11',
+                'regex:/^[0-9]+$/i',
+                function ($attribute, $value, $fail) {
+                    if (Report::where('piva', $value)->exists()) {
+                        $fail('Un report con questa P.IVA esiste già.');
+                    }
+                },
+            ],
         ];
     }
 

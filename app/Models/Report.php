@@ -22,7 +22,14 @@ class Report extends Model
         'descrizione_score',
         'valore',
         'categoria_codice',
-        'categoria_descrizione'
+        'categoria_descrizione',
+        'file_uploaded_at'
+    ];
+    
+    protected $dates = [
+        'created_at',
+        'updated_at',
+        'file_uploaded_at'
     ];
 
     protected $casts = [

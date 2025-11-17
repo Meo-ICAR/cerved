@@ -189,8 +189,8 @@ $annotation = html_entity_decode($annotation, ENT_QUOTES | ENT_HTML5, 'UTF-8');
 $annotation = strip_tags($annotation);
 $annotation = mb_convert_encoding($annotation, 'UTF-8', 'auto');
 // Replace common problematic characters
-$search = ['à','è','é','ì','ò','ù','À','È','É','Ì','Ò','Ù','&nbsp','&egrave'];
-$replace = ['a','e','e','i','o','u','A','E','E','Ì','O','U',' ','e'];
+$search = ['à','è','é','ì','ò','ù','À','È','É','Ì','Ò','Ù','&nbsp','&egrave','&agrave'];
+$replace = ['a','e','e','i','o','u','A','E','E','I','O','U',' ','e','a'];
 $annotation = str_replace($search, $replace, $annotation);
 $annotation = trim($annotation);
 // Split into lines and add to PDF

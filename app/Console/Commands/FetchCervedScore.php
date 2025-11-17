@@ -37,13 +37,20 @@ class FetchCervedScore extends Command
             return 1;
         }
 
-        // Get the report if ID is provided
+        // If no report ID is provided, try to find an existing report with the same P.IVA
         $report = null;
         if ($reportId) {
             $report = Report::find($reportId);
             if (!$report) {
                 $this->error("Report with ID {$reportId} not found.");
                 return 1;
+            }
+        } else {
+            $report = Report::where('piva', $piva)->first();
+            if ($report) {
+                $this->info("Found existing report ID: {$report->id} for P.IVA: {$piva}");
+            } else {
+                $this->info("No existing report found for P.IVA: {$piva}, a new one will be created.");
             }
         }
 

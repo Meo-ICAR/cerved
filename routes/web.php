@@ -27,6 +27,9 @@ Route::prefix('cerved/entities')->name('cerved.entity.')->group(function () {
 
 // Reports Resource Routes
 Route::resource('reports', \App\Http\Controllers\ReportController::class)->middleware('auth');
+Route::post('reports/{report}/upload-pdf', [\App\Http\Controllers\ReportController::class, 'uploadPdf'])
+    ->name('reports.upload-pdf')
+    ->middleware('auth');
 
 // Authentication Routes
 Auth::routes();

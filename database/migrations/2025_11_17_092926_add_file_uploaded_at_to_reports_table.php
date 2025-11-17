@@ -11,9 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('people', function (Blueprint $table) {
-            $table->bigInteger('id_soggetto')->nullable()->after('id');
-            $table->unique('id_soggetto');
+        Schema::table('reports', function (Blueprint $table) {
+            $table->timestamp('file_uploaded_at')->nullable()->after('categoria_descrizione');
         });
     }
 
@@ -22,9 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('people', function (Blueprint $table) {
-            $table->dropUnique(['id_soggetto']);
-            $table->dropColumn('id_soggetto');
+        Schema::table('reports', function (Blueprint $table) {
+            $table->dropColumn('file_uploaded_at');
         });
     }
 };
