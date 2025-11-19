@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\ImportFabbricati::class,
         \App\Console\Commands\ReplaceTextInPdf::class,
         \App\Console\Commands\ReplacePdfTextAdvanced::class,
+        \App\Console\Commands\TransformReportToHtml::class,
     ];
 
     /**

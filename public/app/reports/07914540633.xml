@@ -1,0 +1,2517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightReport>
+	<Subsidiaries>
+		<CompanyName>MONDO IN CAMMINO COOPERATIVA SOCIALE</CompanyName>
+		<IDCompany>2782573</IDCompany>
+		<TaxCode>07914540633</TaxCode>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>SCALELLA ASSUNTA</OthersubsidiarieInfos>
+			<TaxCode>SCLSNT48D47F839M</TaxCode>
+			<MainPositionCode>CON</MainPositionCode>
+			<MainPosition>CONSIGLIERE</MainPosition>
+			<MainPositionPriority>93</MainPositionPriority>
+			<MainPositionSource>E</MainPositionSource>
+			<ID>323557216</ID>
+			<IsPerson>true</IsPerson>
+			<SubjectId>323557216</SubjectId>
+			<FlagPP>true</FlagPP>
+			<FlagPc>false</FlagPc>
+			<CgrFlags>
+				<CgrPr>5</CgrPr>
+				<CgrPa>10</CgrPa>
+				<CgrPb>0</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>0</CgrF>
+				<CgrPrA>0</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>LEONARDI GIOVANNI</OthersubsidiarieInfos>
+			<TaxCode>LNRGNN75R15F839A</TaxCode>
+			<MainPositionCode>PCA</MainPositionCode>
+			<MainPosition>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</MainPosition>
+			<MainPositionPriority>28</MainPositionPriority>
+			<MainPositionSource>E</MainPositionSource>
+			<ID>6866172</ID>
+			<IsPerson>true</IsPerson>
+			<SubjectId>318382080</SubjectId>
+			<FlagPP>true</FlagPP>
+			<FlagPc>false</FlagPc>
+			<CgrFlags>
+				<CgrPr>5</CgrPr>
+				<CgrPa>10</CgrPa>
+				<CgrPb>10</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>0</CgrF>
+				<CgrPrA>0</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>LEONARDI ROBERTA LORENZA</OthersubsidiarieInfos>
+			<TaxCode>LNRRRT04S53A024G</TaxCode>
+			<MainPositionCode>CON</MainPositionCode>
+			<MainPosition>CONSIGLIERE</MainPosition>
+			<MainPositionPriority>93</MainPositionPriority>
+			<MainPositionSource>E</MainPositionSource>
+			<ID>401952666</ID>
+			<IsPerson>true</IsPerson>
+			<SubjectId>401952666</SubjectId>
+			<FlagPP>true</FlagPP>
+			<FlagPc>false</FlagPc>
+			<CgrFlags>
+				<CgrPr>5</CgrPr>
+				<CgrPa>10</CgrPa>
+				<CgrPb>0</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>0</CgrF>
+				<CgrPrA>0</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>LG GROUP S.R.L.</OthersubsidiarieInfos>
+			<TaxCode>10032441213</TaxCode>
+			<MainPositionCode>AUN</MainPositionCode>
+			<MainPositionPriority>70</MainPositionPriority>
+			<MainPositionSource>C</MainPositionSource>
+			<ID>400347460</ID>
+			<IsPerson>false</IsPerson>
+			<SubjectId>400347460</SubjectId>
+			<ConnectedPosition>
+				<Subject>
+					<SubjectId>318382080</SubjectId>
+					<ID>6866172</ID>
+					<Name>LEONARDI GIOVANNI</Name>
+					<TaxCode>LNRGNN75R15F839A</TaxCode>
+					<IsPerson>true</IsPerson>
+					<MainPosition>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</MainPosition>
+					<MainPositionPriority>28</MainPositionPriority>
+					<MainPositionSource>E</MainPositionSource>
+				</Subject>
+				<MainPosition>AMMINISTRATORE UNICO</MainPosition>
+				<MainPositionPriority>70</MainPositionPriority>
+				<MainPositionSource>CE</MainPositionSource>
+			</ConnectedPosition>
+			<FlagPP>false</FlagPP>
+			<FlagPc>true</FlagPc>
+			<CgrFlags>
+				<CgrPr>0</CgrPr>
+				<CgrPa>0</CgrPa>
+				<CgrPb>0</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>10</CgrF>
+				<CgrPrA>10</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>VALUE INVESTMENT S.R.L.</OthersubsidiarieInfos>
+			<TaxCode>09126701219</TaxCode>
+			<MainPositionCode>AUN</MainPositionCode>
+			<MainPositionPriority>70</MainPositionPriority>
+			<MainPositionSource>C</MainPositionSource>
+			<ID>387462866</ID>
+			<IsPerson>false</IsPerson>
+			<SubjectId>387462866</SubjectId>
+			<ConnectedPosition>
+				<Subject>
+					<SubjectId>318382080</SubjectId>
+					<ID>6866172</ID>
+					<Name>LEONARDI GIOVANNI</Name>
+					<TaxCode>LNRGNN75R15F839A</TaxCode>
+					<IsPerson>true</IsPerson>
+					<MainPosition>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</MainPosition>
+					<MainPositionPriority>28</MainPositionPriority>
+					<MainPositionSource>E</MainPositionSource>
+				</Subject>
+				<MainPosition>AMMINISTRATORE UNICO</MainPosition>
+				<MainPositionPriority>70</MainPositionPriority>
+				<MainPositionSource>CX</MainPositionSource>
+			</ConnectedPosition>
+			<FlagPP>false</FlagPP>
+			<FlagPc>true</FlagPc>
+			<CgrFlags>
+				<CgrPr>0</CgrPr>
+				<CgrPa>0</CgrPa>
+				<CgrPb>0</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>10</CgrF>
+				<CgrPrA>10</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>IL MONDO DI ANNA SOCIETA' COOPERATIVA SOCIALE</OthersubsidiarieInfos>
+			<TaxCode>09739801216</TaxCode>
+			<MainPositionCode>AUN</MainPositionCode>
+			<MainPositionPriority>70</MainPositionPriority>
+			<MainPositionSource>C</MainPositionSource>
+			<ID>396798019</ID>
+			<IsPerson>false</IsPerson>
+			<SubjectId>396798019</SubjectId>
+			<ConnectedPosition>
+				<Subject>
+					<SubjectId>318382080</SubjectId>
+					<ID>6866172</ID>
+					<Name>LEONARDI GIOVANNI</Name>
+					<TaxCode>LNRGNN75R15F839A</TaxCode>
+					<IsPerson>true</IsPerson>
+					<MainPosition>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</MainPosition>
+					<MainPositionPriority>28</MainPositionPriority>
+					<MainPositionSource>E</MainPositionSource>
+				</Subject>
+				<MainPosition>AMMINISTRATORE UNICO</MainPosition>
+				<MainPositionPriority>70</MainPositionPriority>
+				<MainPositionSource>CX</MainPositionSource>
+			</ConnectedPosition>
+			<FlagPP>false</FlagPP>
+			<FlagPc>true</FlagPc>
+			<CgrFlags>
+				<CgrPr>0</CgrPr>
+				<CgrPa>0</CgrPa>
+				<CgrPb>0</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>10</CgrF>
+				<CgrPrA>10</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<Othersubsidiaries>
+			<OthersubsidiarieInfos>SIRIA COOPERATIVA SOCIALE IN LIQUIDAZIONE</OthersubsidiarieInfos>
+			<TaxCode>05080251217</TaxCode>
+			<MainPositionCode>VPA</MainPositionCode>
+			<MainPositionPriority>49</MainPositionPriority>
+			<MainPositionSource>C</MainPositionSource>
+			<ID>8142905</ID>
+			<IsPerson>false</IsPerson>
+			<SubjectId>8142905</SubjectId>
+			<ConnectedPosition>
+				<Subject>
+					<SubjectId>318382080</SubjectId>
+					<ID>6866172</ID>
+					<Name>LEONARDI GIOVANNI</Name>
+					<TaxCode>LNRGNN75R15F839A</TaxCode>
+					<IsPerson>true</IsPerson>
+					<MainPosition>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</MainPosition>
+					<MainPositionPriority>28</MainPositionPriority>
+					<MainPositionSource>E</MainPositionSource>
+				</Subject>
+				<MainPosition>VICE PRESIDENTE CONSIGLIO AMMINISTRAZIONE</MainPosition>
+				<MainPositionPriority>49</MainPositionPriority>
+				<MainPositionSource>CE</MainPositionSource>
+			</ConnectedPosition>
+			<FlagPP>false</FlagPP>
+			<FlagPc>true</FlagPc>
+			<CgrFlags>
+				<CgrPr>0</CgrPr>
+				<CgrPa>0</CgrPa>
+				<CgrPb>0</CgrPb>
+				<CgrPc>0</CgrPc>
+				<CgrF>10</CgrF>
+				<CgrPrA>10</CgrPrA>
+				<CgrPrC>0</CgrPrC>
+			</CgrFlags>
+		</Othersubsidiaries>
+		<WarningEvents>false</WarningEvents>
+		<CgrFlags>
+			<CgrPr>5</CgrPr>
+			<CgrPa>10</CgrPa>
+			<CgrPb>10</CgrPb>
+			<CgrPc>0</CgrPc>
+			<CgrF>99</CgrF>
+			<CgrPrA>99</CgrPrA>
+			<CgrPrC>1</CgrPrC>
+		</CgrFlags>
+		<SubjectId>2782573</SubjectId>
+	</Subsidiaries>
+	<MyNotes>
+		<FreeText></FreeText>
+	</MyNotes>
+	<ItemInformation>
+		<CompanyInformation>
+			<IDCompany>2782573</IDCompany>
+			<CompanyName>MONDO IN CAMMINO COOPERATIVA SOCIALE</CompanyName>
+			<CompanyForm LegalFormCode="SC" LegalFormDescription="Coop." LegalFormType="C" LegalFormSubtype="SRL">
+				SOCIETA' COOPERATIVA
+			</CompanyForm>
+			<TaxCode>07914540633</TaxCode>
+			<VATRegistrationNo>07914540633</VATRegistrationNo>
+			<Address>
+				<PostCode>80014</PostCode>
+				<Province Code="NA"/>
+				<Street>VICO POZZO 2</Street>
+				<Municipality IstatCode="NA034">GIUGLIANO IN CAMPANIA</Municipality>
+			</Address>
+		</CompanyInformation>
+		<OfficialCompanyName>MONDO IN CAMMINO COOPERATIVA SOCIALE</OfficialCompanyName>
+		<CertifiedEmail>MONDOINCAMMINO@COOPERATIVA-PEC.IT</CertifiedEmail>
+		<ActivityStatus>A</ActivityStatus>
+		<ActivityStatusDescription>ATTIVA</ActivityStatusDescription>
+		<IncorporationDate day="5" month="6" year="2002" hour24="0" minutes="0" seconds="0">2002-06-05+02:00
+		</IncorporationDate>
+		<ActivityStartDate day="4" month="9" year="2002" hour24="0" minutes="0" seconds="0">2002-09-04+02:00
+		</ActivityStartDate>
+		<ActivityStatusStartDate day="4" month="9" year="2002" hour24="0" minutes="0" seconds="0">2002-09-04+02:00
+		</ActivityStatusStartDate>
+		<ReaCode>
+			<CoCProvinceCode>NA</CoCProvinceCode>
+			<REANo>679379</REANo>
+		</ReaCode>
+		<RegistrationDate day="5" month="7" year="2002" hour24="0" minutes="0" seconds="0">2002-07-05+02:00
+		</RegistrationDate>
+		<CompanyCode>85416719</CompanyCode>
+		<ISTATCode2025 Code="88/25" Type="C">Attivita' di assistenza sociale non residenziale</ISTATCode2025>
+		<ISTATCode Code="88/07" Type="C">ASSISTENZA SOCIALE NON RESIDENZIALE</ISTATCode>
+		<RaeCode2025>950</RaeCode2025>
+		<RaeCode>950</RaeCode>
+		<SaeCode2025>430</SaeCode2025>
+		<SaeCode>430</SaeCode>
+		<NaceCode2025>88</NaceCode2025>
+		<NaceCode>88</NaceCode>
+		<OfficesAndSubOrganizationsNumber>8</OfficesAndSubOrganizationsNumber>
+		<SpecialSectionList>
+			<SpecialSection>
+				<Code description="Iscritta nell'apposita sezione speciale in qualita' di IMPRESA SOCIALE">L</Code>
+				<FirstInscriptionInSection day="26" month="7" year="2018" hour24="0" minutes="0" seconds="0">
+					2018-07-26+02:00
+				</FirstInscriptionInSection>
+			</SpecialSection>
+			<SpecialSection>
+				<Code description="Iscritta nella sezione ORDINARIA">O</Code>
+				<FirstInscriptionInSection day="5" month="7" year="2002" hour24="0" minutes="0" seconds="0">
+					2002-07-05+02:00
+				</FirstInscriptionInSection>
+			</SpecialSection>
+			<SpecialSection>
+				<Code description="Iscritta nella sezione speciale ALTERNANZA SCUOLA-LAVORO">Q</Code>
+				<FirstInscriptionInSection day="10" month="6" year="2016" hour24="0" minutes="0" seconds="0">
+					2016-06-10+02:00
+				</FirstInscriptionInSection>
+			</SpecialSection>
+			<SpecialSection>
+				<Code description="Iscrizione titolarità effettiva nella sezione autonoma">E</Code>
+				<FirstInscriptionInSection day="6" month="12" year="2023" hour24="0" minutes="0" seconds="0">
+					2023-12-06+01:00
+				</FirstInscriptionInSection>
+			</SpecialSection>
+		</SpecialSectionList>
+	</ItemInformation>
+	<Activity>
+		<ActivityDescription Type="Official">Attivita' di assistenza sociale non residenziale</ActivityDescription>
+	</Activity>
+	<DeliveryAndSummaryDetails>
+		<DeliveredOn day="27" month="6" year="2025" hour24="15" minutes="10" seconds="46">2025-06-27+02:00</DeliveredOn>
+		<CervedGroupCode>2782573</CervedGroupCode>
+		<CompanySituation Code="A">ATTIVA</CompanySituation>
+		<ActivityStatusStartDate day="4" month="9" year="2002" hour24="0" minutes="0" seconds="0">2002-09-04+02:00
+		</ActivityStatusStartDate>
+		<ActiveOnTheMarketSince day="4" month="9" year="2002" hour24="0" minutes="0" seconds="0">2002-09-04+02:00
+		</ActiveOnTheMarketSince>
+		<CreditRequestsBanks>8</CreditRequestsBanks>
+		<RequestedService>Light Report</RequestedService>
+		<ProductCode>52015</ProductCode>
+		<CreditRequestsLastTwelveMonths>9</CreditRequestsLastTwelveMonths>
+		<CdRequest>4369761988</CdRequest>
+		<UserId>CGU108811</UserId>
+	</DeliveryAndSummaryDetails>
+	<Protests>
+		<ProtestsSimilarityExists>true</ProtestsSimilarityExists>
+	</Protests>
+	<Bankruptcy/>
+	<AgreedWindingUpProcedures/>
+	<PressCuttingsDirectory>
+		<PressCuttingsDirectoryList/>
+		<ReviewCount>0</ReviewCount>
+	</PressCuttingsDirectory>
+	<ExtraordinaryEvents>
+		<ExtraordinaryEventsList>
+			<EventItem>
+				<Type>TRANSFER</Type>
+				<TransferType>COMPRAVENDITA</TransferType>
+				<DeedDate day="1" month="4" year="2014" hour24="0" minutes="0" seconds="0">2014-04-01+02:00</DeedDate>
+				<RegisterDate day="4" month="4" year="2014" hour24="0" minutes="0" seconds="0">2014-04-04+02:00
+				</RegisterDate>
+				<FilingDate day="4" month="4" year="2014" hour24="0" minutes="0" seconds="0">2014-04-04+02:00
+				</FilingDate>
+				<ReferenceNo>1628</ReferenceNo>
+				<Notary>D'AMBROSIO CHIARA</Notary>
+				<TransfereeDescription>Cessionario</TransfereeDescription>
+				<TransfereeName>HAPPY CHILDREN S.A.S. DI PELLEGRINO ANGELA &amp; C.- IMPRESA SOCIALE</TransfereeName>
+				<TransfereeTaxCode>06631331219</TransfereeTaxCode>
+				<TransferorDescription>Cedente</TransferorDescription>
+				<TransferorName>MONDO IN CAMMINO COOPERATIVA SOCIALE</TransferorName>
+				<TransferorTaxCode>07914540633</TransferorTaxCode>
+				<TransfereeList>
+					<Transferee>
+						<Name>HAPPY CHILDREN S.A.S. DI PELLEGRINO ANGELA &amp; C.- IMPRESA SOCIALE</Name>
+						<TaxCode>06631331219</TaxCode>
+					</Transferee>
+				</TransfereeList>
+				<TransferorList>
+					<Transferor>
+						<Name>MONDO IN CAMMINO COOPERATIVA SOCIALE</Name>
+						<TaxCode>07914540633</TaxCode>
+					</Transferor>
+				</TransferorList>
+			</EventItem>
+		</ExtraordinaryEventsList>
+		<TransferCount>1</TransferCount>
+		<MergerCount>0</MergerCount>
+		<ChangeCount>0</ChangeCount>
+		<WindingUpProcedureCount>0</WindingUpProcedureCount>
+		<ReplacementCount>1</ReplacementCount>
+		<MoreEvents>false</MoreEvents>
+		<AbroadTransferCount>0</AbroadTransferCount>
+		<SeizureCount>0</SeizureCount>
+	</ExtraordinaryEvents>
+	<CompanyEmployee>
+		<Year>2024</Year>
+		<NumberOfEmployees>123</NumberOfEmployees>
+		<DateUpdate day="8" month="6" year="2025" hour24="13" minutes="47" seconds="6">2025-06-08+02:00</DateUpdate>
+		<Source>I</Source>
+		<StaffEmployeesNumber>138</StaffEmployeesNumber>
+		<IndependentWorkersNumber>0</IndependentWorkersNumber>
+		<LastQuarter>IV</LastQuarter>
+		<MunicipalityEmployeesList>
+			<MunicipalityEmployees>
+				<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+				<Province>NA</Province>
+				<LocalEmployeesNumber>138</LocalEmployeesNumber>
+				<LocalStaffEmployeesNumber>138</LocalStaffEmployeesNumber>
+				<LocalIndipedentWorkersNumber>0</LocalIndipedentWorkersNumber>
+				<PercentageLocalEmployees>100.0</PercentageLocalEmployees>
+				<EmployeesTrend>34.78</EmployeesTrend>
+			</MunicipalityEmployees>
+		</MunicipalityEmployeesList>
+	</CompanyEmployee>
+	<Offices>
+		<RegisteredOffice>
+			<RegisteredOfficeAddress>
+				<PostCode>80014</PostCode>
+				<Province Code="NA"/>
+				<Street>VICO POZZO 2</Street>
+				<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+			</RegisteredOfficeAddress>
+			<ActivityStartDate day="9" month="5" year="2022" hour24="0" minutes="0" seconds="0">2022-05-09+02:00
+			</ActivityStartDate>
+			<Ateco Code="88" Type="25">Attivita' di assistenza sociale non residenziale</Ateco>
+		</RegisteredOffice>
+		<BusinessUnit>
+			<PrvLocalUnit>NA</PrvLocalUnit>
+			<LocalUnit>2</LocalUnit>
+			<OfficeAddress>
+				<PostCode>80014</PostCode>
+				<Province Code="NA"/>
+				<Street>VICO POZZO 2</Street>
+				<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+			</OfficeAddress>
+			<Type>Ufficio</Type>
+			<BranchOpeningDate day="15" month="3" year="2012" hour24="0" minutes="0" seconds="0">2012-03-15+01:00
+			</BranchOpeningDate>
+		</BusinessUnit>
+		<BusinessUnit>
+			<PrvLocalUnit>NA</PrvLocalUnit>
+			<LocalUnit>3</LocalUnit>
+			<OfficeAddress>
+				<PostCode>80014</PostCode>
+				<Province Code="NA"/>
+				<Street>VIA SAN FRANCESCO A PATRIA 32</Street>
+				<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+			</OfficeAddress>
+			<Type>C210UL</Type>
+			<BrandName>IL GIRASOLE</BrandName>
+			<BranchOpeningDate day="23" month="7" year="2018" hour24="0" minutes="0" seconds="0">2018-07-23+02:00
+			</BranchOpeningDate>
+		</BusinessUnit>
+		<BusinessUnit>
+			<PrvLocalUnit>NA</PrvLocalUnit>
+			<LocalUnit>7</LocalUnit>
+			<OfficeAddress>
+				<PostCode>80014</PostCode>
+				<Province Code="NA"/>
+				<Street>VIA ARTURO LABRIOLA 2</Street>
+				<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+			</OfficeAddress>
+			<Type>C210UL</Type>
+			<BrandName>KOROGOCHO</BrandName>
+			<BranchOpeningDate day="19" month="12" year="2022" hour24="0" minutes="0" seconds="0">2022-12-19+01:00
+			</BranchOpeningDate>
+		</BusinessUnit>
+		<BusinessUnit>
+			<PrvLocalUnit>NA</PrvLocalUnit>
+			<LocalUnit>8</LocalUnit>
+			<OfficeAddress>
+				<PostCode>80017</PostCode>
+				<Province Code="NA"/>
+				<Street>VIALE DELLE GINESTRE FABB A</Street>
+				<Municipality>MELITO DI NAPOLI</Municipality>
+			</OfficeAddress>
+			<Type>C210UL</Type>
+			<BrandName>LA CASA DI ROS</BrandName>
+			<BranchOpeningDate day="16" month="10" year="2024" hour24="0" minutes="0" seconds="0">2024-10-16+02:00
+			</BranchOpeningDate>
+		</BusinessUnit>
+	</Offices>
+	<OfficialDirectors>
+		<CountView>4</CountView>
+		<Director>
+			<Individual>
+				<IDPerson>6866172</IDPerson>
+				<SubjectId>318382080</SubjectId>
+				<FirstName>GIOVANNI</FirstName>
+				<LastName>LEONARDI</LastName>
+				<TaxCode>LNRGNN75R15F839A</TaxCode>
+				<BirthDate day="15" month="10" year="1975" hour24="0" minutes="0" seconds="0">1975-10-15+01:00
+				</BirthDate>
+				<BirthPlace>NAPOLI (NA)</BirthPlace>
+				<ResidenceAddress Type="R">
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA DANTE ALIGHIERI 20</Street>
+					<Municipality IstatCode="034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</ResidenceAddress>
+				<OtherAddress>
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA DANTE ALIGHIERI 20</Street>
+					<Municipality IstatCode="NA034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>04024</PostCode>
+					<Province Code="LT"/>
+					<Street>VIA BUONOMO IV VICOLO 11</Street>
+					<Municipality IstatCode="LT009">GAETA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>04100</PostCode>
+					<Province Code="LT"/>
+					<Street>VIA G. BUONOMO VICO 4</Street>
+					<Municipality IstatCode="LT011">LATINA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+			</Individual>
+			<IndividualPosition Code="170">
+				<Type>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</Type>
+				<StartDate day="22" month="12" year="2009" hour24="0" minutes="0" seconds="0">2009-12-22+01:00
+				</StartDate>
+				<Duration>FINO APPROVAZIONE DEL BILANCIO 31/12/2026</Duration>
+			</IndividualPosition>
+			<IndividualPosition Code="43">
+				<Type>CONSIGLIERE</Type>
+				<StartDate day="14" month="11" year="2017" hour24="0" minutes="0" seconds="0">2017-11-14+01:00
+				</StartDate>
+				<Duration>FINO APPROVAZIONE DEL BILANCIO 31/12/2026</Duration>
+			</IndividualPosition>
+			<LegalRepresentativeRI>true</LegalRepresentativeRI>
+		</Director>
+		<Director>
+			<Individual>
+				<IDPerson>323557216</IDPerson>
+				<SubjectId>323557216</SubjectId>
+				<FirstName>ASSUNTA</FirstName>
+				<LastName>SCALELLA</LastName>
+				<TaxCode>SCLSNT48D47F839M</TaxCode>
+				<BirthDate day="7" month="4" year="1948" hour24="0" minutes="0" seconds="0">1948-04-07+02:00</BirthDate>
+				<BirthPlace>NAPOLI (NA)</BirthPlace>
+				<ResidenceAddress Type="D">
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>NICCOLO' JOMMELLI 2</Street>
+					<Municipality IstatCode="034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</ResidenceAddress>
+				<OtherAddress>
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA NICOL JOMMELLI 2</Street>
+					<Municipality IstatCode="NA034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA NICOL JOMMELLI 2</Street>
+					<Municipality IstatCode="NA034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA NICOLÒ JOMMELLI 2</Street>
+					<Municipality IstatCode="NA034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+			</Individual>
+			<IndividualPosition Code="43">
+				<Type>CONSIGLIERE</Type>
+				<StartDate day="20" month="2" year="2014" hour24="0" minutes="0" seconds="0">2014-02-20+01:00
+				</StartDate>
+				<Duration>FINO APPROVAZIONE DEL BILANCIO 31/12/2026</Duration>
+			</IndividualPosition>
+		</Director>
+		<Director>
+			<Individual>
+				<IDPerson>401952666</IDPerson>
+				<SubjectId>401952666</SubjectId>
+				<FirstName>ROBERTA LORENZA</FirstName>
+				<LastName>LEONARDI</LastName>
+				<TaxCode>LNRRRT04S53A024G</TaxCode>
+				<BirthDate day="13" month="11" year="2004" hour24="0" minutes="0" seconds="0">2004-11-13+01:00
+				</BirthDate>
+				<BirthPlace>ACERRA (NA)</BirthPlace>
+				<ResidenceAddress Type="D">
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA DANTE ALIGHIERI 20</Street>
+					<Municipality IstatCode="034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</ResidenceAddress>
+				<OtherAddress>
+					<PostCode>80014</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA DANTE ALIGHIERI 20</Street>
+					<Municipality IstatCode="NA034">GIUGLIANO IN CAMPANIA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+			</Individual>
+			<IndividualPosition Code="43">
+				<Type>CONSIGLIERE</Type>
+				<StartDate day="23" month="1" year="2024" hour24="0" minutes="0" seconds="0">2024-01-23+01:00
+				</StartDate>
+				<Duration>FINO APPROVAZIONE DEL BILANCIO 31/12/2026</Duration>
+			</IndividualPosition>
+		</Director>
+		<Director>
+			<Individual>
+				<IDPerson>8024412</IDPerson>
+				<SubjectId>323140038</SubjectId>
+				<FirstName>ROSARIO</FirstName>
+				<LastName>VECCHIONE</LastName>
+				<TaxCode>VCCRSR75S13F839X</TaxCode>
+				<BirthDate day="13" month="11" year="1975" hour24="0" minutes="0" seconds="0">1975-11-13+01:00
+				</BirthDate>
+				<BirthPlace>NAPOLI (NA)</BirthPlace>
+				<ResidenceAddress Type="D">
+					<PostCode>80133</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA DEI FIORENTINI 10</Street>
+					<Municipality IstatCode="049">NAPOLI</Municipality>
+					<Country>ITALIA</Country>
+				</ResidenceAddress>
+				<OtherAddress>
+					<PostCode>80010</PostCode>
+					<Province Code="NA"/>
+					<Street>CORSO ITALIA 140</Street>
+					<Municipality IstatCode="NA087">VILLARICCA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80013</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA NAPOLI 125</Street>
+					<Municipality IstatCode="NA017">CASALNUOVO DI NAPOLI</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80100</PostCode>
+					<Province Code="NA"/>
+					<Street>CENTRO DIREZIONALE DI NAPOLI IS. F3</Street>
+					<Municipality IstatCode="NA049">NAPOLI</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80133</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA DEI FIORENTINI 10</Street>
+					<Municipality IstatCode="NA049">NAPOLI</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80128</PostCode>
+					<Province Code="NA"/>
+					<Street>VIA LUIGI CALDIERI 132</Street>
+					<Municipality IstatCode="NA049">NAPOLI</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+				<OtherAddress>
+					<PostCode>80010</PostCode>
+					<Province Code="NA"/>
+					<Street>CORSO ITALIA 140/F</Street>
+					<Municipality IstatCode="NA087">VILLARICCA</Municipality>
+					<Country>ITALIA</Country>
+				</OtherAddress>
+			</Individual>
+			<IndividualPosition Code="215">
+				<Type>REVISORE LEGALE</Type>
+				<StartDate day="4" month="3" year="2020" hour24="0" minutes="0" seconds="0">2020-03-04+01:00</StartDate>
+				<Duration>FINO APPROVAZIONE DEL BILANCIO 31/12/2025</Duration>
+			</IndividualPosition>
+		</Director>
+	</OfficialDirectors>
+	<CompanyDevelopmentIndicators>
+		<BalanceSheetRatios>
+			<IdentificationCode>41116844</IdentificationCode>
+			<RiclassificationSchema>1</RiclassificationSchema>
+			<ClosingDate day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00
+			</ClosingDate>
+			<ReferenceYear>2023</ReferenceYear>
+			<LegalDuration>12</LegalDuration>
+			<Voices>
+				<Sales>
+					<Value>2746</Value>
+				</Sales>
+				<OperatingProfit>
+					<Value>225</Value>
+				</OperatingProfit>
+				<CashFlow>
+					<Value>324</Value>
+				</CashFlow>
+				<NetResultOrLoss>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</NetResultOrLoss>
+				<DebtRatio>
+					<Value>1.09146</Value>
+				</DebtRatio>
+				<CurrentAssetsRatio>
+					<Value>225.6</Value>
+				</CurrentAssetsRatio>
+				<FinancialResult>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FinancialResult>
+				<ProfitOfTheYearBeforeFinancialCosts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ProfitOfTheYearBeforeFinancialCosts>
+				<SelfFfinancing>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</SelfFfinancing>
+				<ProfitAndLoss>
+					<Value>132</Value>
+				</ProfitAndLoss>
+				<IntermediationMargin>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</IntermediationMargin>
+				<InterestMargin>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</InterestMargin>
+				<ShareholdersFundsOnFinancialLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFundsOnFinancialLiabilities>
+				<FinancialAssetsOnFinancialLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FinancialAssetsOnFinancialLiabilities>
+				<ShareholdersFundsOnFinancialDebts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFundsOnFinancialDebts>
+				<ProfitableAssetsOnFinancialDebts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ProfitableAssetsOnFinancialDebts>
+				<Roi>
+					<Value>7.5</Value>
+				</Roi>
+				<Roe>
+					<Value>7.5</Value>
+				</Roe>
+				<FixedAssets>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FixedAssets>
+				<CurrentAssets>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</CurrentAssets>
+				<ShareholdersFunds>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFunds>
+				<MiddleLongTermLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</MiddleLongTermLiabilities>
+				<CurrentLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</CurrentLiabilities>
+			</Voices>
+		</BalanceSheetRatios>
+		<BalanceSheetRatios>
+			<IdentificationCode>38450102</IdentificationCode>
+			<RiclassificationSchema>1</RiclassificationSchema>
+			<ClosingDate day="31" month="12" year="2022" hour24="0" minutes="0" seconds="0">2022-12-31+01:00
+			</ClosingDate>
+			<ReferenceYear>2022</ReferenceYear>
+			<LegalDuration>12</LegalDuration>
+			<Voices>
+				<Sales>
+					<Value>2898</Value>
+				</Sales>
+				<OperatingProfit>
+					<Value>301</Value>
+				</OperatingProfit>
+				<CashFlow>
+					<Value>411</Value>
+				</CashFlow>
+				<NetResultOrLoss>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</NetResultOrLoss>
+				<DebtRatio>
+					<Value>1.182834</Value>
+				</DebtRatio>
+				<CurrentAssetsRatio>
+					<Value>247.5</Value>
+				</CurrentAssetsRatio>
+				<FinancialResult>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FinancialResult>
+				<ProfitOfTheYearBeforeFinancialCosts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ProfitOfTheYearBeforeFinancialCosts>
+				<SelfFfinancing>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</SelfFfinancing>
+				<ProfitAndLoss>
+					<Value>205</Value>
+				</ProfitAndLoss>
+				<IntermediationMargin>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</IntermediationMargin>
+				<InterestMargin>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</InterestMargin>
+				<ShareholdersFundsOnFinancialLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFundsOnFinancialLiabilities>
+				<FinancialAssetsOnFinancialLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FinancialAssetsOnFinancialLiabilities>
+				<ShareholdersFundsOnFinancialDebts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFundsOnFinancialDebts>
+				<ProfitableAssetsOnFinancialDebts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ProfitableAssetsOnFinancialDebts>
+				<Roi>
+					<Value>10.7</Value>
+				</Roi>
+				<Roe>
+					<Value>12.7</Value>
+				</Roe>
+				<FixedAssets>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FixedAssets>
+				<CurrentAssets>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</CurrentAssets>
+				<ShareholdersFunds>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFunds>
+				<MiddleLongTermLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</MiddleLongTermLiabilities>
+				<CurrentLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</CurrentLiabilities>
+			</Voices>
+		</BalanceSheetRatios>
+		<BalanceSheetRatios>
+			<IdentificationCode>36163016</IdentificationCode>
+			<RiclassificationSchema>1</RiclassificationSchema>
+			<ClosingDate day="31" month="12" year="2021" hour24="0" minutes="0" seconds="0">2021-12-31+01:00
+			</ClosingDate>
+			<ReferenceYear>2021</ReferenceYear>
+			<LegalDuration>12</LegalDuration>
+			<Voices>
+				<Sales>
+					<Value>2378</Value>
+				</Sales>
+				<OperatingProfit>
+					<Value>522</Value>
+				</OperatingProfit>
+				<CashFlow>
+					<Value>595</Value>
+				</CashFlow>
+				<NetResultOrLoss>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</NetResultOrLoss>
+				<DebtRatio>
+					<Value>1.265469</Value>
+				</DebtRatio>
+				<CurrentAssetsRatio>
+					<Value>257</Value>
+				</CurrentAssetsRatio>
+				<FinancialResult>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FinancialResult>
+				<ProfitOfTheYearBeforeFinancialCosts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ProfitOfTheYearBeforeFinancialCosts>
+				<SelfFfinancing>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</SelfFfinancing>
+				<ProfitAndLoss>
+					<Value>435</Value>
+				</ProfitAndLoss>
+				<IntermediationMargin>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</IntermediationMargin>
+				<InterestMargin>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</InterestMargin>
+				<ShareholdersFundsOnFinancialLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFundsOnFinancialLiabilities>
+				<FinancialAssetsOnFinancialLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FinancialAssetsOnFinancialLiabilities>
+				<ShareholdersFundsOnFinancialDebts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFundsOnFinancialDebts>
+				<ProfitableAssetsOnFinancialDebts>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ProfitableAssetsOnFinancialDebts>
+				<Roi>
+					<Value>24.8</Value>
+				</Roi>
+				<Roe>
+					<Value>33.5</Value>
+				</Roe>
+				<FixedAssets>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</FixedAssets>
+				<CurrentAssets>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</CurrentAssets>
+				<ShareholdersFunds>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</ShareholdersFunds>
+				<MiddleLongTermLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</MiddleLongTermLiabilities>
+				<CurrentLiabilities>
+					<InvalidVoiceCode>ND</InvalidVoiceCode>
+				</CurrentLiabilities>
+			</Voices>
+		</BalanceSheetRatios>
+	</CompanyDevelopmentIndicators>
+	<AverageGrantableCredit background="B">
+		<CreditLimit Over="false" MaxValueEnabled="true">
+			<Code>DF07</Code>
+			<Value>85000</Value>
+		</CreditLimit>
+		<ScoreMBD>4.0</ScoreMBD>
+		<FACType>0</FACType>
+	</AverageGrantableCredit>
+	<NegativeEventsGrading>
+		<Grading>50</Grading>
+		<DescriptiveGradingSynthesisCode>C4_1</DescriptiveGradingSynthesisCode>
+		<SubScoreClass>0.0</SubScoreClass>
+		<Icon>V</Icon>
+	</NegativeEventsGrading>
+	<PaylineGradingAbsent>
+		<DescriptiveGradingSynthesisCode>ND</DescriptiveGradingSynthesisCode>
+	</PaylineGradingAbsent>
+	<LastTwelveMonthRequests>
+		<LastTwelveMonthTotalRequests>9</LastTwelveMonthTotalRequests>
+		<SearchDate day="22" month="6" year="2025" hour24="0" minutes="0" seconds="0">2025-06-22+02:00</SearchDate>
+		<isBasicDoc>false</isBasicDoc>
+		<TableRaw>
+			<MonthYear>
+				<Month>06</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>07</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>08</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>1</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>1</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>09</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>10</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>2</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>2</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>11</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>1</BankOrFinancialEntities>
+			<Companies>1</Companies>
+			<Others>0</Others>
+			<Total>2</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>12</Month>
+				<Year>2024</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>2</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>2</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>01</Month>
+				<Year>2025</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>02</Month>
+				<Year>2025</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>1</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>1</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>03</Month>
+				<Year>2025</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>1</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>1</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>04</Month>
+				<Year>2025</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>05</Month>
+				<Year>2025</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<TableRaw>
+			<MonthYear>
+				<Month>06</Month>
+				<Year>2025</Year>
+			</MonthYear>
+			<BankOrFinancialEntities>0</BankOrFinancialEntities>
+			<Companies>0</Companies>
+			<Others>0</Others>
+			<Total>0</Total>
+		</TableRaw>
+		<BeginPeriod>22-30</BeginPeriod>
+		<EndPeriod>1-22</EndPeriod>
+		<UpdateDate day="22" month="6" year="2025" hour24="0" minutes="0" seconds="0">2025-06-22+02:00</UpdateDate>
+	</LastTwelveMonthRequests>
+	<CervedGroupScore>
+		<Score>74</Score>
+		<DescriptiveScoreSynthesisCode>CGS_2</DescriptiveScoreSynthesisCode>
+		<Icon>V</Icon>
+		<ratingType>B</ratingType>
+	</CervedGroupScore>
+	<GovernanceGrading>
+		<Grading>49</Grading>
+		<DescriptiveGradingSynthesisCode>C6_1</DescriptiveGradingSynthesisCode>
+		<SubScoreClass>1.0</SubScoreClass>
+		<Icon>V</Icon>
+	</GovernanceGrading>
+	<BalanceSheetCebi>
+		<CompleteCervedBalance>
+			<ReaCode>
+				<CoCProvinceCode>NA</CoCProvinceCode>
+				<REANo>679379</REANo>
+			</ReaCode>
+			<ClosingDate day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00
+			</ClosingDate>
+			<DeedCode>710</DeedCode>
+		</CompleteCervedBalance>
+		<OriginalBalance>true</OriginalBalance>
+		<LastClosingDate day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00
+		</LastClosingDate>
+		<BalanceSheetInfo>
+			<SurveyCodeSchema>8</SurveyCodeSchema>
+			<IdentificationCode>41116844</IdentificationCode>
+			<RiclassificationSchema>1</RiclassificationSchema>
+			<FlagFinancialStatementAudit>S</FlagFinancialStatementAudit>
+			<ClosingDate day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00
+			</ClosingDate>
+			<ReferenceYear>2023</ReferenceYear>
+			<LegalDuration>12</LegalDuration>
+			<Sector>INDUSTRIA, COMMERCIO, SERVIZI</Sector>
+			<Unbalanced>false</Unbalanced>
+			<ProfitAndLoss>
+				<Sales>
+					<Value>2746</Value>
+					<Change>-5.24</Change>
+					<ReportOfComposition>95.15</ReportOfComposition>
+				</Sales>
+				<VariationsInStocks>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</VariationsInStocks>
+				<RealEstateIncr4InternalWork>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</RealEstateIncr4InternalWork>
+				<Contributions>
+					<Value>140</Value>
+					<Change>-4.11</Change>
+					<ReportOfComposition>4.85</ReportOfComposition>
+				</Contributions>
+				<TotalRevenues>
+					<Value>2886</Value>
+					<Change>-5.19</Change>
+					<ReportOfComposition>100</ReportOfComposition>
+				</TotalRevenues>
+				<CostOfGoodsSold>
+					<Value>194</Value>
+					<Change>31.08</Change>
+					<ReportOfComposition>6.72</ReportOfComposition>
+				</CostOfGoodsSold>
+				<VariationsCommodities>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</VariationsCommodities>
+				<ChargesServicesAndTPGoods>
+					<Value>902</Value>
+					<Change>-14.99</Change>
+					<ReportOfComposition>31.25</ReportOfComposition>
+				</ChargesServicesAndTPGoods>
+				<AddedValue>
+					<Value>1790</Value>
+					<Change>-2.45</Change>
+					<ReportOfComposition>62.02</ReportOfComposition>
+				</AddedValue>
+				<StaffCost>
+					<Value>1421</Value>
+					<Change>-3.07</Change>
+					<ReportOfComposition>49.24</ReportOfComposition>
+				</StaffCost>
+				<GrossProfit>
+					<Value>369</Value>
+					<Change>0</Change>
+					<ReportOfComposition>12.79</ReportOfComposition>
+				</GrossProfit>
+				<DepreciationTangibleAssets>
+					<Value>47</Value>
+					<Change>74.07</Change>
+					<ReportOfComposition>1.63</ReportOfComposition>
+				</DepreciationTangibleAssets>
+				<OperativeProvisions>
+					<Value>68</Value>
+					<Change>-29.17</Change>
+					<ReportOfComposition>2.36</ReportOfComposition>
+				</OperativeProvisions>
+				<DepreciationIntangibleAssets>
+					<Value>1</Value>
+					<Change>-50</Change>
+					<ReportOfComposition>0.03</ReportOfComposition>
+				</DepreciationIntangibleAssets>
+				<RevenuesOnDifferentExpenses>
+					<Value>-28</Value>
+					<ReportOfComposition>-0.97</ReportOfComposition>
+				</RevenuesOnDifferentExpenses>
+				<OperatingProfit>
+					<Value>225</Value>
+					<Change>-25.25</Change>
+					<ReportOfComposition>7.8</ReportOfComposition>
+				</OperatingProfit>
+				<FinancialIncomeAndExpenses>
+					<Value>-31</Value>
+					<ReportOfComposition>-1.07</ReportOfComposition>
+				</FinancialIncomeAndExpenses>
+				<NetFinancialResult>
+					<Value>16</Value>
+					<Change>300</Change>
+					<ReportOfComposition>0.55</ReportOfComposition>
+				</NetFinancialResult>
+				<FinancialExpenses>
+					<Value>47</Value>
+					<Change>23.68</Change>
+					<ReportOfComposition>1.63</ReportOfComposition>
+				</FinancialExpenses>
+				<CurrentResult>
+					<Value>194</Value>
+					<Change>-27.34</Change>
+					<ReportOfComposition>6.72</ReportOfComposition>
+				</CurrentResult>
+				<FinancialAssetsAdjustment>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</FinancialAssetsAdjustment>
+				<ExtraordinaryResult>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</ExtraordinaryResult>
+				<ResultBeforeTaxes>
+					<Value>194</Value>
+					<Change>-27.34</Change>
+					<ReportOfComposition>6.72</ReportOfComposition>
+				</ResultBeforeTaxes>
+				<TaxPayable>
+					<Value>62</Value>
+					<Change>0</Change>
+					<ReportOfComposition>2.15</ReportOfComposition>
+				</TaxPayable>
+				<ProfitAfterTax>
+					<Value>132</Value>
+					<Change>-35.61</Change>
+					<ReportOfComposition>4.57</ReportOfComposition>
+				</ProfitAfterTax>
+				<OtherComponents>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</OtherComponents>
+				<ProfitAndLoss>
+					<Value>132</Value>
+					<Change>-35.61</Change>
+					<ReportOfComposition>4.57</ReportOfComposition>
+				</ProfitAndLoss>
+				<CashFlow>
+					<Value>324</Value>
+					<Change>-21.17</Change>
+					<ReportOfComposition>11.23</ReportOfComposition>
+				</CashFlow>
+				<Ebitda>
+					<Value>341</Value>
+					<Change>-19.95</Change>
+					<ReportOfComposition>11.82</ReportOfComposition>
+				</Ebitda>
+			</ProfitAndLoss>
+			<Assets>
+				<TotalAssets>
+					<Value>4073</Value>
+					<Change>2.54</Change>
+					<ReportOfComposition>100</ReportOfComposition>
+				</TotalAssets>
+				<FixedAssets>
+					<Value>368</Value>
+					<Change>132.91</Change>
+					<ReportOfComposition>9.04</ReportOfComposition>
+				</FixedAssets>
+				<IntangibleAssets>
+					<Value>1</Value>
+					<Change>0</Change>
+					<ReportOfComposition>0.02</ReportOfComposition>
+				</IntangibleAssets>
+				<TangibleAssets>
+					<Value>291</Value>
+					<Change>112.41</Change>
+					<ReportOfComposition>7.14</ReportOfComposition>
+				</TangibleAssets>
+				<FinancialAssets>
+					<Value>76</Value>
+					<Change>280</Change>
+					<ReportOfComposition>1.87</ReportOfComposition>
+				</FinancialAssets>
+				<ShortTermAssets>
+					<Value>3705</Value>
+					<Change>-2.86</Change>
+					<ReportOfComposition>90.96</ReportOfComposition>
+				</ShortTermAssets>
+				<Stocks>
+					<Value>0</Value>
+					<ReportOfComposition>0</ReportOfComposition>
+				</Stocks>
+				<BalanceSheetReceivable>
+					<Value>3165</Value>
+					<Change>5.57</Change>
+					<ReportOfComposition>77.71</ReportOfComposition>
+				</BalanceSheetReceivable>
+				<OtherAssets>
+					<Value>378</Value>
+					<Change>-38.24</Change>
+					<ReportOfComposition>9.28</ReportOfComposition>
+				</OtherAssets>
+				<Liquidity>
+					<Value>162</Value>
+					<Change>-20.59</Change>
+					<ReportOfComposition>3.98</ReportOfComposition>
+				</Liquidity>
+			</Assets>
+			<LiabilitiesAndShareholderEquity>
+				<TotalLiabilities>
+					<Value>4073</Value>
+					<Change>2.54</Change>
+					<ReportOfComposition>100</ReportOfComposition>
+				</TotalLiabilities>
+				<ShareholdersFunds>
+					<Value>1815</Value>
+					<Change>6.7</Change>
+					<ReportOfComposition>44.56</ReportOfComposition>
+				</ShareholdersFunds>
+				<CapitalStock>
+					<Value>393</Value>
+					<Change>0</Change>
+					<ReportOfComposition>9.65</ReportOfComposition>
+				</CapitalStock>
+				<OtherReserves>
+					<Value>1294</Value>
+					<Change>16.68</Change>
+					<ReportOfComposition>31.77</ReportOfComposition>
+				</OtherReserves>
+				<ReserveFromProfitLoss>
+					<Value>128</Value>
+					<Change>-35.68</Change>
+					<ReportOfComposition>3.14</ReportOfComposition>
+				</ReserveFromProfitLoss>
+				<ConsolidatedFundsAndDebts>
+					<Value>616</Value>
+					<Change>-15.62</Change>
+					<ReportOfComposition>15.12</ReportOfComposition>
+				</ConsolidatedFundsAndDebts>
+				<MiddleLongTermDebtsTowardsBanks>
+					<Value>263</Value>
+					<Change>-44.04</Change>
+					<ReportOfComposition>6.46</ReportOfComposition>
+				</MiddleLongTermDebtsTowardsBanks>
+				<MLTFundsAndOtherDebts>
+					<Value>353</Value>
+					<Change>35.77</Change>
+					<ReportOfComposition>8.67</ReportOfComposition>
+				</MLTFundsAndOtherDebts>
+				<ShortTermLiabilities>
+					<Value>1642</Value>
+					<Change>6.55</Change>
+					<ReportOfComposition>40.31</ReportOfComposition>
+				</ShortTermLiabilities>
+				<STDebtsTowardsBanks>
+					<Value>320</Value>
+					<Change>52.38</Change>
+					<ReportOfComposition>7.86</ReportOfComposition>
+				</STDebtsTowardsBanks>
+				<TradeCreditors>
+					<Value>772</Value>
+					<Change>-15.26</Change>
+					<ReportOfComposition>18.95</ReportOfComposition>
+				</TradeCreditors>
+				<OtherLiabilities>
+					<Value>550</Value>
+					<Change>30.95</Change>
+					<ReportOfComposition>13.5</ReportOfComposition>
+				</OtherLiabilities>
+			</LiabilitiesAndShareholderEquity>
+		</BalanceSheetInfo>
+		<BalanceSheetInfo>
+			<SurveyCodeSchema>8</SurveyCodeSchema>
+			<IdentificationCode>38450102</IdentificationCode>
+			<RiclassificationSchema>1</RiclassificationSchema>
+			<FlagFinancialStatementAudit>S</FlagFinancialStatementAudit>
+			<ClosingDate day="31" month="12" year="2022" hour24="0" minutes="0" seconds="0">2022-12-31+01:00
+			</ClosingDate>
+			<ReferenceYear>2022</ReferenceYear>
+			<LegalDuration>12</LegalDuration>
+			<Sector>INDUSTRIA, COMMERCIO, SERVIZI</Sector>
+			<Unbalanced>false</Unbalanced>
+			<ProfitAndLoss>
+				<Sales>
+					<Value>2898</Value>
+					<Change>21.87</Change>
+				</Sales>
+				<VariationsInStocks>
+					<Value>0</Value>
+				</VariationsInStocks>
+				<RealEstateIncr4InternalWork>
+					<Value>0</Value>
+				</RealEstateIncr4InternalWork>
+				<Contributions>
+					<Value>146</Value>
+					<Change>-51.01</Change>
+				</Contributions>
+				<TotalRevenues>
+					<Value>3044</Value>
+					<Change>13.75</Change>
+				</TotalRevenues>
+				<CostOfGoodsSold>
+					<Value>148</Value>
+					<Change>72.09</Change>
+				</CostOfGoodsSold>
+				<VariationsCommodities>
+					<Value>0</Value>
+				</VariationsCommodities>
+				<ChargesServicesAndTPGoods>
+					<Value>1061</Value>
+					<Change>97.95</Change>
+				</ChargesServicesAndTPGoods>
+				<AddedValue>
+					<Value>1835</Value>
+					<Change>-10.66</Change>
+				</AddedValue>
+				<StaffCost>
+					<Value>1466</Value>
+					<Change>4.12</Change>
+				</StaffCost>
+				<GrossProfit>
+					<Value>369</Value>
+					<Change>-42.88</Change>
+				</GrossProfit>
+				<DepreciationTangibleAssets>
+					<Value>27</Value>
+					<Change>28.57</Change>
+				</DepreciationTangibleAssets>
+				<OperativeProvisions>
+					<Value>96</Value>
+					<Change>57.38</Change>
+				</OperativeProvisions>
+				<DepreciationIntangibleAssets>
+					<Value>2</Value>
+					<Change>-33.33</Change>
+				</DepreciationIntangibleAssets>
+				<RevenuesOnDifferentExpenses>
+					<Value>57</Value>
+				</RevenuesOnDifferentExpenses>
+				<OperatingProfit>
+					<Value>301</Value>
+					<Change>-42.34</Change>
+				</OperatingProfit>
+				<FinancialIncomeAndExpenses>
+					<Value>-34</Value>
+				</FinancialIncomeAndExpenses>
+				<NetFinancialResult>
+					<Value>4</Value>
+				</NetFinancialResult>
+				<FinancialExpenses>
+					<Value>38</Value>
+					<Change>5.56</Change>
+				</FinancialExpenses>
+				<CurrentResult>
+					<Value>267</Value>
+					<Change>-45.06</Change>
+				</CurrentResult>
+				<FinancialAssetsAdjustment>
+					<Value>0</Value>
+				</FinancialAssetsAdjustment>
+				<ExtraordinaryResult>
+					<Value>0</Value>
+				</ExtraordinaryResult>
+				<ResultBeforeTaxes>
+					<Value>267</Value>
+					<Change>-45.06</Change>
+				</ResultBeforeTaxes>
+				<TaxPayable>
+					<Value>62</Value>
+					<Change>21.57</Change>
+				</TaxPayable>
+				<ProfitAfterTax>
+					<Value>205</Value>
+					<Change>-52.87</Change>
+				</ProfitAfterTax>
+				<OtherComponents>
+					<Value>0</Value>
+				</OtherComponents>
+				<ProfitAndLoss>
+					<Value>205</Value>
+					<Change>-52.87</Change>
+				</ProfitAndLoss>
+				<CashFlow>
+					<Value>411</Value>
+					<Change>-30.92</Change>
+				</CashFlow>
+				<Ebitda>
+					<Value>426</Value>
+					<Change>-29.82</Change>
+				</Ebitda>
+			</ProfitAndLoss>
+			<Assets>
+				<TotalAssets>
+					<Value>3972</Value>
+					<Change>8.23</Change>
+				</TotalAssets>
+				<FixedAssets>
+					<Value>158</Value>
+					<Change>-37.8</Change>
+				</FixedAssets>
+				<IntangibleAssets>
+					<Value>1</Value>
+					<Change>-75</Change>
+				</IntangibleAssets>
+				<TangibleAssets>
+					<Value>137</Value>
+					<Change>44.21</Change>
+				</TangibleAssets>
+				<FinancialAssets>
+					<Value>20</Value>
+					<Change>-87.1</Change>
+				</FinancialAssets>
+				<ShortTermAssets>
+					<Value>3814</Value>
+					<Change>11.65</Change>
+				</ShortTermAssets>
+				<Stocks>
+					<Value>0</Value>
+				</Stocks>
+				<BalanceSheetReceivable>
+					<Value>2998</Value>
+					<Change>35.72</Change>
+				</BalanceSheetReceivable>
+				<OtherAssets>
+					<Value>612</Value>
+					<Change>119.35</Change>
+				</OtherAssets>
+				<Liquidity>
+					<Value>204</Value>
+					<Change>-78.02</Change>
+				</Liquidity>
+			</Assets>
+			<LiabilitiesAndShareholderEquity>
+				<TotalLiabilities>
+					<Value>3972</Value>
+					<Change>8.23</Change>
+				</TotalLiabilities>
+				<ShareholdersFunds>
+					<Value>1701</Value>
+					<Change>13.17</Change>
+				</ShareholdersFunds>
+				<CapitalStock>
+					<Value>393</Value>
+					<Change>-0.25</Change>
+				</CapitalStock>
+				<OtherReserves>
+					<Value>1109</Value>
+					<Change>61.43</Change>
+				</OtherReserves>
+				<ReserveFromProfitLoss>
+					<Value>199</Value>
+					<Change>-52.84</Change>
+				</ReserveFromProfitLoss>
+				<ConsolidatedFundsAndDebts>
+					<Value>730</Value>
+					<Change>-12.89</Change>
+				</ConsolidatedFundsAndDebts>
+				<MiddleLongTermDebtsTowardsBanks>
+					<Value>470</Value>
+					<Change>-17.83</Change>
+				</MiddleLongTermDebtsTowardsBanks>
+				<MLTFundsAndOtherDebts>
+					<Value>260</Value>
+					<Change>-2.26</Change>
+				</MLTFundsAndOtherDebts>
+				<ShortTermLiabilities>
+					<Value>1541</Value>
+					<Change>15.95</Change>
+				</ShortTermLiabilities>
+				<STDebtsTowardsBanks>
+					<Value>210</Value>
+					<Change>208.82</Change>
+				</STDebtsTowardsBanks>
+				<TradeCreditors>
+					<Value>911</Value>
+					<Change>24.62</Change>
+				</TradeCreditors>
+				<OtherLiabilities>
+					<Value>420</Value>
+					<Change>-20.75</Change>
+				</OtherLiabilities>
+			</LiabilitiesAndShareholderEquity>
+		</BalanceSheetInfo>
+		<BalanceSheetInfo>
+			<SurveyCodeSchema>8</SurveyCodeSchema>
+			<IdentificationCode>36163016</IdentificationCode>
+			<RiclassificationSchema>1</RiclassificationSchema>
+			<FlagFinancialStatementAudit>S</FlagFinancialStatementAudit>
+			<ClosingDate day="31" month="12" year="2021" hour24="0" minutes="0" seconds="0">2021-12-31+01:00
+			</ClosingDate>
+			<ReferenceYear>2021</ReferenceYear>
+			<LegalDuration>12</LegalDuration>
+			<Sector>INDUSTRIA, COMMERCIO, SERVIZI</Sector>
+			<Unbalanced>false</Unbalanced>
+			<ProfitAndLoss>
+				<Sales>
+					<Value>2378</Value>
+				</Sales>
+				<VariationsInStocks>
+					<Value>0</Value>
+				</VariationsInStocks>
+				<RealEstateIncr4InternalWork>
+					<Value>0</Value>
+				</RealEstateIncr4InternalWork>
+				<Contributions>
+					<Value>298</Value>
+				</Contributions>
+				<TotalRevenues>
+					<Value>2676</Value>
+				</TotalRevenues>
+				<CostOfGoodsSold>
+					<Value>86</Value>
+				</CostOfGoodsSold>
+				<VariationsCommodities>
+					<Value>0</Value>
+				</VariationsCommodities>
+				<ChargesServicesAndTPGoods>
+					<Value>536</Value>
+				</ChargesServicesAndTPGoods>
+				<AddedValue>
+					<Value>2054</Value>
+				</AddedValue>
+				<StaffCost>
+					<Value>1408</Value>
+				</StaffCost>
+				<GrossProfit>
+					<Value>646</Value>
+				</GrossProfit>
+				<DepreciationTangibleAssets>
+					<Value>21</Value>
+				</DepreciationTangibleAssets>
+				<OperativeProvisions>
+					<Value>61</Value>
+				</OperativeProvisions>
+				<DepreciationIntangibleAssets>
+					<Value>3</Value>
+				</DepreciationIntangibleAssets>
+				<RevenuesOnDifferentExpenses>
+					<Value>-39</Value>
+				</RevenuesOnDifferentExpenses>
+				<OperatingProfit>
+					<Value>522</Value>
+				</OperatingProfit>
+				<FinancialIncomeAndExpenses>
+					<Value>-36</Value>
+				</FinancialIncomeAndExpenses>
+				<NetFinancialResult>
+					<Value>0</Value>
+				</NetFinancialResult>
+				<FinancialExpenses>
+					<Value>36</Value>
+				</FinancialExpenses>
+				<CurrentResult>
+					<Value>486</Value>
+				</CurrentResult>
+				<FinancialAssetsAdjustment>
+					<Value>0</Value>
+				</FinancialAssetsAdjustment>
+				<ExtraordinaryResult>
+					<Value>0</Value>
+				</ExtraordinaryResult>
+				<ResultBeforeTaxes>
+					<Value>486</Value>
+				</ResultBeforeTaxes>
+				<TaxPayable>
+					<Value>51</Value>
+				</TaxPayable>
+				<ProfitAfterTax>
+					<Value>435</Value>
+				</ProfitAfterTax>
+				<OtherComponents>
+					<Value>0</Value>
+				</OtherComponents>
+				<ProfitAndLoss>
+					<Value>435</Value>
+				</ProfitAndLoss>
+				<CashFlow>
+					<Value>595</Value>
+				</CashFlow>
+				<Ebitda>
+					<Value>607</Value>
+				</Ebitda>
+			</ProfitAndLoss>
+			<Assets>
+				<TotalAssets>
+					<Value>3670</Value>
+				</TotalAssets>
+				<FixedAssets>
+					<Value>254</Value>
+				</FixedAssets>
+				<IntangibleAssets>
+					<Value>4</Value>
+				</IntangibleAssets>
+				<TangibleAssets>
+					<Value>95</Value>
+				</TangibleAssets>
+				<FinancialAssets>
+					<Value>155</Value>
+				</FinancialAssets>
+				<ShortTermAssets>
+					<Value>3416</Value>
+				</ShortTermAssets>
+				<Stocks>
+					<Value>0</Value>
+				</Stocks>
+				<BalanceSheetReceivable>
+					<Value>2209</Value>
+				</BalanceSheetReceivable>
+				<OtherAssets>
+					<Value>279</Value>
+				</OtherAssets>
+				<Liquidity>
+					<Value>928</Value>
+				</Liquidity>
+			</Assets>
+			<LiabilitiesAndShareholderEquity>
+				<TotalLiabilities>
+					<Value>3670</Value>
+				</TotalLiabilities>
+				<ShareholdersFunds>
+					<Value>1503</Value>
+				</ShareholdersFunds>
+				<CapitalStock>
+					<Value>394</Value>
+				</CapitalStock>
+				<OtherReserves>
+					<Value>687</Value>
+				</OtherReserves>
+				<ReserveFromProfitLoss>
+					<Value>422</Value>
+				</ReserveFromProfitLoss>
+				<ConsolidatedFundsAndDebts>
+					<Value>838</Value>
+				</ConsolidatedFundsAndDebts>
+				<MiddleLongTermDebtsTowardsBanks>
+					<Value>572</Value>
+				</MiddleLongTermDebtsTowardsBanks>
+				<MLTFundsAndOtherDebts>
+					<Value>266</Value>
+				</MLTFundsAndOtherDebts>
+				<ShortTermLiabilities>
+					<Value>1329</Value>
+				</ShortTermLiabilities>
+				<STDebtsTowardsBanks>
+					<Value>68</Value>
+				</STDebtsTowardsBanks>
+				<TradeCreditors>
+					<Value>731</Value>
+				</TradeCreditors>
+				<OtherLiabilities>
+					<Value>530</Value>
+				</OtherLiabilities>
+			</LiabilitiesAndShareholderEquity>
+		</BalanceSheetInfo>
+	</BalanceSheetCebi>
+	<PositionCompany NumberOfDirectors="3">
+		<PositionRelatedCompany>
+			<Director Shareholder="false">
+				<Individual>
+					<IDPerson>6866172</IDPerson>
+					<SubjectId>318382080</SubjectId>
+					<FirstName>GIOVANNI</FirstName>
+					<LastName>LEONARDI</LastName>
+					<TaxCode>LNRGNN75R15F839A</TaxCode>
+					<BirthDate day="15" month="10" year="1975" hour24="0" minutes="0" seconds="0">1975-10-15+01:00
+					</BirthDate>
+					<BirthPlace>NAPOLI</BirthPlace>
+					<BirthProvince Code="NA">Napoli</BirthProvince>
+				</Individual>
+				<Position Code="PCA">
+					<Type>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</Type>
+					<StartDate day="22" month="12" year="2009" hour24="0" minutes="0" seconds="0">2009-12-22+01:00
+					</StartDate>
+					<ActiveLink>true</ActiveLink>
+				</Position>
+				<Position Code="CON">
+					<Type>CONSIGLIERE</Type>
+					<StartDate day="14" month="11" year="2017" hour24="0" minutes="0" seconds="0">2017-11-14+01:00
+					</StartDate>
+					<ActiveLink>true</ActiveLink>
+				</Position>
+			</Director>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>8142905</IDCompany>
+						<CompanyName>SIRIA COOPERATIVA SOCIALE IN LIQUIDAZIONE</CompanyName>
+						<CompanyForm LegalFormCode="SC" LegalFormDescription="Coop." LegalFormType="C">SOCIETA'
+							COOPERATIVA
+						</CompanyForm>
+						<TaxCode>05080251217</TaxCode>
+						<Address>
+							<PostCode>80145</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VIALE DELLA RESISTENZA</Street>
+							<Municipality>NAPOLI</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>T</ActivityStatus>
+					<ActivityDescription>CANCELLATA</ActivityDescription>
+					<IncorporationDate day="14" month="4" year="2005" hour24="0" minutes="0" seconds="0">
+						2005-04-14+02:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="4" month="12" year="2024" hour24="0" minutes="0" seconds="0">
+						2024-12-04+01:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>732119</REANo>
+					</ReaCode>
+					<Ateco Code="88/07" Type="C">ASSISTENZA SOCIALE NON RESIDENZIALE</Ateco>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2011" hour24="0" minutes="0" seconds="0">2011-12-31+01:00</Date>
+						<Value>0</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2011" hour24="0" minutes="0" seconds="0">2011-12-31+01:00</Date>
+						<Value>-5000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>0</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="VPA" PrimaryImportance="true" BankruptcyImportance="false">
+					<Type>VICE PRESIDENTE CONSIGLIO AMMINISTRAZIONE</Type>
+					<StartDate day="23" month="4" year="2008" hour24="0" minutes="0" seconds="0">2008-04-23+02:00
+					</StartDate>
+					<ActiveLink>true</ActiveLink>
+				</Position>
+				<Position Code="PCA" PrimaryImportance="true" BankruptcyImportance="false">
+					<Type>PRESIDENTE CONSIGLIO AMMINISTRAZIONE</Type>
+					<StartDate day="14" month="4" year="2005" hour24="0" minutes="0" seconds="0">2005-04-14+02:00
+					</StartDate>
+					<EndDate day="26" month="5" year="2008" hour24="0" minutes="0" seconds="0">2008-05-26+02:00
+					</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>400347460</IDCompany>
+						<CompanyName>LG GROUP S.R.L.</CompanyName>
+						<CompanyForm LegalFormCode="SR" LegalFormDescription="S.r.l." LegalFormType="C">SOCIETA' A
+							RESPONSABILITA' LIMITATA
+						</CompanyForm>
+						<TaxCode>10032441213</TaxCode>
+						<Address>
+							<PostCode>80014</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VIA NICOL JOMMELLI 2</Street>
+							<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="30" month="5" year="2024" hour24="0" minutes="0" seconds="0">
+						2024-05-30+02:00
+					</ActivityStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<IncorporationDate day="11" month="4" year="2022" hour24="0" minutes="0" seconds="0">
+						2022-04-11+02:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="30" month="5" year="2024" hour24="0" minutes="0" seconds="0">
+						2024-05-30+02:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>1076152</REANo>
+					</ReaCode>
+					<Ateco2025 Code="702009/25" Type="C">Consulenza imprenditoriale e altre attivita' di consulenza
+						gestionale n.c.a.
+					</Ateco2025>
+					<Ateco Code="702209/07" Type="C">Altre attivita' di consulenza imprenditoriale e altra consulenza
+						amministrativo-gestionale e pianificazione aziendale
+					</Ateco>
+					<EquityCapital EquityCapitalType="CV" EquityCapitalDescriptionType="Capitale Sociale Versato">2500
+					</EquityCapital>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>30000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>6000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>4</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="AUN" PrimaryImportance="false" BankruptcyImportance="true">
+					<Type>AMMINISTRATORE UNICO</Type>
+					<StartDate day="11" month="4" year="2022" hour24="0" minutes="0" seconds="0">2022-04-11+02:00
+					</StartDate>
+					<ActiveLink>true</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>396798019</IDCompany>
+						<CompanyName>IL MONDO DI ANNA SOCIETA' COOPERATIVA SOCIALE</CompanyName>
+						<CompanyForm LegalFormCode="SC" LegalFormDescription="Coop." LegalFormType="C">SOCIETA'
+							COOPERATIVA
+						</CompanyForm>
+						<TaxCode>09739801216</TaxCode>
+						<Address>
+							<PostCode>80014</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VICO POZZO 2</Street>
+							<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="10" month="1" year="2022" hour24="0" minutes="0" seconds="0">
+						2022-01-10+01:00
+					</ActivityStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<IncorporationDate day="25" month="3" year="2021" hour24="0" minutes="0" seconds="0">
+						2021-03-25+01:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="10" month="1" year="2022" hour24="0" minutes="0" seconds="0">
+						2022-01-10+01:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>1053939</REANo>
+					</ReaCode>
+					<Ateco2025 Code="873000/25" Type="C">Attivita' di assistenza residenziale per anziani o persone con
+						disabilita' fisiche
+					</Ateco2025>
+					<Ateco Code="873/07" Type="C">Strutture di assistenza residenziale per anziani e disabili</Ateco>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>367000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>7000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>2</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="CON" PrimaryImportance="false" BankruptcyImportance="false">
+					<Type>CONSIGLIERE</Type>
+					<StartDate day="1" month="6" year="2023" hour24="0" minutes="0" seconds="0">2023-06-01+02:00
+					</StartDate>
+					<ActiveLink>true</ActiveLink>
+				</Position>
+				<Position Code="AUN" PrimaryImportance="false" BankruptcyImportance="true">
+					<Type>AMMINISTRATORE UNICO</Type>
+					<StartDate day="21" month="9" year="2021" hour24="0" minutes="0" seconds="0">2021-09-21+02:00
+					</StartDate>
+					<EndDate day="3" month="1" year="2022" hour24="0" minutes="0" seconds="0">2022-01-03+01:00</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>387462866</IDCompany>
+						<CompanyName>VALUE INVESTMENT S.R.L.</CompanyName>
+						<CompanyForm LegalFormCode="SR" LegalFormDescription="S.r.l." LegalFormType="C">SOCIETA' A
+							RESPONSABILITA' LIMITATA
+						</CompanyForm>
+						<TaxCode>09126701219</TaxCode>
+						<Address>
+							<PostCode>80133</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VIA DEI FIORENTINI 10</Street>
+							<Municipality>NAPOLI</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="21" month="9" year="2021" hour24="0" minutes="0" seconds="0">
+						2021-09-21+02:00
+					</ActivityStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<IncorporationDate day="16" month="1" year="2019" hour24="0" minutes="0" seconds="0">
+						2019-01-16+01:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="21" month="9" year="2021" hour24="0" minutes="0" seconds="0">
+						2021-09-21+02:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>1010088</REANo>
+					</ReaCode>
+					<Ateco2025 Code="701000/25" Type="C">Attivita' di sedi centrali</Ateco2025>
+					<Ateco Code="701/07" Type="C">Attivita' delle holding impegnate nelle attivita' gestionali (holding
+						operative)
+					</Ateco>
+					<EquityCapital EquityCapitalType="CV" EquityCapitalDescriptionType="Capitale Sociale Versato">
+						30000
+					</EquityCapital>
+					<RiclassificationSchema>4</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>403000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>3000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<Group>LOMASTI</Group>
+					<LegalFormHoldingCompany>F</LegalFormHoldingCompany>
+					<TypeHoldingCompany>N</TypeHoldingCompany>
+					<MainShareholders>
+						<ShareHolderName>LOMASTI MARIA ROSARIO</ShareHolderName>
+					</MainShareholders>
+					<CreditRequestsLastTwelveMonths>6</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="AUN" PrimaryImportance="false" BankruptcyImportance="true">
+					<Type>AMMINISTRATORE UNICO</Type>
+					<StartDate day="16" month="1" year="2019" hour24="0" minutes="0" seconds="0">2019-01-16+01:00
+					</StartDate>
+					<EndDate day="30" month="4" year="2021" hour24="0" minutes="0" seconds="0">2021-04-30+02:00
+					</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>366023682</IDCompany>
+						<CompanyName>HEALTHADVISOR S.R.L. IN LIQUIDAZIONE</CompanyName>
+						<CompanyForm LegalFormCode="SR" LegalFormDescription="S.r.l." LegalFormType="C">SOCIETA' A
+							RESPONSABILITA' LIMITATA
+						</CompanyForm>
+						<TaxCode>07758391218</TaxCode>
+						<Address>
+							<PostCode>80143</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VIA GIOVANNI PORZIO 3</Street>
+							<Municipality>NAPOLI</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>T</ActivityStatus>
+					<ActivityStartDate day="17" month="4" year="2014" hour24="0" minutes="0" seconds="0">
+						2014-04-17+02:00
+					</ActivityStartDate>
+					<ActivityDescription>CANCELLATA</ActivityDescription>
+					<IncorporationDate day="17" month="4" year="2014" hour24="0" minutes="0" seconds="0">
+						2014-04-17+02:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="21" month="4" year="2023" hour24="0" minutes="0" seconds="0">
+						2023-04-21+02:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>907527</REANo>
+					</ReaCode>
+					<Ateco Code="6312/07" Type="C">Portali web</Ateco>
+					<EquityCapital EquityCapitalType="CV" EquityCapitalDescriptionType="Capitale Sociale Versato">
+						68717
+					</EquityCapital>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2021" hour24="0" minutes="0" seconds="0">2021-12-31+01:00</Date>
+						<Value>0</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2021" hour24="0" minutes="0" seconds="0">2021-12-31+01:00</Date>
+						<Value>-24000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>0</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="CON" PrimaryImportance="false" BankruptcyImportance="false">
+					<Type>CONSIGLIERE</Type>
+					<StartDate day="11" month="5" year="2016" hour24="0" minutes="0" seconds="0">2016-05-11+02:00
+					</StartDate>
+					<EndDate day="9" month="12" year="2020" hour24="0" minutes="0" seconds="0">2020-12-09+01:00
+					</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>379728817</IDCompany>
+						<CompanyName>VIVERE BENE COOPERATIVA SOCIALE</CompanyName>
+						<CompanyForm LegalFormCode="SC" LegalFormDescription="Coop." LegalFormType="C">SOCIETA'
+							COOPERATIVA
+						</CompanyForm>
+						<TaxCode>08553381214</TaxCode>
+						<Address>
+							<PostCode>80031</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VIA CAMILLO CUCCA 102</Street>
+							<Municipality>BRUSCIANO</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="2" month="1" year="2017" hour24="0" minutes="0" seconds="0">
+						2017-01-02+01:00
+					</ActivityStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<IncorporationDate day="30" month="12" year="2016" hour24="0" minutes="0" seconds="0">
+						2016-12-30+01:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="2" month="1" year="2017" hour24="0" minutes="0" seconds="0">
+						2017-01-02+01:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>966828</REANo>
+					</ReaCode>
+					<Ateco2025 Code="879/25" Type="C">Altre attivita' di assistenza residenziale</Ateco2025>
+					<Ateco Code="879/07" Type="C">Altre strutture di assistenza sociale residenziale</Ateco>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2024" hour24="0" minutes="0" seconds="0">2024-12-31+01:00</Date>
+						<Value>1201000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2024" hour24="0" minutes="0" seconds="0">2024-12-31+01:00</Date>
+						<Value>299000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>9</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="CON" PrimaryImportance="false" BankruptcyImportance="false">
+					<Type>CONSIGLIERE</Type>
+					<StartDate day="30" month="12" year="2016" hour24="0" minutes="0" seconds="0">2016-12-30+01:00
+					</StartDate>
+					<EndDate day="7" month="8" year="2017" hour24="0" minutes="0" seconds="0">2017-08-07+02:00</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>361345489</IDCompany>
+						<CompanyName>SI PUO' FARE - COOPERATIVA SOCIALE</CompanyName>
+						<CompanyForm LegalFormCode="SC" LegalFormDescription="Coop." LegalFormType="C">SOCIETA'
+							COOPERATIVA
+						</CompanyForm>
+						<TaxCode>07166811211</TaxCode>
+						<Address>
+							<PostCode>80014</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VICO POZZO 1/2</Street>
+							<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="12" month="4" year="2012" hour24="0" minutes="0" seconds="0">
+						2012-04-12+02:00
+					</ActivityStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<IncorporationDate day="19" month="3" year="2012" hour24="0" minutes="0" seconds="0">
+						2012-03-19+01:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="12" month="4" year="2012" hour24="0" minutes="0" seconds="0">
+						2012-04-12+02:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>865635</REANo>
+					</ReaCode>
+					<Ateco2025 Code="881000/25" Type="C">Attivita' di assistenza sociale non residenziale per anziani o
+						persone con disabilita'
+					</Ateco2025>
+					<Ateco Code="881/07" Type="C">Assistenza sociale non residenziale per anziani e disabili</Ateco>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>220000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>44000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>1</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="CON" PrimaryImportance="false" BankruptcyImportance="false">
+					<Type>CONSIGLIERE</Type>
+					<StartDate day="19" month="3" year="2012" hour24="0" minutes="0" seconds="0">2012-03-19+01:00
+					</StartDate>
+					<EndDate day="8" month="6" year="2020" hour24="0" minutes="0" seconds="0">2020-06-08+02:00</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+			<RelatedCompany>
+				<Aziendaslim>
+					<LinkSubjectId>6866172</LinkSubjectId>
+					<CompanyInformation>
+						<IDCompany>360283058</IDCompany>
+						<CompanyName>NADIR - COOPERATIVA SOCIALE</CompanyName>
+						<CompanyForm LegalFormCode="SC" LegalFormDescription="Coop." LegalFormType="C">SOCIETA'
+							COOPERATIVA
+						</CompanyForm>
+						<TaxCode>07077411218</TaxCode>
+						<Address>
+							<PostCode>80014</PostCode>
+							<Province Code="NA">Napoli</Province>
+							<Street>VICO POZZO 2</Street>
+							<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="1" month="8" year="2012" hour24="0" minutes="0" seconds="0">
+						2012-08-01+02:00
+					</ActivityStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<IncorporationDate day="9" month="1" year="2012" hour24="0" minutes="0" seconds="0">
+						2012-01-09+01:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="1" month="8" year="2012" hour24="0" minutes="0" seconds="0">
+						2012-08-01+02:00
+					</ActivityStatusStartDate>
+					<ReaCode>
+						<CoCProvinceCode>NA</CoCProvinceCode>
+						<REANo>860721</REANo>
+					</ReaCode>
+					<Ateco2025 Code="871000/25" Type="C">Attivita' di assistenza infermieristica residenziale
+					</Ateco2025>
+					<Ateco Code="871/07" Type="C">Strutture di assistenza infermieristica residenziale per anziani
+					</Ateco>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<Revenue>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>1168000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00</Date>
+						<Value>20000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+					<CreditRequestsLastTwelveMonths>7</CreditRequestsLastTwelveMonths>
+				</Aziendaslim>
+				<Position Code="CON" PrimaryImportance="false" BankruptcyImportance="false">
+					<Type>CONSIGLIERE</Type>
+					<StartDate day="9" month="1" year="2012" hour24="0" minutes="0" seconds="0">2012-01-09+01:00
+					</StartDate>
+					<EndDate day="8" month="6" year="2020" hour24="0" minutes="0" seconds="0">2020-06-08+02:00</EndDate>
+					<ActiveLink>false</ActiveLink>
+				</Position>
+			</RelatedCompany>
+		</PositionRelatedCompany>
+	</PositionCompany>
+	<BuildingUnitRealTime>
+		<SurnameOrCompanyName>MONDO IN CAMMINO COOPERATIVA SOCIALE</SurnameOrCompanyName>
+		<TaxCode>07914540633</TaxCode>
+		<SearchResultCompany>
+			<Result>noRealEstateDetected</Result>
+		</SearchResultCompany>
+		<SearchResultDirectorOrShareholder>
+			<Result>noDataFound</Result>
+		</SearchResultDirectorOrShareholder>
+	</BuildingUnitRealTime>
+	<OverallAssessment>
+		<Cebi4MedianSector>
+			<MedianGeo Code="S1">0.1</MedianGeo>
+			<MedianGeo Code="S2">3.08</MedianGeo>
+			<MedianGeo Code="S3">21.23</MedianGeo>
+			<MedianGeo Code="S4">17.67</MedianGeo>
+			<MedianGeo Code="V1">29.28</MedianGeo>
+			<MedianGeo Code="V2">7.62</MedianGeo>
+			<MedianGeo Code="R1">17.53</MedianGeo>
+			<MedianGeo Code="R2">3.19</MedianGeo>
+			<MedianGeo Code="R3">0.28</MedianGeo>
+			<MedianGeo Code="R4">0.02</MedianGeo>
+		</Cebi4MedianSector>
+		<Cebi4PD dtCloseBalSheet="2023-12-31+01:00">
+			<PdAllGeoEiOverL>0.46</PdAllGeoEiOverL>
+			<CebiScore4GeoCode Class="5">V1</CebiScore4GeoCode>
+			<RatingMedianGeoSector Class="5">V1</RatingMedianGeoSector>
+		</Cebi4PD>
+		<Cebi4PD dtCloseBalSheet="2022-12-31+01:00">
+			<PdAllGeoEiOverL>0.15</PdAllGeoEiOverL>
+			<CebiScore4GeoCode Class="4">S4</CebiScore4GeoCode>
+			<RatingMedianGeoSector Class="5">V1</RatingMedianGeoSector>
+		</Cebi4PD>
+		<Cebi4PD dtCloseBalSheet="2021-12-31+01:00">
+			<PdAllGeoEiOverL>0.12</PdAllGeoEiOverL>
+			<CebiScore4GeoCode Class="4">S4</CebiScore4GeoCode>
+			<RatingMedianGeoSector Class="5">V1</RatingMedianGeoSector>
+		</Cebi4PD>
+	</OverallAssessment>
+	<Cebi4BenchSector>
+		<DiffOperational1MedianSect>-3.839558</DiffOperational1MedianSect>
+		<DiffOperational2MedianSect>9.938513</DiffOperational2MedianSect>
+		<DiffOperational3MedianSect>-11.566607</DiffOperational3MedianSect>
+		<DiffOperational4MedianSect>0</DiffOperational4MedianSect>
+		<DiffOperational6MedianSect>-48.04142</DiffOperational6MedianSect>
+		<DiffOperational7MedianSect>35.796576</DiffOperational7MedianSect>
+	</Cebi4BenchSector>
+	<Shareholders>
+		<IsSquared>false</IsSquared>
+		<ShowChart>false</ShowChart>
+		<SentenceLabel>06</SentenceLabel>
+		<ShareholderNumber>14</ShareholderNumber>
+	</Shareholders>
+	<HoldingsFromShareholders>
+		<HoldingsNumber>2</HoldingsNumber>
+		<Master>
+			<Company>
+				<IDCompany>2782573</IDCompany>
+				<IDHolder></IDHolder>
+			</Company>
+		</Master>
+		<Holdings>
+			<Holding>
+				<AziendaSlim>
+					<CompanyInformation>
+						<IDCompany>404707515</IDCompany>
+						<CompanyName>HEALTHINVESTMENT S.R.L.</CompanyName>
+						<CompanyForm LegalFormCode="SR" LegalFormDescription="S.r.l." LegalFormType="C">SOCIETA' A
+							RESPONSABILITA' LIMITATA
+						</CompanyForm>
+						<TaxCode>04782030615</TaxCode>
+						<Address>
+							<PostCode>81031</PostCode>
+							<Province Code="CE">Caserta</Province>
+							<Street>VIA FILIPPO SAPORITO 54</Street>
+							<Municipality>AVERSA</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ReaCode>
+						<CoCProvinceCode>CE</CoCProvinceCode>
+						<REANo>354761</REANo>
+					</ReaCode>
+					<ActivityStatus>I</ActivityStatus>
+					<IncorporationDate day="7" month="2" year="2024" hour24="0" minutes="0" seconds="0">
+						2024-02-07+01:00
+					</IncorporationDate>
+					<ActivityDescription>Attiva</ActivityDescription>
+					<EquityCapital EquityCapitalType="CV" EquityCapitalDescriptionType="Capitale Sociale Versato">
+						65000
+					</EquityCapital>
+					<RiclassificationSchema>0</RiclassificationSchema>
+					<ActivityStatusEmphasis>0</ActivityStatusEmphasis>
+					<CrisisEvents>0</CrisisEvents>
+					<flagCGR>false</flagCGR>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+				</AziendaSlim>
+				<FilingDate day="12" month="2" year="2024" hour24="0" minutes="0" seconds="0">2024-02-12+01:00
+				</FilingDate>
+				<DeedDate day="7" month="2" year="2024" hour24="0" minutes="0" seconds="0">2024-02-07+01:00</DeedDate>
+				<ProtocolNo>9553</ProtocolNo>
+				<ProtocolDate day="12" month="2" year="2024" hour24="0" minutes="0" seconds="0">2024-02-12+01:00
+				</ProtocolDate>
+				<ProtocolYear>2024</ProtocolYear>
+				<ProtocolProvince>CE</ProtocolProvince>
+				<SignificantShare>false</SignificantShare>
+				<Shares>
+					<Share>
+						<SharesPercentage>20</SharesPercentage>
+						<RightType>
+							<Right Code="01">PROPRIETA'</Right>
+							<Type Code="P"/>
+						</RightType>
+						<NominalSharesValue>20000</NominalSharesValue>
+						<CapitalHolding>100000</CapitalHolding>
+					</Share>
+				</Shares>
+				<Transfers/>
+			</Holding>
+			<Holding>
+				<AziendaSlim>
+					<CompanyInformation>
+						<IDCompany>7505977</IDCompany>
+						<CompanyName>SCUOLA SUPERIORE DI SCIENZE DELLA SALUTE CON DENOMINAZIONE ABBREVIATA &quot;CONSORZIO
+							S.S.S.S.&quot;
+						</CompanyName>
+						<CompanyForm LegalFormCode="CC" LegalFormDescription="Consorzio" LegalFormType="C">CONSORZIO CON
+							ATTIVITA' ESTERNA
+						</CompanyForm>
+						<TaxCode>04396470652</TaxCode>
+						<Address>
+							<PostCode>83100</PostCode>
+							<Province Code="AV">Avellino</Province>
+							<Street>VIA CESARE UVA 3</Street>
+							<Municipality>AVELLINO</Municipality>
+						</Address>
+					</CompanyInformation>
+					<ReaCode>
+						<CoCProvinceCode>AV</CoCProvinceCode>
+						<REANo>167526</REANo>
+					</ReaCode>
+					<ActivityStatus>A</ActivityStatus>
+					<ActivityStartDate day="28" month="7" year="2008" hour24="0" minutes="0" seconds="0">
+						2008-07-28+02:00
+					</ActivityStartDate>
+					<IncorporationDate day="20" month="7" year="2006" hour24="0" minutes="0" seconds="0">
+						2006-07-20+02:00
+					</IncorporationDate>
+					<ActivityStatusStartDate day="28" month="7" year="2008" hour24="0" minutes="0" seconds="0">
+						2008-07-28+02:00
+					</ActivityStatusStartDate>
+					<ActivityDescription>ATTIVA</ActivityDescription>
+					<Ateco Code="8542/07" Type="C">Istruzione universitaria e post-universitaria; accademie e
+						conservatori
+					</Ateco>
+					<AtecoRaeSaeList Type="25">
+						<AtecoRaeSae Type="07">
+							<Ateco Code="8542">Istruzione universitaria e post-universitaria; accademie e conservatori
+							</Ateco>
+						</AtecoRaeSae>
+						<AtecoRaeSae Type="25">
+							<Ateco Code="854020">Istruzione terziaria universitaria di primo, secondo e terzo ciclo e a
+								ciclo unico
+							</Ateco>
+						</AtecoRaeSae>
+					</AtecoRaeSaeList>
+					<EquityCapital EquityCapitalType="FC" EquityCapitalDescriptionType="Fondo Consortile">69500
+					</EquityCapital>
+					<RiclassificationSchema>1</RiclassificationSchema>
+					<ActivityStatusEmphasis>0</ActivityStatusEmphasis>
+					<CrisisEvents>0</CrisisEvents>
+					<flagCGR>false</flagCGR>
+					<Revenue>
+						<Date day="31" month="12" year="2024" hour24="0" minutes="0" seconds="0">2024-12-31+01:00</Date>
+						<Value>143000</Value>
+						<Currency>EURO</Currency>
+					</Revenue>
+					<Profit>
+						<Date day="31" month="12" year="2024" hour24="0" minutes="0" seconds="0">2024-12-31+01:00</Date>
+						<Value>1000</Value>
+						<Currency>EURO</Currency>
+					</Profit>
+					<NegativeEvents>false</NegativeEvents>
+					<AgreedWindingUpPresenter>false</AgreedWindingUpPresenter>
+					<AgreedWindingUpProcedure>Nessuna</AgreedWindingUpProcedure>
+				</AziendaSlim>
+				<FilingDate day="13" month="5" year="2025" hour24="0" minutes="0" seconds="0">2025-05-13+02:00
+				</FilingDate>
+				<DeedDate day="13" month="5" year="2025" hour24="0" minutes="0" seconds="0">2025-05-13+02:00</DeedDate>
+				<ProtocolNo>21376</ProtocolNo>
+				<ProtocolDate day="13" month="5" year="2025" hour24="0" minutes="0" seconds="0">2025-05-13+02:00
+				</ProtocolDate>
+				<ProtocolYear>2025</ProtocolYear>
+				<ProtocolProvince>AV</ProtocolProvince>
+				<SignificantShare>false</SignificantShare>
+				<Shares>
+					<Share>
+						<RightType>
+							<Right Code="01">PROPRIETA'</Right>
+							<Type Code="P"/>
+						</RightType>
+					</Share>
+				</Shares>
+				<Transfers/>
+			</Holding>
+		</Holdings>
+	</HoldingsFromShareholders>
+	<OfficialDataUpdate>
+		<LastRegistrationChangeDate day="30" month="10" year="2024" hour24="0" minutes="0" seconds="0">
+			2024-10-30+01:00
+		</LastRegistrationChangeDate>
+		<InsolvenciesCheckDate day="27" month="6" year="2025" hour24="15" minutes="10" seconds="46">2025-06-27+02:00
+		</InsolvenciesCheckDate>
+		<BalanceSheetClosingDate day="31" month="12" year="2023" hour24="0" minutes="0" seconds="0">2023-12-31+01:00
+		</BalanceSheetClosingDate>
+		<LastHoldingsFromShareholdersDate day="21" month="6" year="2025" hour24="0" minutes="0" seconds="0">
+			2025-06-21+02:00
+		</LastHoldingsFromShareholdersDate>
+	</OfficialDataUpdate>
+	<BeneficialOwnersV2>
+		<BeneficialOwnerHead>
+			<NumberBeneficialOwner>1</NumberBeneficialOwner>
+			<Version>2S</Version>
+			<UnwrappingReasonList>
+				<UnwrappingReason Code="ELENCO_SOCI_MANCANTE" Value="informazioni mancanti o incoerenti alla fonte"
+								  Type="S"/>
+			</UnwrappingReasonList>
+		</BeneficialOwnerHead>
+		<CompanyIdentification>
+			<CocProvinceCode>NA</CocProvinceCode>
+			<ReaNo>679379</ReaNo>
+			<TaxCode>07914540633</TaxCode>
+			<VatRegistrationNo>07914540633</VatRegistrationNo>
+			<CompanyName>MONDO IN CAMMINO COOPERATIVA SOCIALE</CompanyName>
+			<ActivityStatus Code="A" Value="ATTIVA"/>
+			<LegalForm Code="SC" Value="SOCIETA' COOPERATIVA"/>
+			<Ateco Code="88" Value="ASSISTENZA SOCIALE NON RESIDENZIALE"/>
+			<FlagLegalFormSummary>true</FlagLegalFormSummary>
+			<FlagStrategy>1</FlagStrategy>
+		</CompanyIdentification>
+		<BeneficialOwner Strategy="POTERI_AMMINISTRAZIONE_DIREZIONE_RAPPRESENTANZA">
+			<FlagStatus>PF</FlagStatus>
+			<LastName>LEONARDI</LastName>
+			<FirstName>GIOVANNI</FirstName>
+			<TaxCode>LNRGNN75R15F839A</TaxCode>
+			<BirthDate day="15" month="10" year="1975"/>
+			<BirthPlace>NAPOLI</BirthPlace>
+			<BirthProvince Code="NA" Value="Napoli"/>
+			<Toponym>VIA</Toponym>
+			<Address>DANTE ALIGHIERI</Address>
+			<StreetNumber>20</StreetNumber>
+			<Municipality>GIUGLIANO IN CAMPANIA</Municipality>
+			<Province Code="NA" Value="Napoli"/>
+			<Postcode>80014</Postcode>
+			<CompanyName>LEONARDI GIOVANNI</CompanyName>
+			<IdSubject>318382080</IdSubject>
+			<SubjectType>P</SubjectType>
+			<SubjectTypeDescription>PERSONA</SubjectTypeDescription>
+			<Positions>
+				<Position>
+					<Description Code="PCA">PRESIDENTE CONSIGLIO AMMINISTRAZIONE</Description>
+				</Position>
+			</Positions>
+		</BeneficialOwner>
+	</BeneficialOwnersV2>
+</LightReport>
