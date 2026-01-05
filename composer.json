@@ -8,6 +8,7 @@
     "require": {
         "php": "^8.2",
         "doctrine/dbal": "^4.3",
+        "inspector-apm/inspector-laravel": "^4.18",
         "laravel/framework": "^12.0",
         "laravel/socialite": "^5.23",
         "laravel/tinker": "^2.10.1",
