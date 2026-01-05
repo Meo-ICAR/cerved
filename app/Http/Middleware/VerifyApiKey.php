@@ -2,9 +2,9 @@
 
 namespace App\Http\Middleware;
 
-use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Closure;
 
 class VerifyApiKey
 {
@@ -13,18 +13,16 @@ class VerifyApiKey
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-    public function handle(Request $request, Closure $next): Response
+    public function handle($request, Closure $next)
     {
         $apiKey = $request->header('X-Api-Key');
         $validKey = config('services.mediafacile.header_key');
-
         if (!$apiKey || $apiKey !== $validKey) {
             return response()->json([
                 'success' => false,
                 'message' => 'Invalid or missing API key',
             ], 401);
         }
-
         return $next($request);
     }
 }

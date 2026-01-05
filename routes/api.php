@@ -29,12 +29,11 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Rotte per il caricamento file
-Route::middleware('api.key')->group(function () {
+Route::middleware(['api', \App\Http\Middleware\VerifyApiKey::class])->group(function () {
     Route::post('/upload', [UploadController::class, 'uploadPdf']);
-
-    // Upload XML per report con PIVA
-    Route::post('/upload-xml/{piva}', [\App\Http\Controllers\Api\ReportUploadController::class, 'upload'])
-        ->where('piva', '[0-9]{11}');  // Assicura che la P.IVA sia di 11 cifre
+    Route::post('/upload-xml/{piva?}', [\App\Http\Controllers\Api\ReportUploadController::class, 'upload'])
+        ->withoutMiddleware(['web'])  // Exclude web middleware
+        ->where('piva', '[0-9]{11}');
 });
 
 // Rotte per i protesti
