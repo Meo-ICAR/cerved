@@ -16,6 +16,7 @@
         </head>
         <body>
           <!-- DATI ANAGRAFICI SOCIETA -->
+     
           <div class="section">
             <h1>Dati Società</h1>
             <table>
@@ -104,27 +105,95 @@
   </xsl:for-each>
 </table>
         </div>
+          <!-- AGGIORNAMENTI DATI UFFICIALI -->
+          <div class="section">
+            <h2>Aggiornamenti dati ufficiali</h2>
+            <table class="official-updates">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Codice Fiscale</th>
+                  <th>Codice Posizione Principale</th>
+                  <th>Posizione Principale</th>
+                </tr>
+              </thead>
+              <tbody>
+                <xsl:for-each select="//PositionCompany/PositionRelatedCompany">
+                  <tr>
+                    <td>
+                      <xsl:value-of select="Director/Individual/FirstName"/>
+                      <xsl:text> </xsl:text>
+                      <xsl:value-of select="Director/Individual/LastName"/>
+                    </td>
+                    <td><xsl:value-of select="Director/Individual/TaxCode"/></td>
+                    <td><xsl:value-of select="Director/IndividualPosition/MainPositionCode"/></td>
+                    <td><xsl:value-of select="Director/IndividualPosition/Type"/></td>
+                  </tr>
+                </xsl:for-each>
+              </tbody>
+            </table>
+            
+            <h3>Ultimi aggiornamenti</h3>
+            <table class="update-dates">
+              <tr>
+                <th>Ultima variazione anagrafica</th>
+                <td>
+                  <xsl:if test="//OfficialDataUpdate/LastRegistrationChangeDate">
+                    <xsl:value-of select="format-number(//OfficialDataUpdate/LastRegistrationChangeDate/day, '00')"/>/<xsl:value-of select="format-number(//OfficialDataUpdate/LastRegistrationChangeDate/month, '00')"/>/<xsl:value-of select="//OfficialDataUpdate/LastRegistrationChangeDate/year"/>
+                  </xsl:if>
+                </td>
+              </tr>
+              <tr>
+                <th>Ultimo controllo fallimenti</th>
+                <td>
+                  <xsl:if test="//OfficialDataUpdate/InsolvenciesCheckDate">
+                    <xsl:value-of select="format-number(//OfficialDataUpdate/InsolvenciesCheckDate/day, '00')"/>/<xsl:value-of select="format-number(//OfficialDataUpdate/InsolvenciesCheckDate/month, '00')"/>/<xsl:value-of select="//OfficialDataUpdate/InsolvenciesCheckDate/year"/>
+                  </xsl:if>
+                </td>
+              </tr>
+              <tr>
+                <th>Ultimo bilancio depositato</th>
+                <td>
+                  <xsl:if test="//OfficialDataUpdate/BalanceSheetClosingDate">
+                    <xsl:value-of select="format-number(//OfficialDataUpdate/BalanceSheetClosingDate/day, '00')"/>/<xsl:value-of select="format-number(//OfficialDataUpdate/BalanceSheetClosingDate/month, '00')"/>/<xsl:value-of select="//OfficialDataUpdate/BalanceSheetClosingDate/year"/>
+                  </xsl:if>
+                </td>
+              </tr>
+            </table>
+          </div>
+          
           <!-- SPECIAL SECTIONS -->
           <div class="section">
             <h2>Iscrizioni e Sezioni Speciali</h2>
-            <table>
-              <tr>
-                <th>Codice</th>
-                <th>Descrizione</th>
-                <th>Data Iscrizione</th>
-              </tr>
-              <xsl:for-each select="//SpecialSectionList/SpecialSection">
-                  <tr>
-                    <td><xsl:value-of select="Code"/></td>
-                    <td><xsl:value-of select="description"/></td>
-                    <td>
-                      <xsl:value-of select="FirstInscriptionInSection/day"/>-
-                      <xsl:value-of select="FirstInscriptionInSection/month"/>-
-                      <xsl:value-of select="FirstInscriptionInSection/year"/>
-                    </td>
-                  </tr>
-              </xsl:for-each>
-            </table>
+            <xsl:choose>
+              <xsl:when test="//SpecialSectionList/SpecialSection">
+                <table class="special-sections">
+                  <thead>
+                    <tr>
+                      <th>Codice</th>
+                      <th>Descrizione</th>
+                      <th>Data Iscrizione</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <xsl:for-each select="//SpecialSectionList/SpecialSection">
+                      <tr>
+                        <td><xsl:value-of select="Code"/></td>
+                        <td><xsl:value-of select="Description"/></td>
+                        <td>
+                          <xsl:if test="FirstInscriptionInSection">
+                            <xsl:value-of select="format-number(FirstInscriptionInSection/day, '00')"/>/<xsl:value-of select="format-number(FirstInscriptionInSection/month, '00')"/>/<xsl:value-of select="FirstInscriptionInSection/year"/>
+                          </xsl:if>
+                        </td>
+                      </tr>
+                    </xsl:for-each>
+                  </tbody>
+                </table>
+              </xsl:when>
+              <xsl:otherwise>
+                <p>Nessuna iscrizione o sezione speciale disponibile.</p>
+              </xsl:otherwise>
+            </xsl:choose>
           </div>
           <!-- STAFF/DIPENDENTI -->
           <div class="section">
@@ -148,38 +217,33 @@
           <!-- ORGANI SOCIALI, DIRETTORI, REVISORI -->
           <div class="section">
             <h2>Organi Sociali e Direttori</h2>
-            <table>
-              <tr>
-                <th>Nome</th><th>Cognome</th><th>CF</th>
-                <th>Data Nascita</th><th>Comune Nascita</th>
-                <th>Posizione</th><th>Data inizio</th><th>Durata</th>
-                <th>Residenza</th>
-              </tr>
-              <xsl:for-each select="//OfficialDirectors/Director">
+            <table class="directors">
+              <thead>
                 <tr>
-                  <td><xsl:value-of select="FirstName"/></td>
-                  <td><xsl:value-of select="LastName"/></td>
-                  <td><xsl:value-of select="TaxCode"/></td>
-                  <td>
-                    <xsl:value-of select="BirthDate/day"/>-
-                    <xsl:value-of select="BirthDate/month"/>-
-                    <xsl:value-of select="BirthDate/year"/>
-                  </td>
-                  <td><xsl:value-of select="BirthPlace"/></td>
-                  <td><xsl:value-of select="IndividualPosition/Type"/></td>
-                  <td>
-                    <xsl:value-of select="IndividualPosition/StartDate/day"/>-
-                    <xsl:value-of select="IndividualPosition/StartDate/month"/>-
-                    <xsl:value-of select="IndividualPosition/StartDate/year"/>
-                  </td>
-                  <td><xsl:value-of select="IndividualPosition/Duration"/></td>
-                  <td>
-                    <xsl:value-of select="ResidenceAddress/Street"/>,
-                    <xsl:value-of select="ResidenceAddress/Municipality"/>
-                  </td>
+                  <th>Nome</th>
+                  <th>Cognome</th>
+                  <th>Codice Fiscale</th>
+                  <th>Ruolo</th>
+                  <th>Data Inizio</th>
                 </tr>
-              </xsl:for-each>
+              </thead>
+              <tbody>
+                <xsl:for-each select="//OfficialDirectors/Director">
+                  <tr>
+                    <td><xsl:value-of select="Individual/FirstName"/></td>
+                    <td><xsl:value-of select="Individual/LastName"/></td>
+                    <td><xsl:value-of select="Individual/TaxCode"/></td>
+                    <td><xsl:value-of select="IndividualPosition/Type"/></td>
+                    <td>
+                      <xsl:value-of select="substring(IndividualPosition/StartDate, 9, 2)" />/
+                      <xsl:value-of select="substring(IndividualPosition/StartDate, 6, 2)" />/
+                      <xsl:value-of select="substring(IndividualPosition/StartDate, 1, 4)" />
+                    </td>
+                  </tr>
+                </xsl:for-each>
+              </tbody>
             </table>
+       
           </div>
           <!-- PROTESTI ED EVENTI STRAORDINARI -->
           <div class="section">
@@ -210,20 +274,48 @@
           <!-- BILANCI ANALITICI MULTI-ANNO -->
           <div class="section">
             <h2>Bilanci Riclassificati Analitici</h2>
-            <xsl:for-each select="//BalanceSheetInfo">
-              <h3>Anno <xsl:value-of select="ReferenceYear"/></h3>
-              <table>
-                <xsl:for-each select="ProfitAndLoss/*">
-                  <tr><th><xsl:value-of select="name()"/></th><td><xsl:value-of select="Value"/></td></tr>
+            <table class="balance-sheet">
+              <thead>
+                <tr>
+                  <th>Voce</th>
+                  <xsl:for-each select="//BalanceSheetInfo">
+                    <th><xsl:value-of select="ReferenceYear"/></th>
+                  </xsl:for-each>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Profit and Loss -->
+                <xsl:for-each select="//BalanceSheetInfo[1]/ProfitAndLoss/*">
+                  <xsl:variable name="currentNode" select="name()"/>
+                  <tr>
+                    <td><xsl:value-of select="name()"/></td>
+                    <xsl:for-each select="//BalanceSheetInfo">
+                      <td><xsl:value-of select="ProfitAndLoss/*[name()=$currentNode]/Value"/></td>
+                    </xsl:for-each>
+                  </tr>
                 </xsl:for-each>
-                <xsl:for-each select="Assets/*">
-                  <tr><th><xsl:value-of select="name()"/></th><td><xsl:value-of select="Value"/></td></tr>
+                <!-- Assets -->
+                <xsl:for-each select="//BalanceSheetInfo[1]/Assets/*">
+                  <xsl:variable name="currentNode" select="name()"/>
+                  <tr>
+                    <td><xsl:value-of select="name()"/></td>
+                    <xsl:for-each select="//BalanceSheetInfo">
+                      <td><xsl:value-of select="Assets/*[name()=$currentNode]/Value"/></td>
+                    </xsl:for-each>
+                  </tr>
                 </xsl:for-each>
-                <xsl:for-each select="LiabilitiesAndShareholderEquity/*">
-                  <tr><th><xsl:value-of select="name()"/></th><td><xsl:value-of select="Value"/></td></tr>
+                <!-- Liabilities and Shareholder Equity -->
+                <xsl:for-each select="//BalanceSheetInfo[1]/LiabilitiesAndShareholderEquity/*">
+                  <xsl:variable name="currentNode" select="name()"/>
+                  <tr>
+                    <td><xsl:value-of select="name()"/></td>
+                    <xsl:for-each select="//BalanceSheetInfo">
+                      <td><xsl:value-of select="LiabilitiesAndShareholderEquity/*[name()=$currentNode]/Value"/></td>
+                    </xsl:for-each>
+                  </tr>
                 </xsl:for-each>
-              </table>
-            </xsl:for-each>
+              </tbody>
+            </table>
           </div>
           <!-- INDICATORI DI SVILUPPO - RATING/SCOREING -->
           <div class="section">
@@ -263,10 +355,10 @@
                   <tr>
                     <td><xsl:value-of select="MonthYear/Month"/></td>
                     <td><xsl:value-of select="MonthYear/Year"/></td>
-                    <td><xsl:value-of select="BankOrFinancialEntities"/></td>
-                    <td><xsl:value-of select="Companies"/></td>
-                    <td><xsl:value-of select="Others"/></td>
-                    <td><xsl:value-of select="Total"/></td>
+                     <td><xsl:if test="number(BankOrFinancialEntities) != 0"><xsl:value-of select="BankOrFinancialEntities"/></xsl:if><xsl:if test="number(BankOrFinancialEntities) = 0">&nbsp;</xsl:if></td>
+                     <td><xsl:if test="number(Companies) != 0"><xsl:value-of select="Companies"/></xsl:if><xsl:if test="number(BankOrFinancialEntities) = 0">&nbsp;</xsl:if></td>
+                     <td><xsl:if test="number(Others) != 0"><xsl:value-of select="Others"/></xsl:if><xsl:if test="number(Others) = 0">&nbsp;</xsl:if></td>
+                     <td><xsl:if test="number(Total) != 0"><xsl:value-of select="Total"/></xsl:if><xsl:if test="number(Total) = 0">&nbsp;</xsl:if></td>
                   </tr>
                 </xsl:for-each>
               </table>
